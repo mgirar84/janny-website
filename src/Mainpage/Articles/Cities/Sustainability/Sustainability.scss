@@ -1,0 +1,26 @@
+.container {
+    h2 {
+        text-decoration: underline;
+    }
+    .blackLine {
+        border-top: solid black 0.1em;
+    }
+    .mainText {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(34em, 1fr));
+        .image {
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 18px 16px 0 0;
+            background-position-y: 25%;
+            background-position-x: 40%;
+        }
+        .sustainabilityImage {
+            background-image: url(../../../../Images/greenKids.jpg);
+            height: 27.7em;
+        }
+    }
+    .blackLine {
+        border-top: solid black 0.1em;
+    }
+}

@@ -1,0 +1,55 @@
+.greenPlanet {
+    h2 {
+        text-decoration: underline;
+    }
+    .articlesContainer {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+        column-gap: 0.2em;
+        row-gap: 0.2em;
+        justify-self: center;
+        margin: 0.2em auto;
+        .articleCard {
+            justify-self: stretch;
+            border: black solid 0.1em;
+            padding-bottom: 0.5em;
+            .articleCardText {
+                padding: 0.1em 0.5em;
+                .blockContainer {
+                    display: grid;
+                    grid-template-columns: auto 1fr;  
+                    .block1 {
+                        a{
+                            color: black;
+                        }
+                    }
+                    .block2 {
+                        p {
+                            text-indent: 0.2em;
+                        }
+                    }
+                }
+                p {
+                    font-size: 1em; 
+                }
+            }
+            .articleImage {
+                height: 16em;
+                margin: auto;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .amazonPicture {
+                background-image: url(../../../Images/theViewFromTheAmazon.png);
+            }
+            .natureRevengePicture {
+                background-image: url(../../../Images/nature-taking-revenge.png);
+            }
+            .callToAction {
+                background-image: url(../../../Images/callToAction.jpg);
+            }
+        }
+    }
+}

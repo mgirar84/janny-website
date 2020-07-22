@@ -1,0 +1,64 @@
+.header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    padding-top: 0.5em;
+    border-bottom: 0.1em solid black;
+    font-family: 'Playfair Display', serif;
+    a {
+        text-decoration: none !important;
+        .headerContainer {
+            .headerImage {
+                background-image:  center cover no-repeat;
+                background-image: url('../Images/headingImage.jpg');
+                background-size: 100%;
+                width: 15em;
+                height: 9.9em;
+            }
+            .firstName {
+                width: 10em;
+                h1 {
+                    margin: 0;
+                    color: black;
+                    &:visited {
+                        color: black;
+                    }
+                }
+            }
+            .secondName {
+                width: 10em;
+                text-align: right;
+                h1 {
+                    margin: 0;
+                    color: black;
+                    &:visited {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+    .socialMediaButtons {
+        text-align: right;
+        bottom:0;
+        a {
+            i {
+                font-size: 2em;
+                margin-bottom: 1em;
+                color: #000000;
+                bottom: 0;
+                width: 1em;
+                bottom:0;
+                &:hover {
+                    color: #343A40;
+                    cursor: pointer;
+                }
+                &:active {
+                    color: #343A40;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
