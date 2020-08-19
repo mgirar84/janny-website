@@ -1,11 +1,11 @@
 .mainPageContainer {
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-columns: 20em 1fr;
     .mainPagePicture {
         background-image: url(../Images/headingImage.jpg);
-        height: 10em;
         width: auto;
         background-repeat: no-repeat;
-        background-size: 20%;
+        background-size: 100%;
+        margin: 1.4em 1em 0.5em 0em;
     }
 }
