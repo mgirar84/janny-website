@@ -30,7 +30,7 @@ class Navigation extends React.Component {
                     </div>
                 </div>
                 <div class="dropdown">
-                    <Link to="/books/Earthrise"><button class="dropbtn nonListLink">Books</button></Link>
+                    <Link to="/books"><button class="dropbtn nonListLink">Books</button></Link>
                     {/* <div class="dropdownContent">
                         <Link to="/books/Earthrise"><p>Earthrise</p></Link>
                         <Link to="/books/book2"><p>Book2</p></Link>
