@@ -1,4 +1,6 @@
 .mainPageContainer {
+    display: grid;
+    grid-template-rows: auto 1fr;
     .mainPagePicture {
         background-image: url(../Images/headingImage.jpg);
         height: 10em;
