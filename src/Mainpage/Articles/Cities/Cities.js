@@ -54,6 +54,20 @@ class Cities extends React.Component {
                                 and environmental campaigners.</p>
                         </div>
                     </div>
+                    <div className="articleCard">
+                        <div className="articleImage city4"></div>
+                        <div className="articleCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <a href="https://dunstan.org.au/wp-content/uploads/2018/12/TIR_Reports_2003_Girardet.pdf" target="_BLANK" rel="noopener noreferrer"><p>Creating a Sustainable Adelaide</p></a>
+                                </div>
+                                <div className="block2"><p>| 2003</p></div>
+                                <br></br>
+                            </div>
+                            <p>This report is the product of two months work by a group of people under the umbrella of the Adelaide Green City Program.
+                                 As ‘Thinker in residence’ I had been asked by South Australian Premier Mike Rann to explore policy options for making Adelaide a green, sustainable city.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )

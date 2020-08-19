@@ -13,11 +13,11 @@ class GreenPlanet extends React.Component {
                         <div className="articleCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <a href="https://theecologist.org/2020/apr/15/nature-taking-revenge" target="_BLANK" rel="noopener noreferrer"><p>The view from the Amazon</p></a>
+                                    <a href="https://theecologist.org/2020/jul/15/view-amazon" target="_BLANK" rel="noopener noreferrer"><p>The view from the Amazon</p></a>
                                 </div>
                                 <div className="block2"><p>| 15th July 2020</p></div>
                             </div>
-                            <p>Covid-19 exposes the inherent fragility of our globally interconnected economic systems and the inequalities that they perpetuate.</p>
+                            <p>The story of deforestation is also the story of the globalisation.</p>
                         </div>
                     </div>
                     <div className="articleCard">
