@@ -8,7 +8,6 @@
     .mainText {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(34em, 1fr));
-        
         .image {
             background-repeat: no-repeat;
             background-size: cover;
@@ -18,7 +17,7 @@
         }
         .wakeUpImage {
             background-image: url(../../../../Images/protest.jpg);
-            height: 26.2em;
+            height: 19.2em;
         }
     }
     .blackLine {
