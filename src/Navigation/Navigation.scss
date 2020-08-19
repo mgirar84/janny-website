@@ -29,6 +29,11 @@
             text-align: center;
             font-family: 'Playfair Display', serif;
         }
+        .nonListLink {
+            &:hover {
+                cursor: pointer;
+            }
+        }
         .dropdownContent {
             display: none;
             position: absolute;
