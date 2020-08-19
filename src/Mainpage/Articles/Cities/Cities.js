@@ -68,6 +68,20 @@ class Cities extends React.Component {
                                  As ‘Thinker in residence’ I had been asked by South Australian Premier Mike Rann to explore policy options for making Adelaide a green, sustainable city.</p>
                         </div>
                     </div>
+                    <div className="articleCard">
+                        <div className="articleImage city5"></div>
+                        <div className="articleCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <a href="https://theecologist.org/2020/feb/26/people-and-nature-urban-world" target="_BLANK" rel="noopener noreferrer"><p>People and nature<br></br> in an urban world</p></a>
+                                </div>
+                                <div className="block2"><p>| 26th February 2020</p></div>
+                            </div>
+                            <p>The sustainability of cities is inextricably linked to the sustainability of distant places.
+                                 We need a new, integrated approach to planetary stewardship to address this challenge.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
