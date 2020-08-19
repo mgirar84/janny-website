@@ -40,7 +40,7 @@ class Navigation extends React.Component {
                 <div class="dropdown">
                     <button class="dropbtn">Documentaries</button>
                     <div class="dropdownContent">
-                        <Link to="/documentaries/doc1"><p>Doc1</p></Link>
+                        <Link to="/documentaries/jungle-pharmacy"><p>Jungle Pharmacy</p></Link>
                         <Link to="/documentaries/doc2"><p>Doc2</p></Link>
                         <Link to="/documentaries/doc3"><p>Doc3</p></Link>
                     </div>

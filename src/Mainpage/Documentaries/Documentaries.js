@@ -4,8 +4,8 @@ import './Documentaries.scss';
 class Documentaries extends React.Component {
 	render() {
         return (
-            <div>
-                <p>Documentaries</p>
+            <div className="documentaries">
+                <h2>Documentaries</h2>
             </div>
         )
 	}

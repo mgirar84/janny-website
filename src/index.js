@@ -16,6 +16,7 @@ import Energy from './Mainpage/Articles/Energy/Energy';
 import Books from './Mainpage/Books/Books';
 import Earthrise from './Mainpage/Books/Earthrise/Eartrise';
 import Documentaries from './Mainpage/Documentaries/Documentaries';
+import JunglePharmacy from './Mainpage/Documentaries/JunglePharmacy/JunglePharmacy'
 import Lectures from './Mainpage/Lectures/Lectures';
 import Poems from './Mainpage/Poems/Poems';
 import Mainpage from './Mainpage/Mainpage';
@@ -46,7 +47,8 @@ class Routing extends React.Component {
             <Route path="/lectures" component={ Lectures } />
             <Route exact path="/books" component={ Books } />
             <Route exact path="/books/earthrise" component={ Earthrise } />
-            <Route path="/documentaries" component={ Documentaries } />
+            <Route exact path="/documentaries" component={ Documentaries } />
+            <Route exact path="/documentaries/jungle-pharmacy" component={ JunglePharmacy } />
             <Route path="/" component={ Mainpage } />
           </Switch>
           <Route path="/" component={ Footer } />
