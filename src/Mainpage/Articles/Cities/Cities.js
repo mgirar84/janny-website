@@ -44,7 +44,7 @@ class Cities extends React.Component {
                         <div className="articleCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                <Link to="/articles/cities/revenge"><p>Is nature taking revenge?</p></Link>
+                                <Link to="/articles/cities/revenge"><p>Earth Emergency – a call to action</p></Link>
                                 </div>
                                 <div className="block2"><p>| 2002</p></div>
                                 <br></br>

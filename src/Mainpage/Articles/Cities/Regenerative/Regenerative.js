@@ -8,7 +8,7 @@ class Regenerative extends React.Component {
                 <h2>Regenerative economies for a sustainable world</h2>
                 <div className="blackLine"></div>
                 <div className="mainText">
-                    <div className="image wakeUpImage"></div>
+                    <div className="image customImage"></div>
                     <p> Humanity is engaged in an attempt to build prosperous economies across the world,
                         yet current economic practices are threatening the very future of humanity and the
                         natural world. In the face of a looming earth emergency, can new thinking lead us to
@@ -117,8 +117,6 @@ class Regenerative extends React.Component {
                     <br></br>
                     <br></br>
                     <h3>Circularity of living systems</h3>
-                    <br></br>
-                    <br></br>
                     Perhaps the greatest challenge facing us is to turn modern economies and urban
                     systems from linear into circular modes. Nature operates as an essentially circular
                     system and invariably all its waste products become sources of new growth: every
@@ -168,8 +166,6 @@ class Regenerative extends React.Component {
                     <br></br>
                     <br></br>
                     <h3>Circular technical systems?</h3>
-                    <br></br>
-                    <br></br>
                     Modern economies need to be organised to mimic natural systems. But what does
                     this mean for the technical systems on which so much of the wealth and comfort of
                     modern civilisation are based? There is a marked difference between the circularity
@@ -222,8 +218,6 @@ class Regenerative extends React.Component {
                     <br></br>
                     <br></br>
                     <h3>Regeneration for sustainability</h3>
-                    <br></br>
-                    <br></br>
                     “Nature does not set out to be sustainable but achieves it because it is regenerative.
                     If the economic system is to prosper long term, it must operate like nature;
                     regeneratively,” said the authors of A finer future is possible, a report to the Club of
@@ -247,11 +241,8 @@ class Regenerative extends React.Component {
                     In my view the wording ‘Regenerative economies for a sustainable world’ is a simple
                     and effective formula. Regenerative economies are the process and a sustainable
                     world would be the outcome to strive for. This wording includes the confident use of
-
                     the term sustainability, despite some of the baggage now associated with it. Without
                     constant renewal and regeneration there can be no sustainability.
-                    <br></br>
-                    <br></br>
                 </p>
             </div>
         )
