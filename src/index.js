@@ -14,6 +14,7 @@ import Sustainability from './Mainpage/Articles/Cities/Sustainability/Sustainabi
 import Revenge from './Mainpage/Articles/Cities/Revenge/Revenge';
 import Energy from './Mainpage/Articles/Energy/Energy';
 import Books from './Mainpage/Books/Books';
+import Earthrise from './Mainpage/Books/Earthrise/Eartrise';
 import Documentaries from './Mainpage/Documentaries/Documentaries';
 import Lectures from './Mainpage/Lectures/Lectures';
 import Poems from './Mainpage/Poems/Poems';
@@ -29,7 +30,6 @@ class Routing extends React.Component {
           <Route path="/articles" component={ Articles } />
           <Route path="/poems" component={ Poems } />
           <Route path="/lectures" component={ Lectures } />
-          <Route path="/books" component={ Books } />
           <Route path="/documentaries" component={ Documentaries } />
           <Switch>
             <Route exact path="/articles/green-planet" component={ GreenPlanet } />
@@ -44,7 +44,8 @@ class Routing extends React.Component {
             <Route path="/poems/poem3" component={ Poems } />
             <Route path="/poems/poem4" component={ Poems } />
             <Route path="/lectures" component={ Lectures } />
-            <Route path="/books" component={ Books } />
+            <Route exact path="/books" component={ Books } />
+            <Route exact path="/books/earthrise" component={ Earthrise } />
             <Route path="/documentaries" component={ Documentaries } />
             <Route path="/" component={ Mainpage } />
           </Switch>

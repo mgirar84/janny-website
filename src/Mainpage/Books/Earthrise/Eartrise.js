@@ -5,9 +5,9 @@ class Earthrise extends React.Component {
 	render() {
         return (
             <div>
-                <p>Earthrise</p>
-                <p>Book is about...</p>
-                <p>View the chapter Amazonia Ablaze</p>
+                <h2>Earthrise</h2>
+                <h3>Chapter 4 | Amazonia Ablaze</h3>
+                <p></p>
             </div>
         )
 	}
