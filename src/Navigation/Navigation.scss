@@ -6,6 +6,27 @@
     row-gap: 0.2em;
     border-bottom: black 0.1em solid;
     font-family: 'Playfair Display', serif;
+    @media screen and (max-width: 600px) {
+        .responsive {
+            display: grid;
+            grid-template-columns: none;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            position: relative;
+            text-align: left;
+        }
+    }
+    .icon {
+        display: none;
+        padding: 16px;
+        font-size: 16px;
+        color: black;
+        @media screen and (max-width: 600px) {
+            display: block;
+            .responsive {
+                position: relative;
+            }
+        }
+    }
     .dropdown {
         position: relative;
         display: inline-block;
@@ -28,6 +49,15 @@
             width: 100%;
             text-align: center;
             font-family: 'Playfair Display', serif;
+            @media screen and (max-width: 600px) {
+                display: none;
+                .responsive {
+                    position: relative;
+                    float: none;
+                    display: block;
+                    text-align: left;
+                }
+            }
         }
         .nonListLink {
             &:hover {
@@ -57,11 +87,4 @@
             }
         }
     }
-    @media screen and (max-width: 600px) {
-        .buttonsContainer a:not(:first-child) {display: none;}
-        .buttonsContainer a.icon {
-          float: right;
-          display: block;
-        }
-      }
 }   
