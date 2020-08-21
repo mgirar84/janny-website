@@ -17,7 +17,6 @@ class Books extends React.Component {
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><h3>| 2014</h3></div>
-                                <br></br>
                             </div>
                             <p>This book argues that whilst humanity is building an urban
                                 future, urbanisation in its current form is threatening the very future of humanity and the natural
@@ -37,7 +36,6 @@ class Books extends React.Component {
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><h3>| 2009</h3></div>
-                                <br></br>
                             </div>
                             <p>This book was written for the Rio Earth Summit, 1992. It aims to give an overview of
                                 how we are affecting the biosphere and that there are ways out of the mess we have been making.
@@ -57,7 +55,6 @@ class Books extends React.Component {
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><h3>| 2007</h3></div>
-                                <br></br>
                             </div>
                             <p>I edited and co-authored this book for the WFC. It starts by pointing
                                 out that despite unprecedented knowledge, skills and resources we are on a collision course with
@@ -78,7 +75,6 @@ class Books extends React.Component {
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><h3>| 2004</h3></div>
-                                <br></br>
                             </div>
                             <p>This short book, by Jakob von Uexkull and myself, was the
                                 document which launched a new international NGO in 2005 – the World Future Council (WFC). At
@@ -98,7 +94,6 @@ class Books extends React.Component {
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><h3>| 2001</h3></div>
-                                <br></br>
                             </div>
                             <p>This book has only been published in Japanese. It is based on a six-part
                                 TV series produced by NHK, Tokyo, and CNN, for which I wrote the scripts and then worked as series
@@ -118,7 +113,6 @@ class Books extends React.Component {
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><h3>| 1999</h3></div>
-                                <br></br>
                             </div>
                             <p>This is part of a series of short books called Schumacher Briefings
                                 edited by myself. This book draws a lot on the work I did in London, analysing its metabolism and
@@ -138,7 +132,6 @@ class Books extends React.Component {
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><h3>| 1996</h3></div>
-                                <br></br>
                             </div>
                             <p>This book was commissioned by UN Habitat for the 1996 United Nations
                                 Cities Summit in Istanbul. It is a hands-on text concerned with the organisational challenges and
@@ -158,7 +151,6 @@ class Books extends React.Component {
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><h3>| 1993</h3></div>
-                                <br></br>
                             </div>
                             <p>This is not primarily about urban planning but about how cities can
                                 thrive whilst curtailing their impacts on the living world beyond. Cities use vast amounts of resources
@@ -177,7 +169,6 @@ class Books extends React.Component {
                                     <h3>Earthrise</h3>
                                 </div>
                                 <div className="block2"><h3>| 1992</h3></div>
-                                <br></br>
                             </div>
                             <p>This book was written for the Rio Earth Summit, 1992. It aims to give an overview of
                                 how we are affecting the biosphere and that there are ways out of the mess we have been making.
@@ -198,7 +189,6 @@ class Books extends React.Component {
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><h3>| 1987</h3></div>
-                                <br></br>
                             </div>
                             <p>This book follows on from Far from Paradise as a guide to
                                 practical action to fight pollution and to live sustainably, one of the first books on this topic. In the
@@ -218,7 +208,6 @@ class Books extends React.Component {
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><h3>| 1986</h3></div>
-                                <br></br>
                             </div>
                             <p>This book was written to accompany a seven-part TV series produced by
                                 BBC Wales for BBC 2, and co-produced by German and Austrian broadcasters. As an exploration of
@@ -238,7 +227,6 @@ class Books extends React.Component {
                                     <h3>Land for the People</h3>
                                 </div>
                                 <div className="block2"><h3>| 1992</h3></div>
-                                <br></br>
                             </div>
                             <p>This short, edited book, written by 12 co-authors, argues that the time
                                 had come for land in Britain to be made available for people who want to resettle the rural areas
