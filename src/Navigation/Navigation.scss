@@ -57,4 +57,11 @@
             }
         }
     }
+    @media screen and (max-width: 600px) {
+        .buttonsContainer a:not(:first-child) {display: none;}
+        .buttonsContainer a.icon {
+          float: right;
+          display: block;
+        }
+      }
 }   

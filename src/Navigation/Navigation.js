@@ -45,6 +45,9 @@ class Navigation extends React.Component {
                         <Link to="/documentaries/doc3"><p>Doc3</p></Link>
                     </div>
                 </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
         )
 	}
