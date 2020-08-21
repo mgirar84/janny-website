@@ -11,7 +11,7 @@ import EarthEmergency from './Mainpage/Articles/GreenPlanet/EarthEmergency/Earth
 import Cities from './Mainpage/Articles/Cities/Cities';
 import Regenerative from './Mainpage/Articles/Cities/Regenerative/Regenerative';
 import Sustainability from './Mainpage/Articles/Cities/Sustainability/Sustainability';
-import Revenge from './Mainpage/Articles/Cities/Revenge/Revenge';
+// import Revenge from './Mainpage/Articles/Cities/Revenge/Revenge';
 import Energy from './Mainpage/Articles/Energy/Energy';
 import Books from './Mainpage/Books/Books';
 import Earthrise from './Mainpage/Books/Earthrise/Eartrise';
@@ -37,7 +37,7 @@ class Routing extends React.Component {
             <Route exact path="/articles/green-planet/earth-emergency" component={ EarthEmergency } />
             <Route exact path="/articles/cities" component={ Cities } />
             <Route exact path="/articles/cities/regenerative" component={ Regenerative } />
-            <Route exact path="/articles/cities/revenge" component={ Revenge } />
+            {/* <Route exact path="/articles/cities/revenge" component={ Revenge } /> */}
             <Route exact path="/articles/cities/sustainability" component={ Sustainability } />
             <Route path="/articles/energy" component={ Energy } />
             <Route path="/poems/poem1" component={ Poems } />

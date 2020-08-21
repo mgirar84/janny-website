@@ -8,17 +8,23 @@ class Books extends React.Component {
             <div className="Books">
                 <h2>Books</h2>
                 <div className="booksContainer">
-                    <div className="bookCard">
+                <div className="bookCard">
                         <div className="bookImage book1"></div>
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link>
+                                    <h3>Creating Regenerative Cities</h3>
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><p>| 1992</p></div>
+                                <div className="block2"><h3>| 2014</h3></div>
                                 <br></br>
                             </div>
-                            <p>About this book</p>
+                            <p>This book argues that whilst humanity is building an urban
+                                future, urbanisation in its current form is threatening the very future of humanity and the natural
+                                world. Its key premise is that sustainability is not enough. Cities, as the primary users of the world’s
+                                resources, need to make an active contribution towards regenerating the ecosystems on whose
+                                health they depend. The book features 20 case studies where these ideas are being implemented.
+                            </p>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -26,11 +32,18 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <Link to="/books/regenerative"><p>Regenerative economies<br></br> for a sustainable world</p></Link>
+                                    <h3>A Renewable World</h3>
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><p>| 2018</p></div>
+                                <div className="block2"><h3>| 2009</h3></div>
+                                <br></br>
                             </div>
-                            <p>About this book</p>
+                            <p>This book was written for the Rio Earth Summit, 1992. It aims to give an overview of
+                                how we are affecting the biosphere and that there are ways out of the mess we have been making.
+                                Much of the book is based on my experiences as a film maker, travelling to places that we usually
+                                don’t have access too. It introduces the concept of the ‘amplified man’: our powers have been
+                                greatly enhanced by technology. But can we tame ourselves for the benefit of future generations?
+                            </p>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -38,14 +51,193 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                <Link to="/books/revenge"><p>Is nature taking revenge?</p></Link>
+                                    <h3>Surviving the Century</h3>
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><p>| 2002</p></div>
+                                <div className="block2"><h3>| 2007</h3></div>
                                 <br></br>
                             </div>
-                            <p>About this book</p>
+                            <p>I edited and co-authored this book for the WFC. It starts by pointing
+                                out that despite unprecedented knowledge, skills and resources we are on a collision course with
+                                our own future. It deals with climate change, renewable energy, food supply, rainforest destruction,
+                                urban futures, circular economy, and new visons for world trade and for democracy. Its 8 authors
+                                are mostly members of the WFC. The book was also published in a German language edition.
+                            </p>
                         </div>
                     </div>
+                    <div className="bookCard">
+                        <div className="bookImage book4"></div>
+                        <div className="bookCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <h3>Creating the World</h3>
+                                    <h3>Future Council</h3>
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
+                                </div>
+                                <div className="block2"><h3>| 2004</h3></div>
+                                <br></br>
+                            </div>
+                            <p>This short book, by Jakob von Uexkull and myself, was the
+                                document which launched a new international NGO in 2005 – the World Future Council (WFC). At
+                                the turn of the millennium it had become apparent that the lack of long-term perspectives in policy
+                                making by governments had to be addressed in new, creative ways. The WFC has since become an
+                                important, internationally recognised and increasingly effective ‘voice of future generations’.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="bookCard">
+                        <div className="bookImage book5"></div>
+                        <div className="bookCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <h3>The People’s Planet</h3>
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
+                                </div>
+                                <div className="block2"><h3>| 2001</h3></div>
+                                <br></br>
+                            </div>
+                            <p>This book has only been published in Japanese. It is based on a six-part
+                                TV series produced by NHK, Tokyo, and CNN, for which I wrote the scripts and then worked as series
+                                consultant. The main interviewee was Lester Brown, director of the Earth Policy Institute in
+                                Washington. Filmed in 40 countries, the series tried to indicate solutions to all the key human
+                                impacts on Planet Earth – farming, energy, urbanisation, industrial pollution and population growth.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="bookCard">
+                        <div className="bookImage book6"></div>
+                        <div className="bookCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <h3>Creating Sustainable Cities</h3>
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
+                                </div>
+                                <div className="block2"><h3>| 1999</h3></div>
+                                <br></br>
+                            </div>
+                            <p>This is part of a series of short books called Schumacher Briefings
+                                edited by myself. This book draws a lot on the work I did in London, analysing its metabolism and
+                                quantifying its use of resources and its ecological footprint. It describes cities as superorganisms that
+                                need to develop a better understanding of how to become truly sustainable – environmentally,
+                                economically and socially. The booklet has also been published in four foreign language editions.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="bookCard">
+                        <div className="bookImage book7"></div>
+                        <div className="bookCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <h3>Making Cities Work</h3>
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
+                                </div>
+                                <div className="block2"><h3>| 1996</h3></div>
+                                <br></br>
+                            </div>
+                            <p>This book was commissioned by UN Habitat for the 1996 United Nations
+                                Cities Summit in Istanbul. It is a hands-on text concerned with the organisational challenges and
+                                practicalities of creating a sustainable world of cities. Its four co-authors, including myself, draw on a
+                                great range of ‘best practice’ case studies from many countries. The book emphasises the joint
+                                learning that is needed for rich and poor cities to benefit from each other’s experiences.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="bookCard">
+                        <div className="bookImage book8"></div>
+                        <div className="bookCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <h3>The Gaia Atlas of Cities</h3>
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
+                                </div>
+                                <div className="block2"><h3>| 1993</h3></div>
+                                <br></br>
+                            </div>
+                            <p>This is not primarily about urban planning but about how cities can
+                                thrive whilst curtailing their impacts on the living world beyond. Cities use vast amounts of resources
+                                but most of these originate from outside the urban territory. The book indicates new directions for
+                                sustainable urban living, in both theory and in practice. It was adopted as a key text by the United
+                                Nations City Summit in Istanbul in 1996. Four foreign language editions were also published.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="bookCard">
+                        <div className="bookImage book9"></div>
+                        <div className="bookCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <h3>Earthrise</h3>
+                                </div>
+                                <div className="block2"><h3>| 1992</h3></div>
+                                <br></br>
+                            </div>
+                            <p>This book was written for the Rio Earth Summit, 1992. It aims to give an overview of
+                                how we are affecting the biosphere and that there are ways out of the mess we have been making.
+                                Much of the book is based on my experiences as a film maker, travelling to places that we usually
+                                don’t have access too. It introduces the concept of the ‘amplified man’: our powers have been
+                                greatly enhanced by technology. But can we tame ourselves for the benefit of future generations?
+                            </p>
+                            <Link to="/books/earthrise"><h4>Click here to read chapter 4 - Amazonia Ablaze</h4></Link>
+                        </div>
+                    </div>
+                    <div className="bookCard">
+                        <div className="bookImage book10"></div>
+                        <div className="bookCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <h3>Blueprint for a Green Planet</h3>
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
+                                </div>
+                                <div className="block2"><h3>| 1987</h3></div>
+                                <br></br>
+                            </div>
+                            <p>This book follows on from Far from Paradise as a guide to
+                                practical action to fight pollution and to live sustainably, one of the first books on this topic. In the
+                                late 1980s it was becoming apparent that the rise of consumerism was causing huge environmental
+                                damage, and that personal responsibility had to be taken in response. The highly illustrated book
+                                was published in the UK by Dorling Kindersley and also in 14 foreign language editions.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="bookCard">
+                        <div className="bookImage book11"></div>
+                        <div className="bookCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <h3>Far from Paradise</h3>
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
+                                </div>
+                                <div className="block2"><h3>| 1986</h3></div>
+                                <br></br>
+                            </div>
+                            <p>This book was written to accompany a seven-part TV series produced by
+                                BBC Wales for BBC 2, and co-produced by German and Austrian broadcasters. As an exploration of
+                                the history of human impacts on the environment, it was filmed across Europe, the Middle East and
+                                the United States. John Seymour, as presenter, and myself, as researcher of the TV series alternate
+                                the 16 chapters of the book, published by BBC Publications, and also as a German language edition.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="bookCard">
+                        <div className="bookImage book12"></div>
+                        <div className="bookCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
+                                    <h3>Land for the People</h3>
+                                </div>
+                                <div className="block2"><h3>| 1992</h3></div>
+                                <br></br>
+                            </div>
+                            <p>This short, edited book, written by 12 co-authors, argues that the time
+                                had come for land in Britain to be made available for people who want to resettle the rural areas
+                                and make a living there. At a time of economic uncertainty, a new balance between urban and rural
+                                living was needed. Would it be possible for new villages to be built on existing farmland, enabling
+                                people to lead sustainable rural lives and to help Britain achieve greater food self-sufficiency?
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         )
