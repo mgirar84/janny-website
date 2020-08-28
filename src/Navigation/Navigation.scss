@@ -1,3 +1,13 @@
+.icon {
+    display: none;
+    padding: 16px;
+    font-size: 16px;
+    color: black;
+    border-bottom: black 0.1em solid;
+    @media screen and (max-width: 600px) {
+        display: block;
+    }
+}
 .buttonsContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -7,23 +17,15 @@
     border-bottom: black 0.1em solid;
     font-family: 'Playfair Display', serif;
     @media screen and (max-width: 600px) {
-        display: grid;
+        display: none;
         grid-template-columns: none;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         position: relative;
         text-align: left;
-        &:active {
+        &.active {
             display: grid;
-        }
-    }
-    .icon {
-        display: none;
-        padding: 16px;
-        font-size: 16px;
-        color: black;
-        border-bottom: black 0.1em solid;
-        @media screen and (max-width: 600px) {
-            display: block;
+            grid-template-columns: none;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         }
     }
     .dropdown {
