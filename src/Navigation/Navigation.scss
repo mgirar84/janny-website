@@ -4,6 +4,7 @@
     font-size: 16px;
     color: black;
     border-bottom: black 0.1em solid;
+    margin-bottom: 0.2em;
     @media screen and (max-width: 600px) {
         display: block;
     }
@@ -20,6 +21,7 @@
         display: none;
         grid-template-columns: none;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 0.1em;
         position: relative;
         text-align: left;
         &.active {
