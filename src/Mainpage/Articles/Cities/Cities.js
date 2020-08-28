@@ -39,7 +39,7 @@ class Cities extends React.Component {
                             </p>
                         </div>
                     </div>
-                    <div className="articleCard">
+                    {/* <div className="articleCard">
                         <div className="articleImage city3"></div>
                         <div className="articleCardText">
                             <div className="blockContainer">
@@ -53,7 +53,7 @@ class Cities extends React.Component {
                                 on sustainable development in Johannesburg, 2002. I was endorsed by hundreds of NGOs
                                 and environmental campaigners.</p>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="articleCard">
                         <div className="articleImage city4"></div>
                         <div className="articleCardText">
