@@ -32,6 +32,27 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
+                                    <h3>Cities, People, Planet</h3>
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
+                                </div>
+                                <div className="block2"><h3>| 2008</h3></div>
+                            </div>
+                            <p>
+                                An urbanising humanity has come to dominate much of the surface of the earth.
+                                 This book argues that developing a sustainable relationship between urban people
+                                  and planet is one of humanity's greatest challenges, with climate change top of 
+                                  the agenda. After a succinct overview of the environmental history of cities, the
+                                   book presents a great variety of case studies from across the world of how cities
+                                    could transform themselves into sustainable systems.
+                            </p>
+                            <a href='https://www.amazon.co.uk/Renewable-World-Ecology-Equality-Council-ebook/dp/B00EGWJNTW/ref=sr_1_2?dchild=1&keywords=a+renewable+world&qid=1598015202&sr=8-2' target='_BLANK'>Buy on Amazon</a>
+                        </div>
+                    </div>
+                    <div className="bookCard">
+                        <div className="bookImage book2"></div>
+                        <div className="bookCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
                                     <h3>A Renewable World</h3>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
