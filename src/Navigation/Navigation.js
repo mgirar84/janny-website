@@ -6,7 +6,6 @@ class Navigation extends React.Component {
 
     navBarFunction () {
         var x = document.getElementsByClassName("buttonsContainer")[0]
-        console.log(x)
         x.classList.toggle('active')
     }
 
