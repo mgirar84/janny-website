@@ -32,6 +32,25 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
+                                    <h3>A Renewable World</h3>
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
+                                </div>
+                                <div className="block2"><h3>| 2009</h3></div>
+                            </div>
+                            <p>This book was written for the Rio Earth Summit, 1992. It aims to give an overview of
+                                how we are affecting the biosphere and that there are ways out of the mess we have been making.
+                                Much of the book is based on my experiences as a film maker, travelling to places that we usually
+                                don’t have access too. It introduces the concept of the ‘amplified man’: our powers have been
+                                greatly enhanced by technology. But can we tame ourselves for the benefit of future generations?
+                            </p>
+                            <a href='https://www.amazon.co.uk/Renewable-World-Ecology-Equality-Council-ebook/dp/B00EGWJNTW/ref=sr_1_2?dchild=1&keywords=a+renewable+world&qid=1598015202&sr=8-2' target='_BLANK'>Buy on Amazon</a>
+                        </div>
+                    </div>
+                    <div className="bookCard">
+                        <div className="bookImage book2"></div>
+                        <div className="bookCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
                                     <h3>Cities, People, Planet</h3>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
@@ -45,26 +64,7 @@ class Books extends React.Component {
                                    book presents a great variety of case studies from across the world of how cities
                                     could transform themselves into sustainable systems.
                             </p>
-                            <a href='https://www.amazon.co.uk/Renewable-World-Ecology-Equality-Council-ebook/dp/B00EGWJNTW/ref=sr_1_2?dchild=1&keywords=a+renewable+world&qid=1598015202&sr=8-2' target='_BLANK'>Buy on Amazon</a>
-                        </div>
-                    </div>
-                    <div className="bookCard">
-                        <div className="bookImage book2"></div>
-                        <div className="bookCardText">
-                            <div className="blockContainer">
-                                <div className="block1">
-                                    <h3>A Renewable World</h3>
-                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
-                                </div>
-                                <div className="block2"><h3>| 2009</h3></div>
-                            </div>
-                            <p>This book was written for the Rio Earth Summit, 1992. It aims to give an overview of
-                                how we are affecting the biosphere and that there are ways out of the mess we have been making.
-                                Much of the book is based on my experiences as a film maker, travelling to places that we usually
-                                don’t have access too. It introduces the concept of the ‘amplified man’: our powers have been
-                                greatly enhanced by technology. But can we tame ourselves for the benefit of future generations?
-                            </p>
-                            <a href='https://www.amazon.co.uk/Renewable-World-Ecology-Equality-Council-ebook/dp/B00EGWJNTW/ref=sr_1_2?dchild=1&keywords=a+renewable+world&qid=1598015202&sr=8-2' target='_BLANK'>Buy on Amazon</a>
+                            <a href='https://www.amazon.co.uk/Cities-People-Planet-Development-Climate/dp/0470772700/ref=sr_1_1?crid=7VWQRVIFXPI7&dchild=1&keywords=cities+people+planet&qid=1598606491&sprefix=people+cities+pla%2Caps%2C147&sr=8-1' target='_BLANK'>Buy on Amazon</a>
                         </div>
                     </div>
                     <div className="bookCard">
