@@ -1,0 +1,27 @@
+div {
+    padding-top: 3em;
+    padding-left: 2em;
+    background-image: url(../Images/desertblue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    .mainText {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        max-width: 700px;
+        margin: auto;
+        h1 {
+            text-decoration: none;
+            font-size: 3em;
+        }
+        ul {
+            padding-top: 1.8em;
+            list-style-type: none;
+            font-size: 1em;
+            li {
+                font-size: 2em;
+            }
+        }
+    }
+}

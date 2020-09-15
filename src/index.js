@@ -20,6 +20,7 @@ import JunglePharmacy from './Mainpage/Documentaries/JunglePharmacy/JunglePharma
 import Lectures from './Mainpage/Lectures/Lectures';
 import Poems from './Mainpage/Poems/Poems';
 import Mainpage from './Mainpage/Mainpage';
+import Landingpage from './Landingpage/Landingpage';
 
 
 class Routing extends React.Component {
@@ -27,7 +28,7 @@ class Routing extends React.Component {
     return (
       <Router>
         <div>
-          <Route path="/" component={ App } />
+          {/* <Route path="/" component={ App } /> */}
           <Route path="/articles" component={ Articles } />
           <Route path="/lectures" component={ Lectures } />
           <Route path="/documentaries" component={ Documentaries } />
@@ -45,7 +46,7 @@ class Routing extends React.Component {
             <Route exact path="/books/earthrise" component={ Earthrise } />
             <Route exact path="/documentaries" component={ Documentaries } />
             <Route exact path="/documentaries/jungle-pharmacy" component={ JunglePharmacy } />
-            <Route path="/" component={ Mainpage } />
+            <Route path="/" component={ Landingpage } />
           </Switch>
           <Route path="/" component={ Footer } />
         </div>
