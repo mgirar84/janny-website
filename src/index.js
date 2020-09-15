@@ -29,7 +29,6 @@ class Routing extends React.Component {
         <div>
           <Route path="/" component={ App } />
           <Route path="/articles" component={ Articles } />
-          <Route path="/poems" component={ Poems } />
           <Route path="/lectures" component={ Lectures } />
           <Route path="/documentaries" component={ Documentaries } />
           <Switch>
@@ -40,10 +39,7 @@ class Routing extends React.Component {
             {/* <Route exact path="/articles/cities/revenge" component={ Revenge } /> */}
             <Route exact path="/articles/cities/sustainability" component={ Sustainability } />
             <Route path="/articles/energy" component={ Energy } />
-            <Route path="/poems/poem1" component={ Poems } />
-            <Route path="/poems/poem2" component={ Poems } />
-            <Route path="/poems/poem3" component={ Poems } />
-            <Route path="/poems/poem4" component={ Poems } />
+            <Route exact path="/poems" component={ Poems } />
             <Route path="/lectures" component={ Lectures } />
             <Route exact path="/books" component={ Books } />
             <Route exact path="/books/earthrise" component={ Earthrise } />
