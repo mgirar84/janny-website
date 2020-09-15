@@ -2,7 +2,7 @@ div {
     h1 {
         text-decoration: underline;
     }
-    div {
+    div { 
         .poemTitle {
             width: 50%;
             &:hover {
@@ -14,13 +14,12 @@ div {
             }
         }
         .poem1, .poem2, .poem3, .poem4, .poem5, .poem6, .poem7, .poem8, .poem9, .poem10, .poem11, .poem12 {
-            width: 50%;
             visibility: hidden;
             transition: opacity 0.5s ease-in-out;
             opacity: 0;
             height: 0;
             overflow: hidden;
-            margin: 0;
+            margin-left: 1em;
             &.show {
                 visibility: visible;
                 opacity: 100;
