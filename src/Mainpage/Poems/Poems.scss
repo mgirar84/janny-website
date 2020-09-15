@@ -1,0 +1,33 @@
+div {
+    h1 {
+        text-decoration: underline;
+    }
+    div {
+        .poemTitle {
+            &:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+        .poem1 {
+            display: none;
+            width: 50%;
+            &.show {
+                display: block;
+            }
+            &.hide {
+                display: none;
+            }
+        }
+        .poem2 {
+            display: none;
+            width: 50%;
+            &.show {
+                display: block;
+            }
+            &.hide {
+                display: none;
+            }
+        }
+    }
+}
