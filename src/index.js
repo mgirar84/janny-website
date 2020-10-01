@@ -48,7 +48,7 @@ class Routing extends React.Component {
             <Route exact path="/documentaries/jungle-pharmacy" component={ JunglePharmacy } />
             <Route path="/" component={ Landingpage } />
           </Switch>
-          <Route path="/" component={ Footer } />
+          {/* <Route path="/" component={ Footer } /> */}
         </div>
       </Router>
     )

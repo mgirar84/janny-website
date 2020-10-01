@@ -11,7 +11,7 @@ class Landingpage extends React.Component {
 
 	render() {
         return (
-            <div>
+            <div class="landingPage">
                 <div className="mainText">
                     <h1>Herbert Girardet</h1>
                     <ul>
