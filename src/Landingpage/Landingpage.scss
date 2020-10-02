@@ -40,7 +40,32 @@
             }
             li {
                 font-size: 2em;
+                a {
+                    text-decoration: none;
+                    color: whitesmoke;
+                }
             }
+            .dropLink {
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .articleLinks {
+                visibility: hidden;
+                transition: opacity 0.5s ease-in-out;
+                opacity: 0;
+                height: 0;
+                overflow: hidden;
+                padding: 0;
+                padding-left: 1em;
+                font-size: 0.5em;
+            }
+            &.show {
+                visibility: visible;
+                opacity: 100;
+                height: auto;
+            }
+            
         }
     }
 }

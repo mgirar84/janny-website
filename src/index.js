@@ -21,6 +21,8 @@ import Lectures from './Mainpage/Lectures/Lectures';
 import Poems from './Mainpage/Poems/Poems';
 import Mainpage from './Mainpage/Mainpage';
 import Landingpage from './Landingpage/Landingpage';
+import Header from './Header/Header';
+import Navigation from './Navigation/Navigation'
 
 
 class Routing extends React.Component {
@@ -28,11 +30,19 @@ class Routing extends React.Component {
     return (
       <Router>
         <div>
-          {/* <Route path="/" component={ App } /> */}
-          <Route path="/articles" component={ Articles } />
-          <Route path="/lectures" component={ Lectures } />
-          <Route path="/documentaries" component={ Documentaries } />
+          <Route exact path="/about" component={ Header } />
+          <Route exact path="/about" component={ Navigation } />
+          <Route path="/articles" component={ Header } />
+          <Route path="/articles" component={ Navigation } />
+          <Route path="/lectures" component={ Header } />
+          <Route path="/lectures" component={ Navigation } />
+          <Route path="/documentaries" component={ Header } />
+          <Route exact path="/books" component={ Header } />
+          <Route exact path="/books" component={ Navigation } />
+          <Route exact path="/poems" component={ Header } />
+          <Route exact path="/poems" component={ Navigation } />
           <Switch>
+            <Route exact path="/about" component={ Mainpage} />
             <Route exact path="/articles/green-planet" component={ GreenPlanet } />
             <Route exact path="/articles/green-planet/earth-emergency" component={ EarthEmergency } />
             <Route exact path="/articles/cities" component={ Cities } />
