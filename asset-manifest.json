@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/mgirar84/janny-website/static/css/main.65b318e4.chunk.css",
-    "main.js": "/mgirar84/janny-website/static/js/main.bf93de72.chunk.js",
-    "main.js.map": "/mgirar84/janny-website/static/js/main.bf93de72.chunk.js.map",
-    "runtime-main.js": "/mgirar84/janny-website/static/js/runtime-main.87f691a8.js",
-    "runtime-main.js.map": "/mgirar84/janny-website/static/js/runtime-main.87f691a8.js.map",
-    "static/js/2.215424d1.chunk.js": "/mgirar84/janny-website/static/js/2.215424d1.chunk.js",
-    "static/js/2.215424d1.chunk.js.map": "/mgirar84/janny-website/static/js/2.215424d1.chunk.js.map",
-    "index.html": "/mgirar84/janny-website/index.html",
-    "precache-manifest.559d76d6b7de3b3d4a5cec908e2219a3.js": "/mgirar84/janny-website/precache-manifest.559d76d6b7de3b3d4a5cec908e2219a3.js",
-    "service-worker.js": "/mgirar84/janny-website/service-worker.js",
-    "static/css/main.65b318e4.chunk.css.map": "/mgirar84/janny-website/static/css/main.65b318e4.chunk.css.map",
-    "static/js/2.215424d1.chunk.js.LICENSE.txt": "/mgirar84/janny-website/static/js/2.215424d1.chunk.js.LICENSE.txt",
-    "static/media/Books.scss": "/mgirar84/janny-website/static/media/surviningTheCentury.535ff89a.JPG",
-    "static/media/Cities.scss": "/mgirar84/janny-website/static/media/urbanWorld.002d8a65.png",
-    "static/media/Landingpage.scss": "/mgirar84/janny-website/static/media/birdsEyeView.7406c940.jpg",
-    "static/media/GreenPlanet.scss": "/mgirar84/janny-website/static/media/theViewFromTheAmazon.0f55f8d3.png",
-    "static/media/Sustainability.scss": "/mgirar84/janny-website/static/media/greenKids.24361e29.jpg",
-    "static/media/Header.scss": "/mgirar84/janny-website/static/media/headingImage.224eb72d.jpg",
-    "static/media/Regenerative.scss": "/mgirar84/janny-website/static/media/patchworkTurbines.066eee04.jpg",
-    "static/media/EarthEmergency.scss": "/mgirar84/janny-website/static/media/protest.869321e7.jpg"
+    "main.css": "/janny-website/static/css/main.84a03fe7.chunk.css",
+    "main.js": "/janny-website/static/js/main.28530a38.chunk.js",
+    "main.js.map": "/janny-website/static/js/main.28530a38.chunk.js.map",
+    "runtime-main.js": "/janny-website/static/js/runtime-main.ee68a95f.js",
+    "runtime-main.js.map": "/janny-website/static/js/runtime-main.ee68a95f.js.map",
+    "static/js/2.215424d1.chunk.js": "/janny-website/static/js/2.215424d1.chunk.js",
+    "static/js/2.215424d1.chunk.js.map": "/janny-website/static/js/2.215424d1.chunk.js.map",
+    "index.html": "/janny-website/index.html",
+    "precache-manifest.45d93b43f076e822663a3beaa2d21dd6.js": "/janny-website/precache-manifest.45d93b43f076e822663a3beaa2d21dd6.js",
+    "service-worker.js": "/janny-website/service-worker.js",
+    "static/css/main.84a03fe7.chunk.css.map": "/janny-website/static/css/main.84a03fe7.chunk.css.map",
+    "static/js/2.215424d1.chunk.js.LICENSE.txt": "/janny-website/static/js/2.215424d1.chunk.js.LICENSE.txt",
+    "static/media/Books.scss": "/janny-website/static/media/surviningTheCentury.535ff89a.JPG",
+    "static/media/Cities.scss": "/janny-website/static/media/urbanWorld.002d8a65.png",
+    "static/media/Landingpage.scss": "/janny-website/static/media/birdsEyeView.7406c940.jpg",
+    "static/media/GreenPlanet.scss": "/janny-website/static/media/theViewFromTheAmazon.0f55f8d3.png",
+    "static/media/Sustainability.scss": "/janny-website/static/media/greenKids.24361e29.jpg",
+    "static/media/Header.scss": "/janny-website/static/media/headingImage.224eb72d.jpg",
+    "static/media/Regenerative.scss": "/janny-website/static/media/patchworkTurbines.066eee04.jpg",
+    "static/media/EarthEmergency.scss": "/janny-website/static/media/protest.869321e7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.87f691a8.js",
+    "static/js/runtime-main.ee68a95f.js",
     "static/js/2.215424d1.chunk.js",
-    "static/css/main.65b318e4.chunk.css",
-    "static/js/main.bf93de72.chunk.js"
+    "static/css/main.84a03fe7.chunk.css",
+    "static/js/main.28530a38.chunk.js"
   ]
 }
