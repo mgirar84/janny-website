@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/janny-website/static/css/main.e16f01d2.chunk.css",
+    "main.css": "/janny-website/static/css/main.784c9cd6.chunk.css",
     "main.js": "/janny-website/static/js/main.4d1e8798.chunk.js",
     "main.js.map": "/janny-website/static/js/main.4d1e8798.chunk.js.map",
     "runtime-main.js": "/janny-website/static/js/runtime-main.ee68a95f.js",
@@ -8,9 +8,9 @@
     "static/js/2.215424d1.chunk.js": "/janny-website/static/js/2.215424d1.chunk.js",
     "static/js/2.215424d1.chunk.js.map": "/janny-website/static/js/2.215424d1.chunk.js.map",
     "index.html": "/janny-website/index.html",
-    "precache-manifest.85d6c071087cdeecfc0393255ecf4366.js": "/janny-website/precache-manifest.85d6c071087cdeecfc0393255ecf4366.js",
+    "precache-manifest.434501ef65f06b21017e776aadd10586.js": "/janny-website/precache-manifest.434501ef65f06b21017e776aadd10586.js",
     "service-worker.js": "/janny-website/service-worker.js",
-    "static/css/main.e16f01d2.chunk.css.map": "/janny-website/static/css/main.e16f01d2.chunk.css.map",
+    "static/css/main.784c9cd6.chunk.css.map": "/janny-website/static/css/main.784c9cd6.chunk.css.map",
     "static/js/2.215424d1.chunk.js.LICENSE.txt": "/janny-website/static/js/2.215424d1.chunk.js.LICENSE.txt",
     "static/media/Books.scss": "/janny-website/static/media/surviningTheCentury.535ff89a.JPG",
     "static/media/Cities.scss": "/janny-website/static/media/urbanWorld.002d8a65.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee68a95f.js",
     "static/js/2.215424d1.chunk.js",
-    "static/css/main.e16f01d2.chunk.css",
+    "static/css/main.784c9cd6.chunk.css",
     "static/js/main.4d1e8798.chunk.js"
   ]
 }
