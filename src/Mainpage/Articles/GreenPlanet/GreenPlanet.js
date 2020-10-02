@@ -46,6 +46,18 @@ class GreenPlanet extends React.Component {
                                 and environmental campaigners.</p>
                         </div>
                     </div>
+                    <div className="articleCard">
+                        <div className="articleImage theForest"></div>
+                        <div className="articleCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <Link to="/articles/green-planet/the-forest"><p>The Forest</p></Link>
+                                </div>
+                                <div className="block2"><p>| 2020</p></div>
+                            </div>
+                            <p>This text was written for the Forest of Dean Resilience Anthology 2020</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )

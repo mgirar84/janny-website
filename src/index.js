@@ -8,6 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import Articles from './Mainpage/Articles/Articles';
 import GreenPlanet from './Mainpage/Articles/GreenPlanet/GreenPlanet';
 import EarthEmergency from './Mainpage/Articles/GreenPlanet/EarthEmergency/EarthEmergency';
+import Forest from './Mainpage/Articles/GreenPlanet/Forest/Forest';
 import Cities from './Mainpage/Articles/Cities/Cities';
 import Regenerative from './Mainpage/Articles/Cities/Regenerative/Regenerative';
 import Sustainability from './Mainpage/Articles/Cities/Sustainability/Sustainability';
@@ -48,6 +49,7 @@ class Routing extends React.Component {
             <Route exact path="/about" component={ Mainpage} />
             <Route exact path="/articles/green-planet" component={ GreenPlanet } />
             <Route exact path="/articles/green-planet/earth-emergency" component={ EarthEmergency } />
+            <Route exact path="/articles/green-planet/the-forest" component={ Forest } />
             <Route exact path="/articles/cities" component={ Cities } />
             <Route exact path="/articles/cities/regenerative" component={ Regenerative } />
             {/* <Route exact path="/articles/cities/revenge" component={ Revenge } /> */}
