@@ -3,18 +3,23 @@
     margin: auto;
     @media screen and (min-width: 600px) {
         display: grid;
-        grid-template-columns: 20em 1fr;
+        grid-template-columns: auto auto;
+        align-content: center;
+        margin: auto;
     }
     .mainPagePicture {
         background-image: url(../Images/headingImage.jpg);
-        width: auto;
+        width: 15em;
         background-repeat: no-repeat;
         background-size: 100%;
-        margin: 1.4em 1em 0.5em 0em;
+        margin-top: 1.4em;
+        margin-right: 0.5em;
         @media screen and (max-width: 600px) {
             width: 100%;
-            height: 15em;
-            margin: auto;
+            height: 20em;
         }
+    }
+    .mainPageText {
+        padding: 0.1em;
     }
 }

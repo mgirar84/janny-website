@@ -6,7 +6,7 @@ class Mainpage extends React.Component {
         return (
             <div className="mainPageContainer">
                 <div className="mainPagePicture"></div>
-                <p>Since graduating in social anthropology and economics at the LSE in 1975, Herbert has
+                <p className="mainPageText">Since graduating in social anthropology and economics at the LSE in 1975, Herbert has
                 worked as a cultural and urban ecologist – as a writer, filmmaker and consultant. He is
                 author and co-author of 18 books and reports, and 50 TV documentaries on aspects of
                 the interaction between cities, national economies and the global environment. Most of
