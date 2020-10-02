@@ -4,7 +4,7 @@ import './Regenerative.scss';
 class Regenerative extends React.Component {
 	render() {
         return (
-            <div className="container">
+            <div className="regenerative">
                 <h2>Regenerative economies for a sustainable world</h2>
                 <div className="blackLine"></div>
                 <div className="mainText">

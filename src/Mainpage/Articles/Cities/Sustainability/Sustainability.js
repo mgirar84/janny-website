@@ -4,7 +4,7 @@ import './Sustainability.scss';
 class Sustainability extends React.Component {
 	render() {
         return (
-            <div className="container">
+            <div className="sustainability">
                 <h2>Sustainability is unhelpful: we need to think about regeneration</h2>
                 <div className="blackLine"></div>
                 <div className="mainText">
