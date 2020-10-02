@@ -86,7 +86,7 @@ class Cities extends React.Component {
                         <div className="articleCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                <Link to="/articles/cities/metabolism"><p>The Metabolism<br></br> of Cities</p></Link>
+                                <Link to="/articles/cities/metabolism"><p>The Metabolism of Cities</p></Link>
                                 </div>
                                 <div className="block2"><p>| 1990</p></div>
                             </div>
@@ -101,7 +101,7 @@ class Cities extends React.Component {
                         <div className="articleCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                <Link to="/articles/cities/ecology"><p>Ecology, Energy,<br></br> Planning</p></Link>
+                                <Link to="/articles/cities/ecology"><p>Ecology, Energy, Planning</p></Link>
                                 </div>
                                 <div className="block2"><p>| 1977</p></div>
                             </div>
