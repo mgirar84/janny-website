@@ -5,8 +5,8 @@ class Earthrise extends React.Component {
 	render() {
         return (
             <div className="earthRise">
-                <h2>Earthrise</h2>
-                <h3>From the 4 th chapter of my book ‘Earthrise’, Paladin, 1992</h3>
+                <h3>Earthrise</h3>
+                <h4>From the 4 th chapter of my book ‘Earthrise’, Paladin, 1992</h4>
                 <p>It was 7 September 1988. Brasilia was celebrating Independence Day. Hundreds of
                 thousands of people were lined up along the central boulevard, Avenida Luis Vargas: black,
                 brown and white, shoeshine boys, office clerks, government officials and street vendors. On

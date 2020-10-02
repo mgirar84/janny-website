@@ -6,7 +6,7 @@ class Books extends React.Component {
 	render() {
         return (
             <div className="books">
-                <h2>Books</h2>
+                <h3>Books</h3>
                 <div className="booksContainer">
                 <div className="bookCard">
                         <div className="bookImage book1"></div>

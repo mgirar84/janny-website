@@ -6,7 +6,7 @@ class GreenPlanet extends React.Component {
 	render() {
         return (
             <div className="greenPlanet">
-                <h2>Green Planet</h2>
+                <h3>Green Planet</h3>
                 <div className="articlesContainer">
                     <div className="articleCard">
                         <div className="articleImage amazonPicture"></div>

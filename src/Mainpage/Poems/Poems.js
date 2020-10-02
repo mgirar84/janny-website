@@ -57,10 +57,10 @@ class Poems extends React.Component {
 	render() {
         return (
             <div className="poems">
-                <h1>Poems</h1>
+                <h3>Poems</h3>
                 <div>
                     <div>
-                        <a className="poemTitle" onClick={this.togglePoem1}><h2>To Viruses and Bacteria</h2></a>
+                        <a className="poemTitle" onClick={this.togglePoem1}><h4>To Viruses and Bacteria</h4></a>
                         <p className="poem1">
                             If you will live within me,
                             Live in peace with me, not anger.
@@ -96,7 +96,7 @@ class Poems extends React.Component {
                         </p>
                     </div>
                     <div>
-                        <a className="poemTitle" onClick={this.togglePoem2}><h2>Winter Peace</h2></a>
+                        <a className="poemTitle" onClick={this.togglePoem2}><h4>Winter Peace</h4></a>
                         <p className="poem2">
                             This afternoon the earth stands still
                             the wind has settled in its secret nest
@@ -121,7 +121,7 @@ class Poems extends React.Component {
                         </p>
                     </div>
                     <div>
-                        <a className="poemTitle" onClick={this.togglePoem3}><h2>War Child</h2></a>
+                        <a className="poemTitle" onClick={this.togglePoem3}><h4>War Child</h4></a>
                         <p className="poem3">
                         And then it was my turn
                         to be born,
@@ -190,7 +190,7 @@ class Poems extends React.Component {
                         </p>
                     </div>
                     <div>
-                        <a className="poemTitle" onClick={this.togglePoem4}><h2>I have seen the land of Europe</h2></a>
+                        <a className="poemTitle" onClick={this.togglePoem4}><h4>I have seen the land of Europe</h4></a>
                         <p className="poem4">
                         I have seen the land of Europe
                         Bathed in golden sunlight
@@ -285,7 +285,7 @@ class Poems extends React.Component {
                         </p>
                     </div>
                     <div>
-                        <a className="poemTitle" onClick={this.togglePoem5}><h2>Inferno</h2></a>
+                        <a className="poemTitle" onClick={this.togglePoem5}><h4>Inferno</h4></a>
                         <p className="poem5">
                         Borneo Baghdad Aleppo
                         The fires of the anthropocene
@@ -340,7 +340,7 @@ class Poems extends React.Component {
                         </p>
                     </div>
                     <div>
-                        <a className="poemTitle" onClick={this.togglePoem6}><h2>New born</h2></a>
+                        <a className="poemTitle" onClick={this.togglePoem6}><h4>New born</h4></a>
                         <p className="poem6">
                         Hello hello here you are
                         It is you, barely born
@@ -367,7 +367,7 @@ class Poems extends React.Component {
                         </p>
                     </div>
                     <div>
-                        <a className="poemTitle" onClick={this.togglePoem7}><h2>Mr. President</h2></a>
+                        <a className="poemTitle" onClick={this.togglePoem7}><h4>Mr. President</h4></a>
                         <p className="poem7">
                         Mr. President, still eloquent
                         on his familiar podium.
@@ -482,7 +482,7 @@ class Poems extends React.Component {
                         </p>
                     </div>
                     <div>
-                        <a className="poemTitle" onClick={this.togglePoem8}><h2>Death in the family</h2></a>
+                        <a className="poemTitle" onClick={this.togglePoem8}><h4>Death in the family</h4></a>
                         <p className="poem8">
                         At noon today he fell,
                         the bullet had ripped his lion’s heart.
@@ -534,7 +534,7 @@ class Poems extends React.Component {
                         </p>
                     </div>
                     <div>
-                        <a className="poemTitle" onClick={this.togglePoem9}><h2>Love miles</h2></a>
+                        <a className="poemTitle" onClick={this.togglePoem9}><h4>Love miles</h4></a>
                         <p className="poem9">
                         My kids were born in Kensington,
                         their cousins in Berlin.
@@ -592,7 +592,7 @@ class Poems extends React.Component {
                         </p>
                     </div>
                     <div>
-                        <a className="poemTitle" onClick={this.togglePoem10}><h2>April dawn</h2></a>
+                        <a className="poemTitle" onClick={this.togglePoem10}><h4>April dawn</h4></a>
                         <p className="poem10">
                         As night lets go its dreamy grip
                         The morning birds are calling
@@ -667,7 +667,7 @@ class Poems extends React.Component {
                         </p>
                     </div>
                     <div>
-                        <a className="poemTitle" onClick={this.togglePoem11}><h2>On Ladbroke Grove again</h2></a>
+                        <a className="poemTitle" onClick={this.togglePoem11}><h4>On Ladbroke Grove again</h4></a>
                         <p className="poem11">
                         Hallo here I am
                         on Ladbroke Grove again,
@@ -821,7 +821,7 @@ class Poems extends React.Component {
                         </p>
                     </div>
                     <div>
-                        <a className="poemTitle" onClick={this.togglePoem12}><h2>The face of Europe</h2></a>
+                        <a className="poemTitle" onClick={this.togglePoem12}><h4>The face of Europe</h4></a>
                         <p className="poem12">
                         I have seen the face of Europe,
                         smiling with summer delight,
