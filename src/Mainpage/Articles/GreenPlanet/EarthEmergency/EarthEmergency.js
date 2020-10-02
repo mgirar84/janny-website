@@ -4,7 +4,7 @@ import './EarthEmergency.scss';
 class EarthEmergency extends React.Component {
 	render() {
         return (
-            <div className="container">
+            <div className="earthEmergency">
                 <h2>Earth Emergency</h2>
                 <div className="blackLine"></div>
                 <div className="mainText">
