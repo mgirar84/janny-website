@@ -13,6 +13,8 @@
     "react-scripts": "^3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,6 +46,8 @@
   "bugs": {
     "url": "https://github.com/mgirar84/janny-website/issues"
   },
-  "homepage": ".",
-  "devDependencies": {}
+  "homepage": "https://github.com/mgirar84/janny-website",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
