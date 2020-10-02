@@ -12,7 +12,8 @@ import Forest from './Mainpage/Articles/GreenPlanet/Forest/Forest';
 import Cities from './Mainpage/Articles/Cities/Cities';
 import Regenerative from './Mainpage/Articles/Cities/Regenerative/Regenerative';
 import Sustainability from './Mainpage/Articles/Cities/Sustainability/Sustainability';
-// import Revenge from './Mainpage/Articles/Cities/Revenge/Revenge';
+import Metabolism from './Mainpage/Articles/Cities/Metabolism/Metabolism';
+import Ecology from './Mainpage/Articles/Cities/Ecology/Ecology';
 import Energy from './Mainpage/Articles/Energy/Energy';
 import Books from './Mainpage/Books/Books';
 import Earthrise from './Mainpage/Books/Earthrise/Eartrise';
@@ -33,9 +34,9 @@ class Routing extends React.Component {
         <div>
           <Route exact path="/about" component={ Header } />
           <Route exact path="/about" component={ Navigation } />
-          <Route path="/articles" component={ Articles } />
           <Route path="/articles" component={ Header } />
           <Route path="/articles" component={ Navigation } />
+          <Route path="/articles" component={ Articles } />
           <Route path="/lectures" component={ Header } />
           <Route path="/lectures" component={ Navigation } />
           <Route path="/documentaries" component={ Header } />
@@ -55,6 +56,8 @@ class Routing extends React.Component {
             <Route exact path="/articles/cities/regenerative" component={ Regenerative } />
             {/* <Route exact path="/articles/cities/revenge" component={ Revenge } /> */}
             <Route exact path="/articles/cities/sustainability" component={ Sustainability } />
+            <Route exact path="/articles/cities/metabolism" component={ Metabolism } />
+            <Route exact path="/articles/cities/ecology" component={ Ecology } />
             <Route path="/articles/energy" component={ Energy } />
             <Route exact path="/poems" component={ Poems } />
             <Route path="/lectures" component={ Lectures } />

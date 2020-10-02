@@ -5,7 +5,7 @@ class Metabolism extends React.Component {
 	render() {
         return (
             <div className="metabolism">
-                <h2>The Metabolism of Cities</h2>
+                <h3>The Metabolism of Cities</h3>
                 <div className="blackLine"></div>
                 <div className="mainText">
                     <div className="image metabolismImage"></div>
@@ -71,7 +71,7 @@ class Metabolism extends React.Component {
                 farmland to the sea.
                 </p>
                 <div className="blackLine"></div>
-                <h3>Liquid and Solid Wastes</h3>
+                <h4>Liquid and Solid Wastes</h4>
                 <p>
                 Ever since the 1960s there has been growing concern about the eutrophication of lakes in
                 heavily urbanised regions of Europe and the US: that is loss of oxygen in surface waters as a
@@ -120,7 +120,7 @@ class Metabolism extends React.Component {
                 groundwater. In Germany and Britain similar problems have been unearthed.
                 </p>
                 <div className="blackLine"></div>
-                <h3>The Age of Fire</h3>
+                <h4>The Age of Fire</h4>
                 <p>
                 Air pollution, too, is predominantly a problem of modern urban/industrial society. Coalmining,
                 when it got into full swing in the 19th century, made available unprecedented quantities of
@@ -167,7 +167,7 @@ class Metabolism extends React.Component {
                 have come to take for granted.
                 </p>
                 <div className="blackLine"></div>
-                <h3>Closing the Circle</h3>
+                <h4>Closing the Circle</h4>
                 <p>
                 The metabolism of modern cities as manifested at present – its throughput of foodstuffs, forest
                 products, fossil fuels and mineral resources – is demonstrably disruptive of the planet's life

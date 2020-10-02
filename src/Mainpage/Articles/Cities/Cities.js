@@ -81,6 +81,35 @@ class Cities extends React.Component {
                             </p>
                         </div>
                     </div>
+                    <div className="articleCard">
+                        <div className="articleImage city7"></div>
+                        <div className="articleCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                <Link to="/articles/cities/metabolism"><p>The Metabolism<br></br> of Cities</p></Link>
+                                </div>
+                                <div className="block2"><p>| 1990</p></div>
+                            </div>
+                            <p>This text set me off on a long journey to explore the impacts of an urbanising world on the global
+                                environment. It was published in Cadman, Geoffrey Payne, eds., The Living City: Towards a
+                                Sustainable Future, Routledge, 1990.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="articleCard">
+                        <div className="articleImage city8"></div>
+                        <div className="articleCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                <Link to="/articles/cities/ecology"><p>Ecology, Energy,<br></br> Planning</p></Link>
+                                </div>
+                                <div className="block2"><p>| 1977</p></div>
+                            </div>
+                            <p>This text was written in November 1977 for the Town and Country Planning Association’s
+                                Ecology and Development working party.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
