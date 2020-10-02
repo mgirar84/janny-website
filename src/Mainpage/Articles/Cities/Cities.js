@@ -39,21 +39,6 @@ class Cities extends React.Component {
                             </p>
                         </div>
                     </div>
-                    {/* <div className="articleCard">
-                        <div className="articleImage city3"></div>
-                        <div className="articleCardText">
-                            <div className="blockContainer">
-                                <div className="block1">
-                                <Link to="/articles/cities/revenge"><p>Earth Emergency – a call to action</p></Link>
-                                </div>
-                                <div className="block2"><p>| 2002</p></div>
-                                <br></br>
-                            </div>
-                            <p>This concise appeal was produced by myself and half a dozen colleagues for the UN Summit
-                                on sustainable development in Johannesburg, 2002. I was endorsed by hundreds of NGOs
-                                and environmental campaigners.</p>
-                        </div>
-                    </div> */}
                     <div className="articleCard">
                         <div className="articleImage city4"></div>
                         <div className="articleCardText">
@@ -79,6 +64,20 @@ class Cities extends React.Component {
                             </div>
                             <p>The sustainability of cities is inextricably linked to the sustainability of distant places.
                                  We need a new, integrated approach to planetary stewardship to address this challenge.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="articleCard">
+                        <div className="articleImage city6"></div>
+                        <div className="articleCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <a href="https://www.researchgate.net/publication/284992045_Urban_agriculture_and_sustainable_cities" target="_BLANK" rel="noopener noreferrer"><p>Urban Agriculture and<br></br> Sustainable Cities</p></a>
+                                </div>
+                                <div className="block2"><p>| January 2000</p></div>
+                            </div>
+                            <p>At the end of the 20th century, humanity is involved in an unprecedented experiment: we are turning ourselves into an urban species. Large cities, not villages and towns, are becoming our main habitat. 
+                                Urban growth is changing the face of the earth and the condition of humanity.
                             </p>
                         </div>
                     </div>
