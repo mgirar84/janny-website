@@ -4,7 +4,7 @@ import './JunglePharmacy.scss';
 class JunglePharmacy extends React.Component {
 	render() {
         return (
-            <div className="JunglePharmacy">
+            <div className="junglePharmacy">
                 <h3>Jungle Pharmacy</h3>
                 <div className="blackLine"></div>
                 <iframe width="608" height="324" src="https://www.youtube.com/embed/fRJpZeBvAqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
