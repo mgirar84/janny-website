@@ -1,7 +1,7 @@
 .books {
     width: 95%;
     margin: auto;
-    h3 {
+    .bookTitle {
         text-decoration: underline;
     }
     .booksContainer {
@@ -22,7 +22,7 @@
                     display: grid;
                     grid-template-columns: auto 1fr;  
                     .block1 {
-                        h3{
+                        h4{
                             color: black;
                             text-decoration: none;
                             margin: 0em;
@@ -33,7 +33,7 @@
                         }
                     }
                     .block2 {
-                        h3 {
+                        h4 {
                             text-indent: 0.2em;
                             margin: 0em;
                             font-size: 1.1em;
