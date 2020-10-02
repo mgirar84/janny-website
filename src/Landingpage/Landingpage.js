@@ -5,7 +5,17 @@ import {Link} from 'react-router-dom'
 class Landingpage extends React.Component {
 
     toggleArticles() {
-        var x = document.getElementsByClassName('articleLinks')[0]
+        var x = document.getElementsByClassName('articles')[0]
+        x.classList.toggle('show')
+    }
+
+    toggleDocs() {
+        var x = document.getElementsByClassName('docs')[0]
+        x.classList.toggle('show')
+    }
+
+    toggleLectures() {
+        var x = document.getElementsByClassName('lectures')[0]
         x.classList.toggle('show')
     }
 
@@ -17,14 +27,23 @@ class Landingpage extends React.Component {
                     <ul>
                         <li><Link to="/about">About</Link></li>
                         <li><a className="dropLink" onClick={this.toggleArticles}>Articles</a></li>
-                        <ul className="articleLinks">
+                        <ul className="links articles">
                             <li><Link to="/articles/green-planet">Green Planet</Link></li>
                             <li><Link to="/articles/cities">Sustainable Cities</Link></li>
-                            <li><Link to="/articles/energy"><p>Energy and Economics</p></Link></li>
+                            <li><Link to="/articles/energy">Energy and Economics</Link></li>
                         </ul>
                         <li><Link to="/books">Books</Link></li>
-                        <li><a className="dropLink">Documentaries</a></li>
-                        <li><a className="dropLink">Lectures</a></li>
+                        <li><a className="dropLink" onClick={this.toggleDocs}>Documentaries</a></li>
+                        <ul className="links docs">
+                            <li><Link to="/documentaries/jungle-pharmacy">Jungle Pharmacy</Link></li>
+                            <li><Link to="/documentaries/doc2">Doc2</Link></li>
+                            <li><Link to="/documentaries/doc3">Doc3</Link></li>
+                        </ul>
+                        <li><a className="dropLink" onClick={this.toggleLectures}>Lectures</a></li>
+                        <ul className="links lectures">
+                            <li><Link to="/lectures/lecture1">Lecture1</Link></li>
+                            <li><Link to="/lectures/lecture2">Lecture2</Link></li>
+                        </ul>
                         <li><Link to="/poems">Poems</Link></li>
                     </ul>
                 </div>

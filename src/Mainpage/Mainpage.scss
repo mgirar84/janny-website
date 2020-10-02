@@ -1,4 +1,6 @@
 .mainPageContainer {
+    width: 95%;
+    margin: auto;
     @media screen and (min-width: 600px) {
         display: grid;
         grid-template-columns: 20em 1fr;

@@ -1,14 +1,16 @@
 .header {
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
     padding-top: 0.5em;
     border-bottom: 0.1em solid black;
     font-family: 'Playfair Display', serif;
+    width: 95%;
+    margin: auto;
     a {
         text-decoration: none !important;
         .headerContainer {
+            text-shadow: none;
             .headerImage {
                 background-image:  center cover no-repeat;
                 background-image: url('../Images/headingImage.jpg');

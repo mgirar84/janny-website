@@ -56,7 +56,7 @@ class Poems extends React.Component {
 
 	render() {
         return (
-            <div>
+            <div className="poems">
                 <h1>Poems</h1>
                 <div>
                     <div>
