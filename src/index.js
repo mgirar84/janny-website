@@ -37,6 +37,7 @@ class Routing extends React.Component {
           <Route path="/lectures" component={ Header } />
           <Route path="/lectures" component={ Navigation } />
           <Route path="/documentaries" component={ Header } />
+          <Route path="/documentaries" component={ Navigation } />
           <Route exact path="/books" component={ Header } />
           <Route exact path="/books" component={ Navigation } />
           <Route exact path="/poems" component={ Header } />
