@@ -6,6 +6,7 @@ class Books extends React.Component {
 	render() {
         return (
             <div className="books">
+                <div className="booksBanner"></div>
                 <h3 className="bookTitle">Books</h3>
                 <div className="booksContainer">
                 <div className="bookCard">

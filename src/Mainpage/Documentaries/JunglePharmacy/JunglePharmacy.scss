@@ -1,26 +1,33 @@
 .junglePharmacy {
     width: 95%;
     margin: auto;
+    max-width: 1200px;
+    .jungleBanner {
+        background-image: url(../../../Images/junglePharmacy.jpg);
+        background-position: 20% 50%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
+    }
     h3 {
-        text-decoration: underline;
+        padding-top: 4em;
+        padding-bottom: 1em;
     }
-    .blackLine {
-        border-top: solid black 0.1em;
-    }
-    iframe {
-        margin-top: 1em;
-        margin-bottom: 1em;
-        @media screen and (max-width: 600px) {
-            width: 100%;
+    .jungleContent {
+        justify-self: stretch;
+        padding: 1em;
+        background-color: rgb(230, 230, 230);
+        iframe {
+            margin-bottom: 1em;
+            @media screen and (max-width: 600px) {
+                width: 100%;
+            }
         }
-    }
-    .blackLine {
-        border-top: solid black 0.1em;
-    }
-    p {
-
-    }
-    .blackLine {
-        border-top: solid black 0.1em;
+        .jungleDescription {
+        }
     }
 }

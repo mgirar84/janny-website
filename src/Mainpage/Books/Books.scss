@@ -1,8 +1,20 @@
 .books {
     width: 95%;
     margin: auto;
+    max-width: 1200px;
+    .booksBanner {
+        background-image: url(../../Images/books.jpg);
+        background-position: 20% 50%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
+    }
     .bookTitle {
-        padding-top: 1em;
+        padding-top: 4em;
         padding-bottom: 1em;
     }
     .booksContainer {

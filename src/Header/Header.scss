@@ -9,11 +9,11 @@
     a {
         text-decoration: none !important;
         .headerContainer {
-            text-shadow: none;
             h1 {
-                color: black;
+                color: white;
                 text-align: center;
                 padding: 0.5em 0 1em 0;
+                text-shadow: 1px 1px black;
                 &:visited {
                     color: black;
                 }
