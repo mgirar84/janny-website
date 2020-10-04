@@ -17,16 +17,16 @@
         padding-top: 4em;
         padding-bottom: 1em;
     }
-    .jungleContent {
-        justify-self: stretch;
-        padding: 1em;
-        background-color: rgb(230, 230, 230);
-        iframe {
+    iframe {
             margin-bottom: 1em;
             @media screen and (max-width: 600px) {
                 width: 100%;
             }
         }
+    .jungleContent {
+        justify-self: stretch;
+        // padding: 0.1em 1em;
+        // background-color: rgb(189, 189, 189);
         .jungleDescription {
         }
     }
