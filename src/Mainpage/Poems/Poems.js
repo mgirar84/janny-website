@@ -63,32 +63,47 @@ class Poems extends React.Component {
                         <a className="poemTitle" onClick={this.togglePoem1}><h4>To Viruses and Bacteria</h4></a>
                         <p className="poem1">
                             If you will live within me,
+                            <br></br>
                             Live in peace with me, not anger.
                             <br></br>
                             If you must, be part of me
+                            <br></br>
                             Like I reside within
+                            <br></br>
                             This throbbing world.
                             <br></br>
                             So, be a kind companion,
+                            <br></br>
                             Not a raging, angry conqueror
+                            <br></br>
                             In a defenceless valley,
+                            <br></br>
                             Where peace wants to reside
+                            <br></br>
                             Upon an endless day.
                             <br></br>
                             <br></br>
                             If you must live within me,
+                            <br></br>
                             Let us be friends, not
+                            <br></br>
                             Mortal enemies.
                             <br></br>
                             Let’s live in fond embrace,
+                            <br></br>
                             You, tiny unknown multitudes
+                            <br></br>
                             And me, my pulsing body.
                             <br></br>
                             Remember: suffocating me
+                            <br></br>
                             Will surely be your end as well.
                             <br></br>
+                            <br></br>
                             So, let us jointly
+                            <br></br>
                             Spend our lives in harmony
+                            <br></br>
                             Within an ocean of eternity.
                             <br></br>
                             <br></br>

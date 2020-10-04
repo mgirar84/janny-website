@@ -1,14 +1,16 @@
 .poems {
     width: 95%;
     margin: auto;
+    padding-top: 1em;
     h3 {
-        text-decoration: underline;
+        padding-bottom: 1em;
     }
     div { 
         .poemTitle {
             width: 50%;
+            font-family: 'IM Fell DW Pica', serif;
+            font-size: 1em;
             &:hover {
-                text-decoration: underline;
                 cursor: pointer;
             }
             h4 {
@@ -22,6 +24,8 @@
             height: 0;
             overflow: hidden;
             margin-left: 1em;
+            font-family: 'IM Fell DW Pica', serif;
+            font-size: 1em;
             &.show {
                 visibility: visible;
                 opacity: 100;

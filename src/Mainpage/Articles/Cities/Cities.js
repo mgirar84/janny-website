@@ -13,12 +13,12 @@ class Cities extends React.Component {
                         <div className="articleCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <Link to="/articles/cities/sustainability"><p>Sustainability is unhelpful</p></Link>
+                                    <Link to="/articles/cities/sustainability"><p>Sustainability is <br></br>unhelpful</p></Link>
                                 </div>
                                 <div className="block2"><p>| 10th June 2013</p></div>
                                 <br></br>
                             </div>
-                            <p>This article was published by the Guardian on 10th June 2013. It advertised my Schumacher
+                            <p className="cardDescription">This article was published by the Guardian on 10th June 2013. It advertised my Schumacher
                             Lecture at City Hall, Bristol, as part of the annual Schumacher Lectures which I also hosted
                             for 15 years.
                             </p>
@@ -33,7 +33,7 @@ class Cities extends React.Component {
                                 </div>
                                 <div className="block2"><p>| 2018</p></div>
                             </div>
-                            <p>This text was written for the Club of Rome in 2018 and published by Resurgence
+                            <p className="cardDescription">This text was written for the Club of Rome in 2018 and published by Resurgence
                             Magazine. As climate breakdown accelerates, we must urgently learn from Nature’s
                             example to counter entropy.
                             </p>
@@ -49,7 +49,7 @@ class Cities extends React.Component {
                                 <div className="block2"><p>| 2003</p></div>
                                 <br></br>
                             </div>
-                            <p>This report is the product of two months work by a group of people under the umbrella of the Adelaide Green City Program.
+                            <p className="cardDescription">This report is the product of two months work by a group of people under the umbrella of the Adelaide Green City Program.
                                  As ‘Thinker in residence’ I had been asked by South Australian Premier Mike Rann to explore policy options for making Adelaide a green, sustainable city.</p>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ class Cities extends React.Component {
                                 </div>
                                 <div className="block2"><p>| 26th February 2020</p></div>
                             </div>
-                            <p>The sustainability of cities is inextricably linked to the sustainability of distant places.
+                            <p className="cardDescription">The sustainability of cities is inextricably linked to the sustainability of distant places.
                                  We need a new, integrated approach to planetary stewardship to address this challenge.
                             </p>
                         </div>
@@ -76,7 +76,7 @@ class Cities extends React.Component {
                                 </div>
                                 <div className="block2"><p>| January 2000</p></div>
                             </div>
-                            <p>At the end of the 20th century, humanity is involved in an unprecedented experiment: we are turning ourselves into an urban species. Large cities, not villages and towns, are becoming our main habitat. 
+                            <p className="cardDescription">At the end of the 20th century, humanity is involved in an unprecedented experiment: we are turning ourselves into an urban species. Large cities, not villages and towns, are becoming our main habitat. 
                                 Urban growth is changing the face of the earth and the condition of humanity.
                             </p>
                         </div>
@@ -90,7 +90,7 @@ class Cities extends React.Component {
                                 </div>
                                 <div className="block2"><p>| 1990</p></div>
                             </div>
-                            <p>This text set me off on a long journey to explore the impacts of an urbanising world on the global
+                            <p className="cardDescription">This text set me off on a long journey to explore the impacts of an urbanising world on the global
                                 environment. It was published in Cadman, Geoffrey Payne, eds., The Living City: Towards a
                                 Sustainable Future, Routledge, 1990.
                             </p>
@@ -105,7 +105,7 @@ class Cities extends React.Component {
                                 </div>
                                 <div className="block2"><p>| 1977</p></div>
                             </div>
-                            <p>This text was written in November 1977 for the Town and Country Planning Association’s
+                            <p className="cardDescription">This text was written in November 1977 for the Town and Country Planning Association’s
                                 Ecology and Development working party.
                             </p>
                         </div>
