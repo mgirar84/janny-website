@@ -8,20 +8,15 @@ class Header extends React.Component {
             <div className="header">
                 <Link to="/">
                     <div className="headerContainer">
-                        <div className="firstName">
-                            <h1>Herbert</h1>
-                        </div>
-                        <div className="secondName">
-                            <h1>Girardet</h1>
-                        </div>
+                        <h1>Herbert Girardet</h1>
                     </div>
                 </Link>
-                <div class="socialMediaButtons">
+                {/* <div class="socialMediaButtons">
                     <br></br>
                     <br></br>
 					<a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
 					<a href="#"><i class="fas fa-envelope-square" target="_blank"></i></a>
-				</div>
+				</div> */}
             </div>
         )
 	}

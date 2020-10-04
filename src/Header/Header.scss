@@ -1,6 +1,4 @@
 .header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     position: relative;
     padding-top: 0.5em;
     // border-bottom: 0.1em solid black;
@@ -11,27 +9,12 @@
         text-decoration: none !important;
         .headerContainer {
             text-shadow: none;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            .firstName {
-                width: 10em;
-                text-align: right;
-                h1 {
-                    margin: 0;
+            h1 {
+                color: black;
+                text-align: center;
+                padding: 0.5em 0 1em 0;
+                &:visited {
                     color: black;
-                    &:visited {
-                        color: black;
-                    }
-                }
-            }
-            .secondName {
-                width: 10em;
-                h1 {
-                    margin: 0;
-                    color: black;
-                    &:visited {
-                        color: black;
-                    }
                 }
             }
         }
