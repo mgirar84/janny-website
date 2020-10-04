@@ -8,14 +8,14 @@
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-        column-gap: 0.2em;
-        row-gap: 0.2em;
+        column-gap: 1em;
+        row-gap: 1em;
         justify-self: center;
         margin: 0.2em auto;
         .articleCard {
             justify-self: stretch;
-            border: black solid 0.1em;
             padding-bottom: 0.5em;
+            background-color: rgb(230, 230, 230);
             .articleCardText {
                 padding: 0.1em 0.5em;
                 .blockContainer {

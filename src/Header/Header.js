@@ -8,7 +8,6 @@ class Header extends React.Component {
             <div className="header">
                 <Link to="/">
                     <div className="headerContainer">
-                        {/* <div className="headerImage"></div> */}
                         <div className="firstName">
                             <h1>Herbert</h1>
                         </div>

@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     position: relative;
     padding-top: 0.5em;
-    border-bottom: 0.1em solid black;
+    // border-bottom: 0.1em solid black;
     font-family: 'Playfair Display', serif;
     width: 95%;
     margin: auto;
@@ -11,15 +11,11 @@
         text-decoration: none !important;
         .headerContainer {
             text-shadow: none;
-            .headerImage {
-                background-image:  center cover no-repeat;
-                background-image: url('../Images/headingImage.jpg');
-                background-size: 100%;
-                width: 15em;
-                height: 9.9em;
-            }
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             .firstName {
                 width: 10em;
+                text-align: right;
                 h1 {
                     margin: 0;
                     color: black;
@@ -30,7 +26,6 @@
             }
             .secondName {
                 width: 10em;
-                text-align: right;
                 h1 {
                     margin: 0;
                     color: black;
@@ -43,6 +38,7 @@
     }
     .socialMediaButtons {
         text-align: right;
+        margin-top: 1em;
         bottom:0;
         a {
             i {
