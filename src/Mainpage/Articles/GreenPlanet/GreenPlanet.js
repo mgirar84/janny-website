@@ -6,9 +6,8 @@ class GreenPlanet extends React.Component {
 	render() {
         return (
             <div className="greenPlanet">
-                <div className="greenPlanetBanner">
-                    <h3>Green Planet</h3>
-                </div>
+                <div className="greenPlanetBanner"></div>
+                <h3>Green Planet</h3>
                 <div className="articlesContainer">
                     <div className="articleCard">
                         <div className="articleImage amazonPicture"></div>

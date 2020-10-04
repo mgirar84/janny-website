@@ -6,6 +6,7 @@ class Cities extends React.Component {
 	render() {
         return (
             <div className="cities">
+                <div className="citiesBanner"></div>
                 <h3>Sustainable Cities</h3>
                 <div className="articlesContainer">
                     <div className="articleCard">

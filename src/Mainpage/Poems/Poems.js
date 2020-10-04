@@ -57,9 +57,10 @@ class Poems extends React.Component {
 	render() {
         return (
             <div className="poems">
+                <div className="poemsBanner"></div>
                 <h3>Poems</h3>
                 <div>
-                    <div>
+                    <div className="poemCard">
                         <a className="poemTitle" onClick={this.togglePoem1}><h4>To Viruses and Bacteria</h4></a>
                         <p className="poem1">
                             If you will live within me,
@@ -110,7 +111,7 @@ class Poems extends React.Component {
                             Disease
                         </p>
                     </div>
-                    <div>
+                    <div className="poemCard">
                         <a className="poemTitle" onClick={this.togglePoem2}><h4>Winter Peace</h4></a>
                         <p className="poem2">
                             This afternoon the earth stands still
@@ -135,7 +136,7 @@ class Poems extends React.Component {
                             to start another irksome day
                         </p>
                     </div>
-                    <div>
+                    <div className="poemCard">
                         <a className="poemTitle" onClick={this.togglePoem3}><h4>War Child</h4></a>
                         <p className="poem3">
                         And then it was my turn
@@ -204,7 +205,7 @@ class Poems extends React.Component {
                         just for a little while.
                         </p>
                     </div>
-                    <div>
+                    <div className="poemCard">
                         <a className="poemTitle" onClick={this.togglePoem4}><h4>I have seen the land of Europe</h4></a>
                         <p className="poem4">
                         I have seen the land of Europe
@@ -299,7 +300,7 @@ class Poems extends React.Component {
                         Or the silence of a world gone bare
                         </p>
                     </div>
-                    <div>
+                    <div className="poemCard">
                         <a className="poemTitle" onClick={this.togglePoem5}><h4>Inferno</h4></a>
                         <p className="poem5">
                         Borneo Baghdad Aleppo
@@ -354,7 +355,7 @@ class Poems extends React.Component {
                         Of another infernal night
                         </p>
                     </div>
-                    <div>
+                    <div className="poemCard">
                         <a className="poemTitle" onClick={this.togglePoem6}><h4>New born</h4></a>
                         <p className="poem6">
                         Hello hello here you are
@@ -381,7 +382,7 @@ class Poems extends React.Component {
                         A world full of wonder within us
                         </p>
                     </div>
-                    <div>
+                    <div className="poemCard">
                         <a className="poemTitle" onClick={this.togglePoem7}><h4>Mr. President</h4></a>
                         <p className="poem7">
                         Mr. President, still eloquent
@@ -496,7 +497,7 @@ class Poems extends React.Component {
                         But, no, he’s not afraid of ghosts.
                         </p>
                     </div>
-                    <div>
+                    <div className="poemCard">
                         <a className="poemTitle" onClick={this.togglePoem8}><h4>Death in the family</h4></a>
                         <p className="poem8">
                         At noon today he fell,
@@ -548,7 +549,7 @@ class Poems extends React.Component {
                         And we will win this war as we die.
                         </p>
                     </div>
-                    <div>
+                    <div className="poemCard">
                         <a className="poemTitle" onClick={this.togglePoem9}><h4>Love miles</h4></a>
                         <p className="poem9">
                         My kids were born in Kensington,
@@ -606,7 +607,7 @@ class Poems extends React.Component {
                         to those we leave behind.
                         </p>
                     </div>
-                    <div>
+                    <div className="poemCard">
                         <a className="poemTitle" onClick={this.togglePoem10}><h4>April dawn</h4></a>
                         <p className="poem10">
                         As night lets go its dreamy grip
@@ -681,7 +682,7 @@ class Poems extends React.Component {
                         Silent word machine
                         </p>
                     </div>
-                    <div>
+                    <div className="poemCard">
                         <a className="poemTitle" onClick={this.togglePoem11}><h4>On Ladbroke Grove again</h4></a>
                         <p className="poem11">
                         Hallo here I am
@@ -835,7 +836,7 @@ class Poems extends React.Component {
                         good night, hello.
                         </p>
                     </div>
-                    <div>
+                    <div className="poemCard">
                         <a className="poemTitle" onClick={this.togglePoem12}><h4>The face of Europe</h4></a>
                         <p className="poem12">
                         I have seen the face of Europe,
