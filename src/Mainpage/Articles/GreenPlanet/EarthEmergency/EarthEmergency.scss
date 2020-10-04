@@ -1,11 +1,19 @@
 .earthEmergency {
     width: 95%;
     margin: auto;
-    h2 {
-        text-decoration: underline;
+    max-width: 1200px;
+    .earthEmergencyBanner {
+        background-image: url(../../../../Images/earthEmergencyBanner.jpg);
+        background-position: 20% 50%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
     }
-    .blackLine {
-        border-top: solid black 0.1em;
+    h2 {
     }
     .mainText {
         display: grid;
@@ -27,12 +35,7 @@
         }
         .wakeUpImage {
             background-image: url(../../../../Images/protest.jpg);
-            height: 28.2em;
+            height: 21.2em;
         }
     }
-    .blackLine {
-        border-top: solid black 0.1em;
-    }
-    
-    
 }

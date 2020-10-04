@@ -5,8 +5,8 @@ class EarthEmergency extends React.Component {
 	render() {
         return (
             <div className="earthEmergency">
+                <div className="earthEmergencyBanner"></div>
                 <h2>Earth Emergency</h2>
-                <div className="blackLine"></div>
                 <div className="mainText">
                     <div className="image wakeUpImage"></div>
                     <p>An acute State of Emergency exists on Earth, imperilling its climate, its life support systems
@@ -30,7 +30,6 @@ class EarthEmergency extends React.Component {
                     planet.</p>
                     
                 </div>
-                <div className="blackLine"></div>
                 <p>At this defining moment in history, we urge world leaders to acknowledge the Earth’s State
                 of Emergency, and give priority to major investments in environmental security, green
                 economies, and peace, not war. We call for the coming decade to be used to:</p>
