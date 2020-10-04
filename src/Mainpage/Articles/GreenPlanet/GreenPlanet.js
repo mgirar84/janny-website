@@ -6,18 +6,20 @@ class GreenPlanet extends React.Component {
 	render() {
         return (
             <div className="greenPlanet">
-                <h3>Green Planet</h3>
+                <div className="greenPlanetBanner">
+                    <h3>Green Planet</h3>
+                </div>
                 <div className="articlesContainer">
                     <div className="articleCard">
                         <div className="articleImage amazonPicture"></div>
                         <div className="articleCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <a href="https://theecologist.org/2020/jul/15/view-amazon" target="_BLANK" rel="noopener noreferrer"><p>The view from the Amazon</p></a>
+                                    <a href="https://theecologist.org/2020/jul/15/view-amazon" target="_BLANK" rel="noopener noreferrer"><p>The view from<br></br> the Amazon</p></a>
                                 </div>
-                                <div className="block2"><p>| 15th July 2020</p></div>
+                                <div className="block2"><p> | 15th July 2020</p></div>
                             </div>
-                            <p>The story of deforestation is also the story of the globalisation.</p>
+                            <p className="cardDescription">The story of deforestation is also the story of the globalisation.</p>
                         </div>
                     </div>
                     <div className="articleCard">
@@ -25,11 +27,11 @@ class GreenPlanet extends React.Component {
                         <div className="articleCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <a href="https://theecologist.org/2020/apr/15/nature-taking-revenge" target="_BLANK" rel="noopener noreferrer"><p>Is nature taking revenge?</p></a>
+                                    <a href="https://theecologist.org/2020/apr/15/nature-taking-revenge" target="_BLANK" rel="noopener noreferrer"><p>Is nature taking<br></br> revenge?</p></a>
                                 </div>
-                                <div className="block2"><p>| 15th April 2020</p></div>
+                                <div className="block2"><p> | 15th April 2020</p></div>
                             </div>
-                            <p>Covid-19 exposes the inherent fragility of our globally interconnected economic systems and the inequalities that they perpetuate.</p>
+                            <p className="cardDescription">Covid-19 exposes the inherent fragility of our globally interconnected economic systems and the inequalities that they perpetuate.</p>
                         </div>
                     </div>
                     <div className="articleCard">
@@ -39,9 +41,9 @@ class GreenPlanet extends React.Component {
                                 <div className="block1">
                                     <Link to="/articles/green-planet/earth-emergency"><p>A call to action </p></Link>
                                 </div>
-                                <div className="block2"><p>| 2002</p></div>
+                                <div className="block2"><p> | 2002</p></div>
                             </div>
-                            <p>This concise appeal was produced by myself and half a dozen colleagues for the UN Summit
+                            <p className="cardDescription">This concise appeal was produced by myself and half a dozen colleagues for the UN Summit
                                 on sustainable development in Johannesburg, 2002. I was endorsed by hundreds of NGOs
                                 and environmental campaigners.</p>
                         </div>
@@ -53,9 +55,9 @@ class GreenPlanet extends React.Component {
                                 <div className="block1">
                                     <Link to="/articles/green-planet/the-forest"><p>The Forest</p></Link>
                                 </div>
-                                <div className="block2"><p>| 2020</p></div>
+                                <div className="block2"><p> | 2020</p></div>
                             </div>
-                            <p>This text was written for the Forest of Dean Resilience Anthology 2020</p>
+                            <p className="cardDescription">This text was written for the Forest of Dean Resilience Anthology 2020</p>
                         </div>
                     </div>
                 </div>

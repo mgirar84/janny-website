@@ -6,7 +6,6 @@
         padding: 16px;
         font-size: 16px;
         color: black;
-        // border-bottom: black 0.1em solid;
         margin-bottom: 0.1em;
         @media screen and (max-width: 600px) {
             display: block;
@@ -18,8 +17,6 @@
         margin-bottom: 0.2em;
         column-gap: 0.2em;
         row-gap: 0.2em;
-        // border-bottom: black 0.1em solid;
-        font-family: 'Playfair Display', serif;
         @media screen and (max-width: 600px) {
             display: none;
             grid-template-columns: none;
@@ -55,7 +52,6 @@
                 border: none;
                 width: 100%;
                 text-align: center;
-                font-family: 'Playfair Display', serif;
             }
             .nonListLink {
                 &:hover {

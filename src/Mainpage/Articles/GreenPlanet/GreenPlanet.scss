@@ -1,8 +1,9 @@
 .greenPlanet {
     width: 95%;
     margin: auto;
-    h3 {
-        text-decoration: underline;
+    .greenPlanetBanner {
+        h3 {
+        }
     }
     .articlesContainer {
         display: grid;
@@ -20,7 +21,8 @@
                 padding: 0.1em 1em;
                 .blockContainer {
                     display: grid;
-                    grid-template-columns: auto 1fr;  
+                    grid-template-columns: auto 1fr;
+                    font-size: 1em;
                     .block1 {
                         a{
                             color: black;
@@ -36,8 +38,8 @@
                         }
                     }
                 }
-                p {
-                    font-size: 1em; 
+                .cardDescription {
+                    font-size: 0.8em; 
                 }
             }
             .articleImage {
