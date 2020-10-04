@@ -13,7 +13,7 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>Creating Regenerative Cities</h4>
+                                    <h4>Creating Regenerative <br></br>Cities</h4>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><h4>| 2014</h4></div>
@@ -202,30 +202,11 @@ class Books extends React.Component {
                         </div>
                     </div>
                     <div className="bookCard">
-                        <div className="bookImage book12"></div>
-                        <div className="bookCardText">
-                            <div className="blockContainer">
-                                <div className="block1">
-                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
-                                    <h4>Land for the People</h4>
-                                </div>
-                                <div className="block2"><h4>| 1992</h4></div>
-                            </div>
-                            <p>This short, edited book, written by 12 co-authors, argues that the time
-                                had come for land in Britain to be made available for people who want to resettle the rural areas
-                                and make a living there. At a time of economic uncertainty, a new balance between urban and rural
-                                living was needed. Would it be possible for new villages to be built on existing farmland, enabling
-                                people to lead sustainable rural lives and to help Britain achieve greater food self-sufficiency?
-                            </p>
-                            {/* <a href='https://www.amazon.co.uk/Far-Paradise-Story-Impact-Environment/dp/0563203579/ref=sr_1_2?dchild=1&keywords=far+from+paradise+herbert&qid=1598015679&sr=8-2' target='_BLANK'>Buy on Amazon</a> */}
-                        </div>
-                    </div>
-                    <div className="bookCard">
                         <div className="bookImage book10"></div>
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>Blueprint for a Green Planet</h4>
+                                    <h4>Blueprint for a Green<br></br> Planet</h4>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><h4>| 1987</h4></div>
@@ -237,6 +218,25 @@ class Books extends React.Component {
                                 was published in the UK by Dorling Kindersley and also in 14 foreign language editions.
                             </p>
                             <a href='https://www.amazon.co.uk/Blueprint-Green-Planet-Practical-Environment/dp/0130796255/ref=sr_1_1?dchild=1&keywords=blueprint+for+a+green+planet&qid=1598015652&sr=8-1' target='_BLANK'>Buy on Amazon</a>
+                        </div>
+                    </div>
+                    <div className="bookCard">
+                        <div className="bookImage book12"></div>
+                        <div className="bookCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
+                                    <h4>Land for the People</h4>
+                                </div>
+                                <div className="block2"><h4>| 1986</h4></div>
+                            </div>
+                            <p>This short, edited book, written by 12 co-authors, argues that the time
+                                had come for land in Britain to be made available for people who want to resettle the rural areas
+                                and make a living there. At a time of economic uncertainty, a new balance between urban and rural
+                                living was needed. Would it be possible for new villages to be built on existing farmland, enabling
+                                people to lead sustainable rural lives and to help Britain achieve greater food self-sufficiency?
+                            </p>
+                            {/* <a href='https://www.amazon.co.uk/Far-Paradise-Story-Impact-Environment/dp/0563203579/ref=sr_1_2?dchild=1&keywords=far+from+paradise+herbert&qid=1598015679&sr=8-2' target='_BLANK'>Buy on Amazon</a> */}
                         </div>
                     </div>
                     <div className="bookCard">

@@ -2,27 +2,27 @@
     width: 95%;
     margin: auto;
     .bookTitle {
-        text-decoration: underline;
     }
     .booksContainer {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-        column-gap: 0.2em;
-        row-gap: 0.2em;
+        column-gap: 1em;
+        row-gap: 1em;
         justify-self: center;
         margin: 0.2em auto;
         .bookCard {
             justify-self: stretch;
-            border: black solid 0.1em;
             padding-bottom: 0.5em;
+            background-color: rgb(230, 230, 230);
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             .bookCardText {
-                padding: 0.1em 0.5em;
+                padding: 0.1em 1em;
                 .blockContainer {
                     display: grid;
                     grid-template-columns: auto 1fr;  
                     .block1 {
-                        h4{
+                        h4 {
                             color: black;
                             text-decoration: none;
                             margin: 0em;
