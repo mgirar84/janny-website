@@ -5,9 +5,9 @@ class Forest extends React.Component {
 	render() {
         return (
             <div className="forest">
+                <div className="forestBanner"></div>
                 <h3>A Forest Way of Life</h3>
                 <h4>This text was written for the Forest of Dean Resilience Anthology 2020:</h4>
-                <div className="blackLine"></div>
                 <div className="mainText">
                     <div className="image forest"></div>
                     <p>
@@ -28,7 +28,6 @@ class Forest extends React.Component {
                     great, lacy canopy of trees conveyed a feeling of awe in me, as it still does today.
                     </p>
                 </div>
-                <div className="blackLine"></div>
                 <h4>A World Changes</h4>
                 <p>
                 Those of us who live in and around the Forest of Dean and Tintern Forest don’t have to be
@@ -65,7 +64,6 @@ class Forest extends React.Component {
                 industrial activity in the area. The locals were increasingly left to their own devices once
                 more.
                 </p>
-                <div className="blackLine"></div>
                 <h4>The Locals</h4>
                 <p>
                 The people of the forest have always played their part in any new commercial activity. They
@@ -86,7 +84,6 @@ class Forest extends React.Component {
                 roaming the Forest of Dean again are a source of meat for some and a menace to other,
                 particularly when they invade household gardens.
                 </p>
-                <div className="blackLine"></div>
                 <h4>Beauty and Ecology</h4>
                 <p>
                 In the local forests we can experience a living multi-story green landscape reminiscent of
@@ -131,7 +128,6 @@ class Forest extends React.Component {
                 bigger trees. But maintaining the continuity of life in its interdependent totality is
                 increasingly seen as the key underlying principle of resilient ecological systems.
                 </p>
-                <div className="blackLine"></div>
                 <h4>Today and Tomorrow</h4>
                 <p>
                 Today, of course, the forest has become a favoured destination for visitors and holiday
