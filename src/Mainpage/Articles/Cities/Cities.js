@@ -96,6 +96,22 @@ class Cities extends React.Component {
                             </p>
                         </div>
                     </div>
+                    <div className="articleCard">
+                        <div className="articleImage nightTrainCardImage"></div>
+                        <div className="articleCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                <Link to="/articles/cities/nighttrain"><p>Night train to Xi’an</p></Link>
+                                </div>
+                                <div className="block2"><p>| 0000</p></div>
+                            </div>
+                            <p className="cardDescription">
+                                Shanghai Railway Station is a place like no other. 
+                                The whole of the population of this vast city seems
+                                to want to travel at the same time.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
