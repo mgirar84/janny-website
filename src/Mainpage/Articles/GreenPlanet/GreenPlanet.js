@@ -59,6 +59,18 @@ class GreenPlanet extends React.Component {
                             <p className="cardDescription">This text was written for the Forest of Dean Resilience Anthology 2020</p>
                         </div>
                     </div>
+                    <div className="articleCard">
+                        <div className="articleImage landtoseaCard"></div>
+                        <div className="articleCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <Link to="/articles/green-planet/landtosea"><p>From the Land to the Sea</p></Link>
+                                </div>
+                                <div className="block2"><p> | 2018</p></div>
+                            </div>
+                            <p className="cardDescription">This article was published by the Soil Association in 2018.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )

@@ -8,6 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import Articles from './Mainpage/Articles/Articles';
 import GreenPlanet from './Mainpage/Articles/GreenPlanet/GreenPlanet';
 import EarthEmergency from './Mainpage/Articles/GreenPlanet/EarthEmergency/EarthEmergency';
+import Landtosea from './Mainpage/Articles/GreenPlanet/Landtosea/Landtosea';
 import Forest from './Mainpage/Articles/GreenPlanet/Forest/Forest';
 import Cities from './Mainpage/Articles/Cities/Cities';
 import Regenerative from './Mainpage/Articles/Energy/Regenerative/Regenerative';
@@ -28,8 +29,6 @@ import Mainpage from './Mainpage/Mainpage';
 import Landingpage from './Landingpage/Landingpage';
 import Header from './Header/Header';
 import Navigation from './Navigation/Navigation'
-
-
 
 class Routing extends React.Component {
   render() {
@@ -54,6 +53,7 @@ class Routing extends React.Component {
             <Route exact path="/articles/green-planet" component={ GreenPlanet } />
             <Route exact path="/articles/green-planet/earth-emergency" component={ EarthEmergency } />
             <Route exact path="/articles/green-planet/the-forest" component={ Forest } />
+            <Route exact path="/articles/green-planet/landtosea" component={ Landtosea } />
             <Route exact path="/articles/cities" component={ Cities } />
             <Route exact path="/articles/cities/sustainability" component={ Sustainability } />
             <Route exact path="/articles/cities/metabolism" component={ Metabolism } />
