@@ -103,7 +103,7 @@ class Cities extends React.Component {
                                 <div className="block1">
                                 <Link to="/articles/cities/nighttrain"><p>Night train to Xi’an</p></Link>
                                 </div>
-                                <div className="block2"><p>| 0000</p></div>
+                                <div className="block2"><p>| 2018</p></div>
                             </div>
                             <p className="cardDescription">
                                 Shanghai Railway Station is a place like no other. 
