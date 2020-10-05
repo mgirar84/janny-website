@@ -10,12 +10,14 @@ import GreenPlanet from './Mainpage/Articles/GreenPlanet/GreenPlanet';
 import EarthEmergency from './Mainpage/Articles/GreenPlanet/EarthEmergency/EarthEmergency';
 import Forest from './Mainpage/Articles/GreenPlanet/Forest/Forest';
 import Cities from './Mainpage/Articles/Cities/Cities';
-import Regenerative from './Mainpage/Articles/Cities/Regenerative/Regenerative';
+import Regenerative from './Mainpage/Articles/Energy/Regenerative/Regenerative';
 import Sustainability from './Mainpage/Articles/Cities/Sustainability/Sustainability';
 import Metabolism from './Mainpage/Articles/Cities/Metabolism/Metabolism';
 import Ecology from './Mainpage/Articles/Cities/Ecology/Ecology';
 import Energy from './Mainpage/Articles/Energy/Energy';
+import Amplified from './Mainpage/Articles/Energy/Amplified/Amplified';
 import Books from './Mainpage/Books/Books';
+import Gaia from './Mainpage/Books/Gaia/Gaia';
 import Earthrise from './Mainpage/Books/Earthrise/Eartrise';
 import Documentaries from './Mainpage/Documentaries/Documentaries';
 import JunglePharmacy from './Mainpage/Documentaries/JunglePharmacy/JunglePharmacy'
@@ -41,28 +43,27 @@ class Routing extends React.Component {
           <Route path="/lectures" component={ Navigation } />
           <Route path="/documentaries" component={ Header } />
           <Route path="/documentaries" component={ Navigation } />
-          <Route exact path="/books" component={ Header } />
-          <Route exact path="/books" component={ Navigation } />
-          <Route exact path="/poems" component={ Header } />
-          <Route exact path="/poems" component={ Navigation } />
-          <Route exact path="/books/earthrise" component={ Header } />
-          <Route exact path="/books/earthrise" component={ Navigation } />
+          <Route path="/books" component={ Header } />
+          <Route path="/books" component={ Navigation } />
+          <Route path="/poems" component={ Header } />
+          <Route path="/poems" component={ Navigation } />
           <Switch>
             <Route exact path="/about" component={ Mainpage} />
             <Route exact path="/articles/green-planet" component={ GreenPlanet } />
             <Route exact path="/articles/green-planet/earth-emergency" component={ EarthEmergency } />
             <Route exact path="/articles/green-planet/the-forest" component={ Forest } />
             <Route exact path="/articles/cities" component={ Cities } />
-            <Route exact path="/articles/cities/regenerative" component={ Regenerative } />
-            {/* <Route exact path="/articles/cities/revenge" component={ Revenge } /> */}
             <Route exact path="/articles/cities/sustainability" component={ Sustainability } />
             <Route exact path="/articles/cities/metabolism" component={ Metabolism } />
             <Route exact path="/articles/cities/ecology" component={ Ecology } />
-            <Route path="/articles/energy" component={ Energy } />
+            <Route exact path="/articles/energy" component={ Energy } />
+            <Route exact path="/articles/energy/amplified" component={ Amplified } />
+            <Route exact path="/articles/energy/regenerative" component={ Regenerative } />
             <Route exact path="/poems" component={ Poems } />
             <Route path="/lectures" component={ Lectures } />
             <Route exact path="/books" component={ Books } />
             <Route exact path="/books/earthrise" component={ Earthrise } />
+            <Route exact path="/books/gaia" component={ Gaia } />
             <Route exact path="/documentaries" component={ Documentaries } />
             <Route exact path="/documentaries/jungle-pharmacy" component={ JunglePharmacy } />
             <Route path="/" component={ Landingpage } />

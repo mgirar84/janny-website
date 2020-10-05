@@ -181,6 +181,7 @@ class Books extends React.Component {
                                 Nations City Summit in Istanbul in 1996. Four foreign language editions were also published.
                             </p>
                             <a href='https://www.amazon.co.uk/Gaia-Atlas-Cities-Directions-Sustainable/dp/0385419155/ref=sr_1_1?dchild=1&keywords=the+gaia+atlas+of+cities&qid=1598015593&sr=8-1' target='_BLANK'>Buy on Amazon</a>
+                            <Link to="/books/gaia"><p>Click here to read a summary</p></Link>
                         </div>
                     </div>
                     <div className="bookCard">

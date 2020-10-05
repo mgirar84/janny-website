@@ -26,21 +26,6 @@ class Cities extends React.Component {
                         </div>
                     </div>
                     <div className="articleCard">
-                        <div className="articleImage city2"></div>
-                        <div className="articleCardText">
-                            <div className="blockContainer">
-                                <div className="block1">
-                                    <Link to="/articles/cities/regenerative"><p>Regenerative economies<br></br> for a sustainable world</p></Link>
-                                </div>
-                                <div className="block2"><p>| 2018</p></div>
-                            </div>
-                            <p className="cardDescription">This text was written for the Club of Rome in 2018 and published by Resurgence
-                            Magazine. As climate breakdown accelerates, we must urgently learn from Nature’s
-                            example to counter entropy.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="articleCard">
                         <div className="articleImage city4"></div>
                         <div className="articleCardText">
                             <div className="blockContainer">

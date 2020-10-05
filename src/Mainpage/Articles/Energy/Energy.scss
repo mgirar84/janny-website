@@ -1,0 +1,73 @@
+.energy {
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+    .energyBanner {
+        background-image: url();
+        background-position: 20% 50%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
+    }
+    .energyBanner {
+        h3 {
+        }
+    }
+    .articlesContainer {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+        column-gap: 1em;
+        row-gap: 1em;
+        justify-self: center;
+        margin: 0.2em auto;
+        .articleCard {
+            justify-self: stretch;
+            padding-bottom: 0.5em;
+            background-color: rgb(189, 189, 189);
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            .articleCardText {
+                padding: 0.1em 1em;
+                .blockContainer {
+                    display: grid;
+                    grid-template-columns: auto 1fr;
+                    font-size: 1em;
+                    .block1 {
+                        a{
+                            color: black;
+                            text-decoration: none;
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                    .block2 {
+                        p {
+                            text-indent: 0.2em;
+                        }
+                    }
+                }
+                .cardDescription {
+                    font-size: 0.8em; 
+                }
+            }
+            .articleImage {
+                height: 16em;
+                margin: auto;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            .amplifiedMan {
+                background-image: url(../../../Images/powerlines.jpg);
+            }
+            .regenerativeCardImage {
+                background-image: url(../../../Images/cityLookUp.jpg);
+            }
+        }
+    }
+}
