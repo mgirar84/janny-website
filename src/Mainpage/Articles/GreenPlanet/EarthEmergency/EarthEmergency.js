@@ -6,7 +6,7 @@ class EarthEmergency extends React.Component {
         return (
             <div className="earthEmergency">
                 <div className="earthEmergencyBanner"></div>
-                <h2>Earth Emergency</h2>
+                <h3>Earth Emergency</h3>
                 <div className="mainText">
                     <div className="image wakeUpImage"></div>
                     <p>An acute State of Emergency exists on Earth, imperilling its climate, its life support systems

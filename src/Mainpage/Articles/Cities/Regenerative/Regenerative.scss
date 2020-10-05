@@ -1,11 +1,19 @@
 .regenerative {
     width: 95%;
     margin: auto;
-    h2 {
-        text-decoration: underline;
+    max-width: 1200px;
+    .regenerativeBanner {
+        background-image: url(../../../../Images/regenerativeBanner.jpg);
+        background-position: 10% 90%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
     }
-    .blackLine {
-        border-top: solid black 0.1em;
+    h3 {
     }
     .mainText {
         display: grid;
@@ -24,10 +32,7 @@
         }
         .customImage {
             background-image: url(../../../../Images/patchworkTurbines.jpg);
-            height: 19.2em;
+            height: 17.2em;
         }
-    }
-    .blackLine {
-        border-top: solid black 0.1em;
     }
 }

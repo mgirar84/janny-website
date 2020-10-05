@@ -5,8 +5,8 @@ class Regenerative extends React.Component {
 	render() {
         return (
             <div className="regenerative">
-                <h2>Regenerative economies for a sustainable world</h2>
-                <div className="blackLine"></div>
+                <div className="regenerativeBanner"></div>
+                <h3>Regenerative economies for a sustainable world</h3>
                 <div className="mainText">
                     <div className="image customImage"></div>
                     <p> Humanity is engaged in an attempt to build prosperous economies across the world,

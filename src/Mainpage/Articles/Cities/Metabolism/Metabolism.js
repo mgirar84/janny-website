@@ -5,8 +5,8 @@ class Metabolism extends React.Component {
 	render() {
         return (
             <div className="metabolism">
+                <div className="metabolismBanner"></div>
                 <h3>The Metabolism of Cities</h3>
-                <div className="blackLine"></div>
                 <div className="mainText">
                     <div className="image metabolismImage"></div>
                     <p> Ancient Rome, at the height of its power, obtained much of the grain needed to feed its citizens
@@ -23,7 +23,6 @@ class Metabolism extends React.Component {
                         North Africa was shoved through the stomachs of the Romans into the Mediterranean Sea.
                     </p>
                 </div>
-                <div className="blackLine"></div>
                 <p>
                 Rome, before its eventual decline, reached a population of about one million people. At the time
                 it was by far the largest – and most powerful – city in the world. It set patterns of urbanisation
@@ -70,7 +69,6 @@ class Metabolism extends React.Component {
                 imported as animal feed from distant land – another one-way transport of plant nutrients from
                 farmland to the sea.
                 </p>
-                <div className="blackLine"></div>
                 <h4>Liquid and Solid Wastes</h4>
                 <p>
                 Ever since the 1960s there has been growing concern about the eutrophication of lakes in
@@ -119,7 +117,6 @@ class Metabolism extends React.Component {
                 hundreds of mixed waste dumps have been found to leach all manner of potent poisons into the
                 groundwater. In Germany and Britain similar problems have been unearthed.
                 </p>
-                <div className="blackLine"></div>
                 <h4>The Age of Fire</h4>
                 <p>
                 Air pollution, too, is predominantly a problem of modern urban/industrial society. Coalmining,
@@ -166,7 +163,6 @@ class Metabolism extends React.Component {
                 applications. All of these are ingredients of the urban, convenience-oriented lifestyle which we
                 have come to take for granted.
                 </p>
-                <div className="blackLine"></div>
                 <h4>Closing the Circle</h4>
                 <p>
                 The metabolism of modern cities as manifested at present – its throughput of foodstuffs, forest

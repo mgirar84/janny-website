@@ -5,8 +5,8 @@ class Ecology extends React.Component {
 	render() {
         return (
             <div className="ecology">
+                <div className="ecologyBanner"></div>
                 <h3>Ecology, Energy and Planning</h3>
-                <div className="blackLine"></div>
                 <div className="mainText">
                     <div className="image ecologyImage"></div>
                     <p> It has become apparent that in a human context ecology is rather an elusive creature which has
@@ -29,7 +29,6 @@ class Ecology extends React.Component {
                         resources of which we consume such an unequal share.
                     </p>
                 </div>
-                <div className="blackLine"></div>
                 <p>
                 But what about our environmental impacts? If we consume 80 times as much energy as our
                 ‘natural' ancestors, each of us has as much environmental impact in one year as they had in 80

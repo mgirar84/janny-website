@@ -5,8 +5,8 @@ class Sustainability extends React.Component {
 	render() {
         return (
             <div className="sustainability">
-                <h2>Sustainability is unhelpful: we need to think about regeneration</h2>
-                <div className="blackLine"></div>
+                <div className="sustainabilityBanner"></div>
+                <h3>Sustainability is unhelpful: we need to think about regeneration</h3>
                 <div className="mainText">
                     <div className="image sustainabilityImage"></div>
                     <p>For 25 years, sustainable development has been held up as the solution to the world's
@@ -30,7 +30,6 @@ class Sustainability extends React.Component {
                     be stretched almost at will in many directions.
                     </p>
                 </div>
-                <div className="blackLine"></div>
                 <p>In the past 25 years, only lip-service has been paid to SD, particularly around the use of fossil
                     fuels. During that time, all economic and urban development across the world has been
                     driven by the ever-greater use of coal, oil and gas. And yet, the very use of fossil fuels is

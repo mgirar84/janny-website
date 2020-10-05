@@ -7,10 +7,10 @@ class Forest extends React.Component {
             <div className="forest">
                 <div className="forestBanner"></div>
                 <h3>A Forest Way of Life</h3>
-                <h4>This text was written for the Forest of Dean Resilience Anthology 2020:</h4>
                 <div className="mainText">
                     <div className="image forest"></div>
                     <p>
+                    <h4>This text was written for the Forest of Dean Resilience Anthology 2020:</h4>
                     For over 40 years I have lived surrounded by trees, on a few acres on the edge of Tintern
                     Forest. As I write this, at the end of July, I am looking out at hazel, willow, cherry, apple,
                     pear and plum trees, and further away, a huge oak and a row of Douglas firs. A light breeze
