@@ -39,43 +39,47 @@ class UrbanSystems extends React.Component {
                     take to address such fundamental systemic problems?
                     </p>
                 </div>
-                <h4>Small Area, Growing Footprint</h4>
-                <p>Modern cities, with their large human populations,
-                    occupy a relatively small surface area: today some 4 billion people live on just 3–4 per cent of
-                    the world’s land surface. This can arguably result
-                    in some sustainability benefits, particularly with
-                    regard to transport efficiencies. But as they grow
-                    into preeminent centres of national economies and
-                    of popular consumerism, cities develop ever-larger
-                    global ecological footprints. In developing countries,
-                    as villages and small towns grow into large cities,
-                    their per-capita resource consumption can increase
-                    three to four times due to increased incomes and the
-                    ready availability of fossil fuels and manufactured
-                    products. This has huge implications: in the process
-                    of urban growth, cities develop increasingly global
-                    tendrils for supporting their resource demands.
-                    Urbanisation, as practised today, thus becomes a
-                    feature of the ever-greater impact of humanity on
-                    the biosphere.
-                </p>
-                <p>A fundamental systems problem of the modern city is
-                    its essentially linear metabolism: resources are taken
-                    from nature in huge quantities, embedded in products
-                    that are used by consumers and then discarded as
-                    waste in the natural world. Ecosystems have become
-                    the sinks in which we dispose of our poisons and other
-                    technical and chemical wastes that cause havoc in
-                    nature. For an urbanising world to have a long-term
-                    future, cities need to develop a circular metabolism,
-                    as suggested in Figure 1. This change, of course, has
-                    to be driven by appropriate policy measures.
-                </p>
-                <div className="image figure1"></div>
-                <p className="figureText">Figure 1. Modern cities have an essentially linear metabolism, taking resources from nature and dumping gaseous,
-                liquid and solid waste into the biosphere. For a long-term sustainable future, cities have to learn to mimic the circular,
-                regenerative processes that define natural systems. (© Herbert Girardet)
-                </p>
+                <div className="gridContainer">
+                    <div>
+                        <h4>Small Area, Growing Footprint</h4>
+                        <p>Modern cities, with their large human populations,
+                            occupy a relatively small surface area: today some 4 billion people live on just 3–4 per cent of
+                            the world’s land surface. This can arguably result
+                            in some sustainability benefits, particularly with
+                            regard to transport efficiencies. But as they grow
+                            into preeminent centres of national economies and
+                            of popular consumerism, cities develop ever-larger
+                            global ecological footprints. In developing countries,
+                            as villages and small towns grow into large cities,
+                            their per-capita resource consumption can increase
+                            three to four times due to increased incomes and the
+                            ready availability of fossil fuels and manufactured
+                            products. This has huge implications: in the process
+                            of urban growth, cities develop increasingly global
+                            tendrils for supporting their resource demands.
+                            Urbanisation, as practised today, thus becomes a
+                            feature of the ever-greater impact of humanity on
+                            the biosphere.
+                        </p>
+                        <p>A fundamental systems problem of the modern city is
+                            its essentially linear metabolism: resources are taken
+                            from nature in huge quantities, embedded in products
+                            that are used by consumers and then discarded as
+                            waste in the natural world. Ecosystems have become
+                            the sinks in which we dispose of our poisons and other
+                            technical and chemical wastes that cause havoc in
+                            nature. For an urbanising world to have a long-term
+                            future, cities need to develop a circular metabolism,
+                            as suggested in Figure 1. This change, of course, has
+                            to be driven by appropriate policy measures.
+                        </p>
+                        <p className="figureText">Figure 1. Modern cities have an essentially linear metabolism, taking resources from nature and dumping gaseous,
+                        liquid and solid waste into the biosphere. For a long-term sustainable future, cities have to learn to mimic the circular,
+                        regenerative processes that define natural systems. (© Herbert Girardet)
+                        </p>
+                    </div>
+                    <div className="image figure1"></div>
+                </div>
                 <h4>Three Phases of Urban Evolution</h4>
                 <p>It seems useful to develop some theoretical concepts
                 of the character of urban systems. I have summarised
@@ -87,6 +91,11 @@ class UrbanSystems extends React.Component {
                 necessarily localised. The town was reliant on crop and
                 livestock farming systems that were peripheral to the
                 settlement (see Figure 2).</p>
+                <div className="image figure2"></div>
+                <p className="figureText">Figure 2. This diagram draws on the work of the 19th-century geographer Heinrich von Thünen. Agropolis is embedded
+                in a horticultural and agricultural hinterland. Its existence depends on a continuous give-and-take: reaping an annual
+                harvest for its inhabitants in exchange for returning human and animals waste back to the land. (© Herbert Girardet
+                and Rick Lawrence)</p>
                 <p>This model required a well-developed understanding
                 of the conditions for sustainable interaction with
                 supporting natural systems, such as soil husbandry,
@@ -113,6 +122,11 @@ class UrbanSystems extends React.Component {
                 practices lead to climate change and the progressive
                 loss of soil productivity and biodiversity in the source
                 ecosystems (see Figure 3).</p>
+                <div className="image figure3"></div>
+                <p className="figureText">Figure 3. The modern city, Petropolis, depends on massive daily inputs of non-renewable fossil fuels for all its
+                internal functions as well as its external transport connections. Critically, food is often brought in from distant
+                locations, causing cities to have vast global ecological footprints. This future of this kind of urbanisation looks highly
+                problematic. (© Herbert Girardet and Rick Lawrence)</p>
                 <p>At the same time, urban sprawl leads to the progressive
                 urbanisation of local landscapes. Unidirectional resource
                 flows contribute to waste-related nutrient and chemical
@@ -141,11 +155,6 @@ class UrbanSystems extends React.Component {
                 that it is profoundly vulnerable to disruptions across a
                 broad spectrum of supporting ecosystems, geopolitical
                 regions and supply chains.</p>
-                <div className="image figure2"></div>
-                <p className="figureText">Figure 2. This diagram draws on the work of the 19th-century geographer Heinrich von Thünen. Agropolis is embedded
-                in a horticultural and agricultural hinterland. Its existence depends on a continuous give-and-take: reaping an annual
-                harvest for its inhabitants in exchange for returning human and animals waste back to the land. (© Herbert Girardet
-                and Rick Lawrence)</p>
                 <p>Ecopolis. This new urban paradigm has to be the model
                 of the nature-compatible city of the future. It should not
                 be regarded as a retrograde concept, but one of dynamic
@@ -167,11 +176,11 @@ class UrbanSystems extends React.Component {
                 model of the modern economy and learning from
                 nature about the necessity of cyclic systems for the
                 achievement of sustainability.</p>
-                <div className="image figure3"></div>
-                <p className="figureText">Figure 3. The modern city, Petropolis, depends on massive daily inputs of non-renewable fossil fuels for all its
-                internal functions as well as its external transport connections. Critically, food is often brought in from distant
-                locations, causing cities to have vast global ecological footprints. This future of this kind of urbanisation looks highly
-                problematic. (© Herbert Girardet and Rick Lawrence)</p>
+                <div className="image figure4"></div>
+                <p className="figureText">Figure 4. A viable future for an urbanising world depends on cities using their built-up spaces and their hinterland to
+                supply energy that is 100 per cent renewable and food that is local and regenerative. Ecopolis mimics the circularity
+                of natural ecosystems, which would be embedded both in both ecological and economic practices of cities. (© Herbert
+                Girardet and Rick Lawrence)</p>
                 <h4>Toward Urban Self-Reliance</h4>
                 <p>The essential paradigm shift towards an Ecopolis
                 model is more profound than the biophilia approach,
@@ -238,11 +247,6 @@ class UrbanSystems extends React.Component {
                 and the USA’s
                 stimulus policies for renewable energy, including under
                 the American Recovery and Reinvestment Act of 2009.</p>
-                <div className="image figure4"></div>
-                <p className="figureText">Figure 4. A viable future for an urbanising world depends on cities using their built-up spaces and their hinterland to
-                supply energy that is 100 per cent renewable and food that is local and regenerative. Ecopolis mimics the circularity
-                of natural ecosystems, which would be embedded both in both ecological and economic practices of cities. (© Herbert
-                Girardet and Rick Lawrence)</p>
                 <h4>Challenges and Solutions</h4>
                 <p>Urban societies today tend to have a profound lack of
                 understanding about the impacts of their demands and
