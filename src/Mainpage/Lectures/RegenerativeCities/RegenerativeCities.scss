@@ -1,0 +1,33 @@
+.regenerativeCities {
+    width: 95%;
+    margin: auto;
+    max-width: 1200px;
+    .regenerativeBanner {
+        background-image: url(../../../Images/junglePharmacy.jpg);
+        background-position: 20% 50%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
+    }
+    h3 {
+        padding-top: 4em;
+        padding-bottom: 1em;
+    }
+    iframe {
+            margin-bottom: 1em;
+            @media screen and (max-width: 600px) {
+                width: 100%;
+            }
+        }
+    .regenerativeContent {
+        justify-self: stretch;
+        // padding: 0.1em 1em;
+        // background-color: rgb(189, 189, 189);
+        .regenerativeDescription {
+        }
+    }
+}

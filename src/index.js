@@ -24,6 +24,7 @@ import Earthrise from './Mainpage/Books/Earthrise/Eartrise';
 import Documentaries from './Mainpage/Documentaries/Documentaries';
 import JunglePharmacy from './Mainpage/Documentaries/JunglePharmacy/JunglePharmacy'
 import Lectures from './Mainpage/Lectures/Lectures';
+import RegenerativeCities from './Mainpage/Lectures/RegenerativeCities/RegenerativeCities';
 import Poems from './Mainpage/Poems/Poems';
 import Mainpage from './Mainpage/Mainpage';
 import Landingpage from './Landingpage/Landingpage';
@@ -42,6 +43,7 @@ class Routing extends React.Component {
           <Route path="/articles" component={ Articles } />
           <Route path="/lectures" component={ Header } />
           <Route path="/lectures" component={ Navigation } />
+          <Route path="/lectures" component={ Lectures } />
           <Route path="/documentaries" component={ Header } />
           <Route path="/documentaries" component={ Navigation } />
           <Route path="/books" component={ Header } />
@@ -63,7 +65,7 @@ class Routing extends React.Component {
             <Route exact path="/articles/energy/amplified" component={ Amplified } />
             <Route exact path="/articles/energy/regenerative" component={ Regenerative } />
             <Route exact path="/poems" component={ Poems } />
-            <Route path="/lectures" component={ Lectures } />
+            <Route exact path ="/lectures/regenerative-cities" component={RegenerativeCities} />
             <Route exact path="/books" component={ Books } />
             <Route exact path="/books/earthrise" component={ Earthrise } />
             <Route exact path="/books/gaia" component={ Gaia } />
