@@ -1,0 +1,61 @@
+.urbanSystems {
+    width: 95%;
+    margin: auto;
+    max-width: 1200px;
+    .urbanSystemsBanner {
+        background-image: url(../../../../Images/greenPlanet2.jpg);
+        background-position: 20% 50%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
+    }
+    h3 {
+
+    }
+    .mainText {
+        display: grid;
+        grid-template-columns: 34em auto;
+        @media screen and (max-width: 1100px) {
+            display: grid;
+            grid-template-columns: none;
+            grid-template-rows: auto auto;
+        }
+        .image {
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 1em 1em 1em 0em;
+            background-position-y: 25%;
+            background-position-x: 40%;
+        }
+    }
+    .image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 1em 1em 1em 0em;
+        background-position-y: 25%;
+        background-position-x: 40%;
+    }
+    .figureText {
+        font-style: italic;
+    }
+    .figure1 {
+        background-image: url(../../../../Images/metabolismDiagram.jpg);
+        height: 22em;
+    }
+    .figure2 {
+        background-image: url(../../../../Images/agropolisDiagram.jpg);
+        height: 22em;
+    }
+    .figure3 {
+        background-image: url(../../../../Images/petropolisDiagram2.jpg);
+        height: 22em;
+    }
+    .figure4 {
+        background-image: url(../../../../Images/ecopolisDiagram.jpg);
+        height: 22em;
+    }
+}

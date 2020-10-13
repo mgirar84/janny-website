@@ -16,6 +16,7 @@ import Sustainability from './Mainpage/Articles/Cities/Sustainability/Sustainabi
 import Metabolism from './Mainpage/Articles/Cities/Metabolism/Metabolism';
 import Ecology from './Mainpage/Articles/Cities/Ecology/Ecology';
 import Nighttrain from './Mainpage/Articles/Cities/Nighttrain/Nighttrain';
+import UrbanSystems from './Mainpage/Articles/Cities/UrbanSystems/UrbanSystems';
 import Energy from './Mainpage/Articles/Energy/Energy';
 import Amplified from './Mainpage/Articles/Energy/Amplified/Amplified';
 import Books from './Mainpage/Books/Books';
@@ -61,6 +62,7 @@ class Routing extends React.Component {
             <Route exact path="/articles/cities/metabolism" component={ Metabolism } />
             <Route exact path="/articles/cities/ecology" component={ Ecology } />
             <Route exact path="/articles/cities/nighttrain" component={ Nighttrain } />
+            <Route exact path="/articles/cities/urban-systems" component={ UrbanSystems } />
             <Route exact path="/articles/energy" component={ Energy } />
             <Route exact path="/articles/energy/amplified" component={ Amplified } />
             <Route exact path="/articles/energy/regenerative" component={ Regenerative } />
