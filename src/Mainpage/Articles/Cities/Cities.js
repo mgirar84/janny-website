@@ -140,6 +140,21 @@ class Cities extends React.Component {
                             </p>
                         </div>
                     </div>
+                    <div className="articleCard">
+                        <div className="articleImage urbanTransitionsCardImage"></div>
+                        <div className="articleCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                <Link to="/articles/cities/urban-transitions"><p>Urban Transitions</p></Link>
+                                </div>
+                                <div className="block2"><p>| 10th July 2018</p></div>
+                            </div>
+                            <p className="cardDescription">
+                            An interview conducted by Prof. Marilyne Andersen, MIT, at the Urban Transitions Global Summit in
+                            Shanghai on 10th July 2018
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
