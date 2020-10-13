@@ -21,6 +21,7 @@ import CitiesPlan from './Mainpage/Articles/Cities/CitiesPlan/CitiesPlan';
 import UrbanTransitions from './Mainpage/Articles/Cities/UrbanTransitions/UrbanTransitions';
 import Energy from './Mainpage/Articles/Energy/Energy';
 import Amplified from './Mainpage/Articles/Energy/Amplified/Amplified';
+import ReframingEconomics from './Mainpage/Articles/Energy/ReframingEconomics/ReframingEconomics';
 import Books from './Mainpage/Books/Books';
 import Gaia from './Mainpage/Books/Gaia/Gaia';
 import Earthrise from './Mainpage/Books/Earthrise/Eartrise';
@@ -70,6 +71,7 @@ class Routing extends React.Component {
             <Route exact path="/articles/energy" component={ Energy } />
             <Route exact path="/articles/energy/amplified" component={ Amplified } />
             <Route exact path="/articles/energy/regenerative" component={ Regenerative } />
+            <Route exact path="/articles/energy/reframing-economics" component={ ReframingEconomics } />
             <Route exact path="/poems" component={ Poems } />
             <Route exact path ="/lectures/regenerative-cities" component={RegenerativeCities} />
             <Route exact path="/books" component={ Books } />
