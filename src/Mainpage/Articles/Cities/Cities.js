@@ -126,6 +126,20 @@ class Cities extends React.Component {
                             </p>
                         </div>
                     </div>
+                    <div className="articleCard">
+                        <div className="articleImage citiesPlanCardImage"></div>
+                        <div className="articleCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                <Link to="/articles/cities/cities-plan"><p>A city with a plan</p></Link>
+                                </div>
+                                <div className="block2"><p>| August 2020</p></div>
+                            </div>
+                            <p className="cardDescription">
+                            Herbert Girardet describes a city-related initiative that's focused around sustainability goals.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
