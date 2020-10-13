@@ -25,7 +25,7 @@ class Books extends React.Component {
                                 resources, need to make an active contribution towards regenerating the ecosystems on whose
                                 health they depend. The book features 20 case studies where these ideas are being implemented.
                             </p>
-                            <a href='https://www.amazon.co.uk/Creating-Regenerative-Cities-Herbert-Girardet-ebook/dp/B00O1PQQX0/ref=sr_1_1?dchild=1&keywords=creating+regenerative+cities&qid=1598015030&sr=8-1' target='_BLANK'>Buy on Amazon</a>
+                            <a href='https://www.amazon.co.uk/Creating-Regenerative-Cities-Herbert-Girardet-ebook/dp/B00O1PQQX0/ref=sr_1_1?dchild=1&keywords=creating+regenerative+cities&qid=1598015030&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -44,7 +44,7 @@ class Books extends React.Component {
                                 don’t have access too. It introduces the concept of the ‘amplified man’: our powers have been
                                 greatly enhanced by technology. But can we tame ourselves for the benefit of future generations?
                             </p>
-                            <a href='https://www.amazon.co.uk/Renewable-World-Ecology-Equality-Council-ebook/dp/B00EGWJNTW/ref=sr_1_2?dchild=1&keywords=a+renewable+world&qid=1598015202&sr=8-2' target='_BLANK'>Buy on Amazon</a>
+                            <a href='https://www.amazon.co.uk/Renewable-World-Ecology-Equality-Council-ebook/dp/B00EGWJNTW/ref=sr_1_2?dchild=1&keywords=a+renewable+world&qid=1598015202&sr=8-2' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -65,7 +65,7 @@ class Books extends React.Component {
                                    book presents a great variety of case studies from across the world of how cities
                                     could transform themselves into sustainable systems.
                             </p>
-                            <a href='https://www.amazon.co.uk/Cities-People-Planet-Development-Climate/dp/0470772700/ref=sr_1_1?crid=7VWQRVIFXPI7&dchild=1&keywords=cities+people+planet&qid=1598606491&sprefix=people+cities+pla%2Caps%2C147&sr=8-1' target='_BLANK'>Buy on Amazon</a>
+                            <a href='https://www.amazon.co.uk/Cities-People-Planet-Development-Climate/dp/0470772700/ref=sr_1_1?crid=7VWQRVIFXPI7&dchild=1&keywords=cities+people+planet&qid=1598606491&sprefix=people+cities+pla%2Caps%2C147&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -84,7 +84,7 @@ class Books extends React.Component {
                                 urban futures, circular economy, and new visons for world trade and for democracy. Its 8 authors
                                 are mostly members of the WFC. The book was also published in a German language edition.
                             </p>
-                            <a href='https://www.amazon.co.uk/Surviving-Century-Facing-Climate-Challenges-ebook/dp/B00872FPUI/ref=sr_1_1?dchild=1&keywords=Surviving+the+century&qid=1598015355&sr=8-1' target='_BLANK'>Buy on Amazon</a>
+                            <a href='https://www.amazon.co.uk/Surviving-Century-Facing-Climate-Challenges-ebook/dp/B00872FPUI/ref=sr_1_1?dchild=1&keywords=Surviving+the+century&qid=1598015355&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -104,7 +104,7 @@ class Books extends React.Component {
                                 making by governments had to be addressed in new, creative ways. The WFC has since become an
                                 important, internationally recognised and increasingly effective ‘voice of future generations’.
                             </p>
-                            <a href='https://www.amazon.co.uk/Shaping-Our-Future-Creating-Council/dp/1903998654/ref=sr_1_1?dchild=1&keywords=creating+the+world+future+council&qid=1598015401&sr=8-1' target='_BLANK'>Buy on Amazon</a>
+                            <a href='https://www.amazon.co.uk/Shaping-Our-Future-Creating-Council/dp/1903998654/ref=sr_1_1?dchild=1&keywords=creating+the+world+future+council&qid=1598015401&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -123,7 +123,7 @@ class Books extends React.Component {
                                 Washington. Filmed in 40 countries, the series tried to indicate solutions to all the key human
                                 impacts on Planet Earth – farming, energy, urbanisation, industrial pollution and population growth.
                             </p>
-                            {/* <a href='https://www.amazon.co.uk/Creating-Regenerative-Cities-Herbert-Girardet-ebook/dp/B00O1PQQX0/ref=sr_1_1?dchild=1&keywords=creating+regenerative+cities&qid=1598015030&sr=8-1' target='_BLANK'>Buy on Amazon</a> */}
+                            {/* <a href='https://www.amazon.co.uk/Creating-Regenerative-Cities-Herbert-Girardet-ebook/dp/B00O1PQQX0/ref=sr_1_1?dchild=1&keywords=creating+regenerative+cities&qid=1598015030&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a> */}
                         </div>
                     </div>
                     <div className="bookCard">
@@ -142,7 +142,7 @@ class Books extends React.Component {
                                 need to develop a better understanding of how to become truly sustainable – environmentally,
                                 economically and socially. The booklet has also been published in four foreign language editions.
                             </p>
-                            <a href='https://www.amazon.co.uk/Creating-Sustainable-Cities-Schumacher-Briefings/dp/1870098773/ref=sr_1_1?dchild=1&keywords=creating+sustainable+cities&qid=1598015482&sr=8-1' target='_BLANK'>Buy on Amazon</a>
+                            <a href='https://www.amazon.co.uk/Creating-Sustainable-Cities-Schumacher-Briefings/dp/1870098773/ref=sr_1_1?dchild=1&keywords=creating+sustainable+cities&qid=1598015482&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -161,7 +161,7 @@ class Books extends React.Component {
                                 great range of ‘best practice’ case studies from many countries. The book emphasises the joint
                                 learning that is needed for rich and poor cities to benefit from each other’s experiences.
                             </p>
-                            {/* <a href='https://www.amazon.co.uk/Creating-Regenerative-Cities-Herbert-Girardet-ebook/dp/B00O1PQQX0/ref=sr_1_1?dchild=1&keywords=creating+regenerative+cities&qid=1598015030&sr=8-1' target='_BLANK'>Buy on Amazon</a> */}
+                            {/* <a href='https://www.amazon.co.uk/Creating-Regenerative-Cities-Herbert-Girardet-ebook/dp/B00O1PQQX0/ref=sr_1_1?dchild=1&keywords=creating+regenerative+cities&qid=1598015030&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a> */}
                         </div>
                     </div>
                     <div className="bookCard">
@@ -180,7 +180,7 @@ class Books extends React.Component {
                                 sustainable urban living, in both theory and in practice. It was adopted as a key text by the United
                                 Nations City Summit in Istanbul in 1996. Four foreign language editions were also published.
                             </p>
-                            <a href='https://www.amazon.co.uk/Gaia-Atlas-Cities-Directions-Sustainable/dp/0385419155/ref=sr_1_1?dchild=1&keywords=the+gaia+atlas+of+cities&qid=1598015593&sr=8-1' target='_BLANK'>Buy on Amazon</a>
+                            <a href='https://www.amazon.co.uk/Gaia-Atlas-Cities-Directions-Sustainable/dp/0385419155/ref=sr_1_1?dchild=1&keywords=the+gaia+atlas+of+cities&qid=1598015593&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
                             <Link to="/books/gaia"><p>Click here to read a summary</p></Link>
                         </div>
                     </div>
@@ -199,7 +199,7 @@ class Books extends React.Component {
                                 don’t have access too. It introduces the concept of the ‘amplified man’: our powers have been
                                 greatly enhanced by technology. But can we tame ourselves for the benefit of future generations?
                             </p>
-                            <a href='https://www.amazon.co.uk/Earthrise-Herbert-Girardet/dp/0586092528/ref=sr_1_1?dchild=1&keywords=earthrise+herbert&qid=1598015623&sr=8-1' target='_BLANK'>Buy on Amazon</a>
+                            <a href='https://www.amazon.co.uk/Earthrise-Herbert-Girardet/dp/0586092528/ref=sr_1_1?dchild=1&keywords=earthrise+herbert&qid=1598015623&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
                             <Link to="/books/earthrise"><p>Click here to read chapter 4 - Amazonia Ablaze</p></Link>
                         </div>
                     </div>
@@ -219,7 +219,7 @@ class Books extends React.Component {
                                 damage, and that personal responsibility had to be taken in response. The highly illustrated book
                                 was published in the UK by Dorling Kindersley and also in 14 foreign language editions.
                             </p>
-                            <a href='https://www.amazon.co.uk/Blueprint-Green-Planet-Practical-Environment/dp/0130796255/ref=sr_1_1?dchild=1&keywords=blueprint+for+a+green+planet&qid=1598015652&sr=8-1' target='_BLANK'>Buy on Amazon</a>
+                            <a href='https://www.amazon.co.uk/Blueprint-Green-Planet-Practical-Environment/dp/0130796255/ref=sr_1_1?dchild=1&keywords=blueprint+for+a+green+planet&qid=1598015652&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -238,7 +238,7 @@ class Books extends React.Component {
                                 living was needed. Would it be possible for new villages to be built on existing farmland, enabling
                                 people to lead sustainable rural lives and to help Britain achieve greater food self-sufficiency?
                             </p>
-                            {/* <a href='https://www.amazon.co.uk/Far-Paradise-Story-Impact-Environment/dp/0563203579/ref=sr_1_2?dchild=1&keywords=far+from+paradise+herbert&qid=1598015679&sr=8-2' target='_BLANK'>Buy on Amazon</a> */}
+                            {/* <a href='https://www.amazon.co.uk/Far-Paradise-Story-Impact-Environment/dp/0563203579/ref=sr_1_2?dchild=1&keywords=far+from+paradise+herbert&qid=1598015679&sr=8-2' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a> */}
                         </div>
                     </div>
                     <div className="bookCard">
@@ -257,7 +257,7 @@ class Books extends React.Component {
                                 the United States. John Seymour, as presenter, and myself, as researcher of the TV series alternate
                                 the 16 chapters of the book, published by BBC Publications, and also as a German language edition.
                             </p>
-                            <a href='https://www.amazon.co.uk/Far-Paradise-Story-Impact-Environment/dp/0563203579/ref=sr_1_2?dchild=1&keywords=far+from+paradise+herbert&qid=1598015679&sr=8-2' target='_BLANK'>Buy on Amazon</a>
+                            <a href='https://www.amazon.co.uk/Far-Paradise-Story-Impact-Environment/dp/0563203579/ref=sr_1_2?dchild=1&keywords=far+from+paradise+herbert&qid=1598015679&sr=8-2' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
                         </div>
                     </div>
                 </div>

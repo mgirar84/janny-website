@@ -131,7 +131,7 @@ class Cities extends React.Component {
                         <div className="articleCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                <Link to="/articles/cities/cities-plan"><p>A city with a plan</p></Link>
+                                <Link to="/articles/cities/cities-plan"><p>City with a plan</p></Link>
                                 </div>
                                 <div className="block2"><p>| August 2020</p></div>
                             </div>
