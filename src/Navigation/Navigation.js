@@ -31,7 +31,7 @@ class Navigation extends React.Component {
                         <button className="dropbtn">Lectures</button>
                         <div className="dropdownContent">
                             <Link to="/lectures/regenerative-cities" onClick={this.navBarFunction}><p>Creating Regenerative Cities</p></Link>
-                            <Link to="/lectures/lecture2" onClick={this.navBarFunction}><p>Lecture2</p></Link>
+                            {/* <Link to="/lectures/lecture2" onClick={this.navBarFunction}><p>Lecture2</p></Link> */}
                         </div>
                     </div>
                     <div className="dropdown">
