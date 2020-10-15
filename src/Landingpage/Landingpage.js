@@ -33,12 +33,7 @@ class Landingpage extends React.Component {
                             <li><Link to="/articles/energy">Energy and Economics</Link></li>
                         </ul>
                         <li><Link to="/books">Books</Link></li>
-                        <li><a className="dropLink" onClick={this.toggleDocs}>Documentaries</a></li>
-                        <ul className="links docs">
-                            <li><Link to="/documentaries/jungle-pharmacy">Jungle Pharmacy</Link></li>
-                            <li><Link to="/documentaries/doc2">Doc2</Link></li>
-                            <li><Link to="/documentaries/doc3">Doc3</Link></li>
-                        </ul>
+                        <li><Link to="/documentaries">Documentaries</Link></li>
                         <li><a className="dropLink" onClick={this.toggleLectures}>Lectures</a></li>
                         <ul className="links lectures">
                             <li><Link to="/lectures/lecture1">Lecture1</Link></li>

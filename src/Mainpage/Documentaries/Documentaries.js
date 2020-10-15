@@ -9,7 +9,9 @@ class Documentaries extends React.Component {
                 <div className="documentariesBanner"></div>
                 <h3>Documentaries</h3>
                 <p className="mainText">
-                I worked as a filmmaker for 18 years from 1983 till 2001 – as researcher, producer and
+                <div className="image documentariesImage"></div>
+                </p>
+                <p>I worked as a filmmaker for 18 years from 1983 till 2001 – as researcher, producer and
                 director – making environmentally-focussed documentaries for various broadcasters. I also
                 made several films for some institutions and companies:
                 </p>
