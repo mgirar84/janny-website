@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0433a7409e8c79b8da6463511a570e3c",
+    "revision": "ced53a14c199014730d0a79b6b83a58c",
     "url": "/janny-website/index.html"
   },
   {
-    "revision": "7fa41ee773fdc3e9481f",
-    "url": "/janny-website/static/css/main.1438fad6.chunk.css"
+    "revision": "206fcd95e00c7e0e7fe8",
+    "url": "/janny-website/static/css/main.ebd29837.chunk.css"
   },
   {
     "revision": "86983742f7c3f9aeb23b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/janny-website/static/js/2.215424d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7fa41ee773fdc3e9481f",
-    "url": "/janny-website/static/js/main.39ada70a.chunk.js"
+    "revision": "206fcd95e00c7e0e7fe8",
+    "url": "/janny-website/static/js/main.550337ba.chunk.js"
   },
   {
     "revision": "2dded5bacac7c7ef86b8",
@@ -102,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d5e0ec2c56caf11116bff3277d6738b4",
     "url": "/janny-website/static/media/creatingWorldFutureCouncil.d5e0ec2c.JPG"
+  },
+  {
+    "revision": "a5e3da2c1babbc0774bfdb613f268446",
+    "url": "/janny-website/static/media/documentariesBanner.a5e3da2c.jpg"
   },
   {
     "revision": "e967a30eda1dbeaa28aa2f2172d35f5f",

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/janny-website/static/css/main.1438fad6.chunk.css",
-    "main.js": "/janny-website/static/js/main.39ada70a.chunk.js",
-    "main.js.map": "/janny-website/static/js/main.39ada70a.chunk.js.map",
+    "main.css": "/janny-website/static/css/main.ebd29837.chunk.css",
+    "main.js": "/janny-website/static/js/main.550337ba.chunk.js",
+    "main.js.map": "/janny-website/static/js/main.550337ba.chunk.js.map",
     "runtime-main.js": "/janny-website/static/js/runtime-main.ee68a95f.js",
     "runtime-main.js.map": "/janny-website/static/js/runtime-main.ee68a95f.js.map",
     "static/js/2.215424d1.chunk.js": "/janny-website/static/js/2.215424d1.chunk.js",
     "static/js/2.215424d1.chunk.js.map": "/janny-website/static/js/2.215424d1.chunk.js.map",
     "index.html": "/janny-website/index.html",
-    "precache-manifest.c89df8329dd57d70ce001411cbcdb6e9.js": "/janny-website/precache-manifest.c89df8329dd57d70ce001411cbcdb6e9.js",
+    "precache-manifest.651df41231fda0d0f97ec1ffc733f5ad.js": "/janny-website/precache-manifest.651df41231fda0d0f97ec1ffc733f5ad.js",
     "service-worker.js": "/janny-website/service-worker.js",
-    "static/css/main.1438fad6.chunk.css.map": "/janny-website/static/css/main.1438fad6.chunk.css.map",
+    "static/css/main.ebd29837.chunk.css.map": "/janny-website/static/css/main.ebd29837.chunk.css.map",
     "static/js/2.215424d1.chunk.js.LICENSE.txt": "/janny-website/static/js/2.215424d1.chunk.js.LICENSE.txt",
     "static/media/Books.scss": "/janny-website/static/media/surviningTheCentury.535ff89a.JPG",
     "static/media/Mainpage.scss": "/janny-website/static/media/headingImage.224eb72d.jpg",
@@ -23,6 +23,7 @@
     "static/media/CitiesPlan.scss": "/janny-website/static/media/teslaPower.88e455ea.png",
     "static/media/RegenerativeCities.scss": "/janny-website/static/media/cityCanal.978d5291.jpg",
     "static/media/Energy.scss": "/janny-website/static/media/reframingEconomicsImage.acc524ed.jpg",
+    "static/media/Documentaries.scss": "/janny-website/static/media/documentariesBanner.a5e3da2c.jpg",
     "static/media/EarthEmergency.scss": "/janny-website/static/media/protest.869321e7.jpg",
     "static/media/Earthrise.scss": "/janny-website/static/media/earthrise2.26a8f911.jpg",
     "static/media/Forest.scss": "/janny-website/static/media/forestLandscape.49cc27cb.jpg",
@@ -40,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee68a95f.js",
     "static/js/2.215424d1.chunk.js",
-    "static/css/main.1438fad6.chunk.css",
-    "static/js/main.39ada70a.chunk.js"
+    "static/css/main.ebd29837.chunk.css",
+    "static/js/main.550337ba.chunk.js"
   ]
 }
