@@ -38,12 +38,7 @@ class Navigation extends React.Component {
                         <Link to="/books" onClick={this.navBarFunction}><button className="dropbtn nonListLink">Books</button></Link>
                     </div>
                     <div className="dropdown">
-                        <button className="dropbtn">Documentaries</button>
-                        <div className="dropdownContent">
-                            <Link to="/documentaries/jungle-pharmacy" onClick={this.navBarFunction}><p>Jungle Pharmacy</p></Link>
-                            <Link to="/documentaries/doc2" onClick={this.navBarFunction}><p>Doc2</p></Link>
-                            <Link to="/documentaries/doc3" onClick={this.navBarFunction}><p>Doc3</p></Link>
-                        </div>
+                        <Link to="/documentaries" onClick={this.navBarFunction}><button className="dropbtn nonListLink">Documentaries</button></Link>
                     </div>
                 </div>
             </div>

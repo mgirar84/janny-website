@@ -1,10 +1,23 @@
 .documentaries {
     width: 95%;
+    max-width: 1200px;
     margin: auto;
-    h2 {
-        text-decoration: underline;
+    .documentariesBanner {
+        background-image: url(../../Images/documentariesBanner.jpg);
+        background-position: 20% 50%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
+    }
+    h3 {
+        padding-top: 4em;
+        padding-bottom: 1em;
     }
     .mainText {
-        
+
     }
 }

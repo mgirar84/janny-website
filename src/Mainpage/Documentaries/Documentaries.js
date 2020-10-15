@@ -5,7 +5,8 @@ class Documentaries extends React.Component {
 	render() {
         return (
             <div className="documentaries">
-                <h2>Documentaries</h2>
+                <div className="documentariesBanner"></div>
+                <h3>Documentaries</h3>
                 <p className="mainText">
                 I worked as a filmmaker for 18 years from 1983 till 2001 – as researcher, producer and
                 director – making environmentally-focussed documentaries for various broadcasters. I also
