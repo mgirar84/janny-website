@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/janny-website/static/css/main.ebd29837.chunk.css",
-    "main.js": "/janny-website/static/js/main.550337ba.chunk.js",
-    "main.js.map": "/janny-website/static/js/main.550337ba.chunk.js.map",
+    "main.css": "/janny-website/static/css/main.0b02077d.chunk.css",
+    "main.js": "/janny-website/static/js/main.24a69c2f.chunk.js",
+    "main.js.map": "/janny-website/static/js/main.24a69c2f.chunk.js.map",
     "runtime-main.js": "/janny-website/static/js/runtime-main.ee68a95f.js",
     "runtime-main.js.map": "/janny-website/static/js/runtime-main.ee68a95f.js.map",
     "static/js/2.215424d1.chunk.js": "/janny-website/static/js/2.215424d1.chunk.js",
     "static/js/2.215424d1.chunk.js.map": "/janny-website/static/js/2.215424d1.chunk.js.map",
     "index.html": "/janny-website/index.html",
-    "precache-manifest.651df41231fda0d0f97ec1ffc733f5ad.js": "/janny-website/precache-manifest.651df41231fda0d0f97ec1ffc733f5ad.js",
+    "precache-manifest.235717bca8fddae6e8c7d1d76ff647fa.js": "/janny-website/precache-manifest.235717bca8fddae6e8c7d1d76ff647fa.js",
     "service-worker.js": "/janny-website/service-worker.js",
-    "static/css/main.ebd29837.chunk.css.map": "/janny-website/static/css/main.ebd29837.chunk.css.map",
+    "static/css/main.0b02077d.chunk.css.map": "/janny-website/static/css/main.0b02077d.chunk.css.map",
     "static/js/2.215424d1.chunk.js.LICENSE.txt": "/janny-website/static/js/2.215424d1.chunk.js.LICENSE.txt",
-    "static/media/Books.scss": "/janny-website/static/media/surviningTheCentury.535ff89a.JPG",
+    "static/media/Books.scss": "/janny-website/static/media/survivingTheCentury.ffd842e3.jpg",
     "static/media/Mainpage.scss": "/janny-website/static/media/headingImage.224eb72d.jpg",
     "static/media/Cities.scss": "/janny-website/static/media/urbanWorld.002d8a65.png",
     "static/media/UrbanSystems.scss": "/janny-website/static/media/urbanSystemsImage.53055f0f.jpg",
@@ -20,6 +20,7 @@
     "static/media/Ecology.scss": "/janny-website/static/media/ecology2.8869f555.jpg",
     "static/media/Landingpage.scss": "/janny-website/static/media/birdsEyeView.7406c940.jpg",
     "static/media/GreenPlanet.scss": "/janny-website/static/media/theViewFromTheAmazon.0f55f8d3.png",
+    "static/media/CultureAndEcology.scss": "/janny-website/static/media/town.d4ddf537.png",
     "static/media/CitiesPlan.scss": "/janny-website/static/media/teslaPower.88e455ea.png",
     "static/media/RegenerativeCities.scss": "/janny-website/static/media/cityCanal.978d5291.jpg",
     "static/media/Energy.scss": "/janny-website/static/media/reframingEconomicsImage.acc524ed.jpg",
@@ -41,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee68a95f.js",
     "static/js/2.215424d1.chunk.js",
-    "static/css/main.ebd29837.chunk.css",
-    "static/js/main.550337ba.chunk.js"
+    "static/css/main.0b02077d.chunk.css",
+    "static/js/main.24a69c2f.chunk.js"
   ]
 }
