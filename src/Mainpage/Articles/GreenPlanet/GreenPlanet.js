@@ -71,6 +71,20 @@ class GreenPlanet extends React.Component {
                             <p className="cardDescription">This article was published by the Soil Association in 2018.</p>
                         </div>
                     </div>
+                    <div className="articleCard">
+                        <div className="articleImage cultureAndEcologyCard"></div>
+                        <div className="articleCardText">
+                            <div className="blockContainer">
+                                <div className="block1">
+                                    <Link to="/articles/green-planet/culture-and-ecology"><p>Culture and Ecology</p></Link>
+                                </div>
+                                <div className="block2"><p> | October 2020</p></div>
+                            </div>
+                            <p className="cardDescription">This text is based on a lecture I delivered at the Bristol Schumacher Lectures in 1990 after
+                            completing work on a series of environment-focussed TV programmes for the BBC and Channel
+                            4. I have augmented this text in October 2020</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
