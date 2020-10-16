@@ -21,8 +21,8 @@
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-        column-gap: 1em;
-        row-gap: 1em;
+        column-gap: 2em;
+        row-gap: 2em;
         justify-self: center;
         margin: 0.2em auto;
         .bookCard {
@@ -85,8 +85,8 @@
                 }
             }
             .bookImage {
-                height: 30em;
-                margin:1em;
+                height: 25em;
+                margin: 1em;
                 margin-bottom: 3em;
                 background-repeat: no-repeat;
                 background-size: contain;
