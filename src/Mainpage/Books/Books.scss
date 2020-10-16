@@ -85,50 +85,59 @@
                 }
             }
             .bookImage {
-                height: 20em;
-                margin: auto;
+                height: 30em;
+                // margin: auto;
                 background-repeat: no-repeat;
-                background-size: 10em;
+                background-size: 20em;
                 background-position: center;
             }
             .book1 {
-                 background-image: url(../../Images/creatingRegenerativeCities.JPG);
+                 background-image: url(../../Images/creatingRegenerativeCities);
+                 background-size: 18em;
             }
             .book2 {
-                background-image: url(../../Images/aRenewableWorld.JPG);
+                background-image: url(../../Images/aRenewableWorld.jpg);
             }
             .book13 {
-                background-image: url(../../Images/citiesPeoplePlanet.JPG);
+                background-image: url(../../Images/citiesPeoplePlanet.jpg);
             }
             .book3 {
-                background-image: url(../../Images/surviningTheCentury.JPG);
+                background-image: url(../../Images/survivingTheCentury.jpg);
             }
             .book4 {
-                background-image: url(../../Images/creatingWorldFutureCouncil.JPG);
+                background-image: url(../../Images/creatingWorldFutureCouncil.jpg);
+                background-size: 19em;
             }
             .book5 {
                 background-image: url(../../Images/nhk.JPG);
+                background-size: 19em;
             }
             .book6 {
-                background-image: url(../../Images/creatingSustainableCities.JPG);
+                background-image: url(../../Images/creatingSustainableCities.jpg);
+                background-size: 19em;
             }
             .book7 {
                 background-image: url(../../Images/makingCitiesWork.jpeg);
+                background-size: 19em;
             }
             .book8 {
                 background-image: url(../../Images/gaiaAtlasOfCities.JPG);
+                background-size: 19em;
             }
             .book9 {
-                background-image: url(../../Images/earthrise.JPG);
+                background-image: url(../../Images/earthrise.jpg);
+                background-size: 18em;
             }
             .book10 {
                 background-image: url(../../Images/blueprintForAGreenPlanet.JPG);
             }
             .book11 {
-                background-image: url(../../Images/farFromParadise.JPG);
+                background-image: url(../../Images/farFromParadise.jpg);
+                background-size: 16em;
             }
             .book12 {
                 background-image: url(../../Images/landForThePeople.JPG);
+                background-size: 19em;
             }
         }
     }
