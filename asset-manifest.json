@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/janny-website/static/css/main.9b086be1.chunk.css",
-    "main.js": "/janny-website/static/js/main.d2143f1f.chunk.js",
-    "main.js.map": "/janny-website/static/js/main.d2143f1f.chunk.js.map",
+    "main.js": "/janny-website/static/js/main.82424d23.chunk.js",
+    "main.js.map": "/janny-website/static/js/main.82424d23.chunk.js.map",
     "runtime-main.js": "/janny-website/static/js/runtime-main.ee68a95f.js",
     "runtime-main.js.map": "/janny-website/static/js/runtime-main.ee68a95f.js.map",
     "static/js/2.215424d1.chunk.js": "/janny-website/static/js/2.215424d1.chunk.js",
     "static/js/2.215424d1.chunk.js.map": "/janny-website/static/js/2.215424d1.chunk.js.map",
     "index.html": "/janny-website/index.html",
-    "precache-manifest.369edea841229195261a60b3b20ddb83.js": "/janny-website/precache-manifest.369edea841229195261a60b3b20ddb83.js",
+    "precache-manifest.756f78d19b5cc58b1f64b960f1fa8d2c.js": "/janny-website/precache-manifest.756f78d19b5cc58b1f64b960f1fa8d2c.js",
     "service-worker.js": "/janny-website/service-worker.js",
     "static/css/main.9b086be1.chunk.css.map": "/janny-website/static/css/main.9b086be1.chunk.css.map",
     "static/js/2.215424d1.chunk.js.LICENSE.txt": "/janny-website/static/js/2.215424d1.chunk.js.LICENSE.txt",
@@ -43,6 +43,6 @@
     "static/js/runtime-main.ee68a95f.js",
     "static/js/2.215424d1.chunk.js",
     "static/css/main.9b086be1.chunk.css",
-    "static/js/main.d2143f1f.chunk.js"
+    "static/js/main.82424d23.chunk.js"
   ]
 }
