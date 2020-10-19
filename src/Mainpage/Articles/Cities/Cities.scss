@@ -24,19 +24,21 @@
         justify-self: center;
         margin: 0.2em auto;
         a {
-            color: black;
+            color: #344854;
             text-decoration: none;
             .articleCard {
                 justify-self: stretch;
                 padding-bottom: 0.5em;
-                // background-color: rgb(189, 189, 189);
+                background-color: white;
                 box-shadow: 0 20px 20px rgba(0,0,0,.08);
                 @media only screen and (min-width: 700px){
-                    height: 32em;
+                    height: 30em;
                 }
                 &:hover {
                     box-shadow: 0 40px 40px rgba(0,0,0,.16);
-                    transition: box-shadow 0.5s ease-in-out;
+                    transition: box-shadow 200ms cubic-bezier(.02, .01, .47, 1), transform 200ms cubic-bezier(.02, .01, .47, 1);
+                    transform: translate(0,-20px);
+                    transition-delay: 0s !important;
                 }
                 .articleCardText {
                     padding: 0.1em 0.8em;
@@ -45,6 +47,9 @@
                         grid-template-columns: auto auto;
                         font-size: 1.2em;
                         .block1 {
+                            p {
+                                font-weight: 400;
+                            }
                         }
                         .block2 {
                             p {
@@ -53,7 +58,7 @@
                         }
                     }
                     .cardDescription {
-                        font-size: 1em; 
+                        font-size: 0.9em; 
                     }
                 }
                 .articleImage {

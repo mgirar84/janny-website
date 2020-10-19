@@ -17,7 +17,7 @@ class Cities extends React.Component {
                                     <div className="block1">
                                         <p>Sustainability is unhelpful</p>
                                     </div>
-                                    <div className="block2"><p>June 2013</p></div>
+                                    <div className="block2"><p>2013</p></div>
                                     <br></br>
                                 </div>
                                 <p className="cardDescription">This article was published by the Guardian on 10th June 2013. It advertised my Schumacher
@@ -51,7 +51,7 @@ class Cities extends React.Component {
                                     <div className="block1">
                                         <p>People and nature in an urban world</p>
                                     </div>
-                                    <div className="block2"><p>February 2020</p></div>
+                                    <div className="block2"><p>2020</p></div>
                                 </div>
                                 <p className="cardDescription">The sustainability of cities is inextricably linked to the sustainability of distant places.
                                     We need a new, integrated approach to planetary stewardship to address this challenge.
@@ -67,7 +67,7 @@ class Cities extends React.Component {
                                     <div className="block1">
                                         <p>Urban Agriculture and<br></br> Sustainable Cities</p>
                                     </div>
-                                    <div className="block2"><p>January 2000</p></div>
+                                    <div className="block2"><p>2000</p></div>
                                 </div>
                                 <p className="cardDescription">At the end of the 20th century, humanity is involved in an unprecedented experiment: we are turning ourselves into an urban species. Large cities, not villages and towns, are becoming our main habitat. 
                                     Urban growth is changing the face of the earth and the condition of humanity.
@@ -134,7 +134,7 @@ class Cities extends React.Component {
                                     <div className="block1">
                                     <p>Urban systems and their impacts</p>
                                     </div>
-                                    <div className="block2"><p>October 2020</p></div>
+                                    <div className="block2"><p>2020</p></div>
                                 </div>
                                 <p className="cardDescription">
                                 This article was published in a special edition of Environmental Scientist’ in October 2020.
@@ -150,7 +150,7 @@ class Cities extends React.Component {
                                     <div className="block1">
                                     <p>City with a plan</p>
                                     </div>
-                                    <div className="block2"><p>August 2020</p></div>
+                                    <div className="block2"><p>2020</p></div>
                                 </div>
                                 <p className="cardDescription">
                                 Herbert Girardet describes a city-related initiative that's focused around sustainability goals.
@@ -166,7 +166,7 @@ class Cities extends React.Component {
                                     <div className="block1">
                                     <p>Urban Transitions</p>
                                     </div>
-                                    <div className="block2"><p>10th July 2018</p></div>
+                                    <div className="block2"><p>2018</p></div>
                                 </div>
                                 <p className="cardDescription">
                                 An interview conducted by Prof. Marilyne Andersen, MIT, at the Urban Transitions Global Summit in

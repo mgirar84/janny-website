@@ -47,7 +47,6 @@
             list-style-type: none;
             font-size: 0.8em;
             width: 30em;
-            font-family: 'Work Sans', sans-serif;
             text-shadow: 1px 1px black;
             @media screen and (max-width: 800px) {
                 padding: 0;
@@ -56,6 +55,7 @@
             }
             li {
                 font-size: 2em;
+                padding-top: 0.2em;
                 a {
                     text-decoration: none;
                     color: whitesmoke;
