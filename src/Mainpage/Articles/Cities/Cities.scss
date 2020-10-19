@@ -18,95 +18,87 @@
     .articlesContainer {
         display: grid;
         grid-template-rows: auto;
-        grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-        column-gap: 1em;
-        row-gap: 1em;
+        grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
+        column-gap: 1.5em;
+        row-gap: 1.5em;
         justify-self: center;
         margin: 0.2em auto;
-        .articleCard {
-            justify-self: stretch;
-            padding-bottom: 0.5em;
-            background-color: rgb(189, 189, 189);
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            .articleCardText {
-                padding: 0.1em 0.5em;
-                .blockContainer {
-                    display: grid;
-                    grid-template-columns: auto 1fr;
-                    font-size: 1em;  
-                    .block1 {
-                        a{
-                            color: black;
-                            text-decoration: none;
-                            &:hover {
-                                text-decoration: underline;
+        a {
+            color: black;
+            text-decoration: none;
+            .articleCard {
+                justify-self: stretch;
+                padding-bottom: 0.5em;
+                // background-color: rgb(189, 189, 189);
+                box-shadow: 0 20px 20px rgba(0,0,0,.08);
+                @media only screen and (min-width: 700px){
+                    height: 32em;
+                }
+                &:hover {
+                    box-shadow: 0 40px 40px rgba(0,0,0,.16);
+                    transition: box-shadow 0.5s ease-in-out;
+                }
+                .articleCardText {
+                    padding: 0.1em 0.8em;
+                    .blockContainer {
+                        display: grid;
+                        grid-template-columns: auto auto;
+                        font-size: 1.2em;
+                        .block1 {
+                        }
+                        .block2 {
+                            p {
+                                float: right;
                             }
                         }
                     }
-                    .block2 {
-                        p {
-                            text-indent: 0.2em;
-                        }
+                    .cardDescription {
+                        font-size: 1em; 
                     }
                 }
-                div {
-                    .block1 {
-                        a{
-                            color: black;
-                        }
-                    }
-                    .block2 {
-                        p {
-                            text-indent: 0.2em;
-                        }
-                    }
+                .articleImage {
+                    height: 16em;
+                    margin: auto;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
                 }
-                .cardDescription {
-                    font-size: 0.8em; 
+                .city1 {
+                    background-image: url(../../../Images/cityLookUp.jpg);
                 }
-            }
-            .articleImage {
-                height: 16em;
-                margin: auto;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-            }
-            .city1 {
-                background-image: url(../../../Images/cityLookUp.jpg);
-            }
-            .city2 {
-                background-image: url(../../../Images/cityCanal.jpg);
-            }
-            .city3 {
-                background-image: url(../../../Images/mistyCity.jpg);
-            }
-            .city4 {
-                background-image: url(../../../Images/adelaide.jpg);
-            }
-            .city5 {
-                background-image: url(../../../Images/urbanWorld.png);
-            }
-            .city6 {
-                background-image: url(../../../Images/urbanAgricultureCardImage.bmp);
-            }
-            .city7 {
-                background-image: url(../../../Images/birdsEyeCityLights.jpg);
-            }
-            .city8 {
-                background-image: url(../../../Images/colourfulPark.jpg);
-            }
-            .nightTrainCardImage {
-                background-image: url(../../../Images/nightTrainCard.jpg);
-            }
-            .urbanSystemsCardImage {
-                background-image: url(../../../Images/urbanCardImage.jpg);
-            }
-            .citiesPlanCardImage {
-                background-image: url(../../../Images/citiesPlanCard.jpg);
-            }
-            .urbanTransitionsCardImage {
-                background-image: url(../../../Images/urbanTransitionsCardImage.jpg);
+                .city2 {
+                    background-image: url(../../../Images/cityCanal.jpg);
+                }
+                .city3 {
+                    background-image: url(../../../Images/mistyCity.jpg);
+                }
+                .city4 {
+                    background-image: url(../../../Images/adelaide.jpg);
+                }
+                .city5 {
+                    background-image: url(../../../Images/urbanWorld.png);
+                }
+                .city6 {
+                    background-image: url(../../../Images/urbanAgricultureCardImage.bmp);
+                }
+                .city7 {
+                    background-image: url(../../../Images/birdsEyeCityLights.jpg);
+                }
+                .city8 {
+                    background-image: url(../../../Images/colourfulPark.jpg);
+                }
+                .nightTrainCardImage {
+                    background-image: url(../../../Images/nightTrainCard.jpg);
+                }
+                .urbanSystemsCardImage {
+                    background-image: url(../../../Images/urbanCardImage.jpg);
+                }
+                .citiesPlanCardImage {
+                    background-image: url(../../../Images/citiesPlanCard.jpg);
+                }
+                .urbanTransitionsCardImage {
+                    background-image: url(../../../Images/urbanTransitionsCardImage.jpg);
+                }
             }
         }
     }

@@ -15,7 +15,7 @@ class Mainpage extends React.Component {
                     the interaction between cities, national economies and the global environment. Most of
                     his books have been published in various foreign language editions.
                     <br></br>
-                        <br></br>
+                    <br></br>
                     He is a recipient of a UN 'Global 500 Award for Outstanding Environmental
                     Achievements', and an Honorary Fellow of the Royal Institute of British Architects. From
                     2005 to 2010 he was Director of Programmes of the World Future Council (WFC). He is
