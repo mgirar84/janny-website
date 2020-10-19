@@ -119,10 +119,10 @@ class Cities extends React.Component {
                                 <div className="block1">
                                 <Link to="/articles/cities/urban-systems"><p>Urban systems and their impacts</p></Link>
                                 </div>
-                                <div className="block2"><p>| August 2020</p></div>
+                                <div className="block2"><p>| October 2020</p></div>
                             </div>
                             <p className="cardDescription">
-                            Herbert Girardet maps out a regenerative future for cities.
+                            This article was published in a special edition of Environmental Scientist’ in October 2020.
                             </p>
                         </div>
                     </div>
