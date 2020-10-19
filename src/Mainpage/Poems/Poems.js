@@ -3,8 +3,6 @@ import './Poems.scss';
 
 class Poems extends React.Component {
 
-    
-
     togglePoem1() {
         var x = document.getElementsByClassName('poem1')[0]
         x.classList.toggle('show')
