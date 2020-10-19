@@ -64,6 +64,63 @@ class Poems extends React.Component {
                 <div className="poemsBanner"></div>
                 <h3>Poems</h3>
                 <div>
+                <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem13}>I.C.U</h4>
+                        <p className="poem13">
+                        Don’t breathe in<br></br>
+                        My love,<br></br>
+                        Don’t breathe out,<br></br>
+                        There is a virus about.
+                        <br></br>
+                        <br></br>
+                        My lungs are too weak<br></br>
+                        To fill the flute I used to play,<br></br>
+                        I’ve put it away.<br></br>
+                        Remember our songs of yesterday.
+                        <br></br>
+                        <br></br>
+                        I make the radio play<br></br>
+                        The tunes that we used to sing,<br></br>
+                        Dancing the Samba with you,<br></br>
+                        Dancing the Swing.
+                        <br></br>
+                        <br></br>
+                        Hear what I whisper, my dear,<br></br>
+                        But you won’t like what you hear.<br></br>
+                        My mind marooned in my head,<br></br>
+                        Am I alive or am I dead?
+                        <br></br>
+                        <br></br>
+                        Please don’t breathe in,<br></br>
+                        My love,<br></br>
+                        Don’t breathe out,<br></br>
+                        There is a virus about.
+                        <br></br>
+                        <br></br>
+                        Can you hear my rasping voice,<br></br>
+                        Can you understand?<br></br>
+                        Please, come over once more,<br></br>
+                        Come, hold my hand?
+                        <br></br>
+                        <br></br>
+                        But don’t breathe in,<br></br>
+                        My love,<br></br>
+                        Don’t breathe out,<br></br>
+                        There is a virus about.
+                        <br></br>
+                        <br></br>
+                        Yes, my lungs are too weak now<br></br>
+                        To fill the flute I used to play<br></br>
+                        I’ve put it away,<br></br>
+                        I’m dreaming songs of yesterday.
+                        <br></br>
+                        <br></br>
+                        Are you listening<br></br>
+                        My dear,<br></br>
+                        Can you hear my breathless voice<br></br>
+                        Are you still here?
+                        </p>
+                    </div>
                     <div className="poemCard">
                         <h4 className="poemTitle" onClick={this.togglePoem1}>To Viruses and Bacteria</h4>
                         <p className="poem1">
@@ -210,7 +267,7 @@ class Poems extends React.Component {
                         just for a little while.
                         </p>
                     </div>
-                    <div className="poemCard">
+                    {/* <div className="poemCard">
                         <h4 className="poemTitle" onClick={this.togglePoem4}>I have seen the land of Europe</h4>
                         <p className="poem4">
                         I have seen the land of Europe<br></br>
@@ -304,7 +361,7 @@ class Poems extends React.Component {
                         Will it be a living earth we share<br></br>
                         Or the silence of a world gone bare
                         </p>
-                    </div>
+                    </div> */}
                     <div className="poemCard">
                         <h4 className="poemTitle" onClick={this.togglePoem5}>Inferno</h4>
                         <p className="poem5">
@@ -946,63 +1003,6 @@ class Poems extends React.Component {
                         come with us to make a world<br></br>
                         where life has come back to life<br></br>
                         Again.”
-                        </p>
-                    </div>
-                    <div className="poemCard">
-                        <h4 className="poemTitle" onClick={this.togglePoem13}>I.C.U</h4>
-                        <p className="poem13">
-                        Don’t breathe in<br></br>
-                        My love,<br></br>
-                        Don’t breathe out,<br></br>
-                        There is a virus about.
-                        <br></br>
-                        <br></br>
-                        My lungs are too weak<br></br>
-                        To fill the flute I used to play,<br></br>
-                        I’ve put it away.<br></br>
-                        Remember our songs of yesterday.
-                        <br></br>
-                        <br></br>
-                        I make the radio play<br></br>
-                        The tunes that we used to sing,<br></br>
-                        Dancing the Samba with you,<br></br>
-                        Dancing the Swing.
-                        <br></br>
-                        <br></br>
-                        Hear what I whisper, my dear,<br></br>
-                        But you won’t like what you hear.<br></br>
-                        My mind marooned in my head,<br></br>
-                        Am I alive or am I dead?
-                        <br></br>
-                        <br></br>
-                        Please don’t breathe in,<br></br>
-                        My love,<br></br>
-                        Don’t breathe out,<br></br>
-                        There is a virus about.
-                        <br></br>
-                        <br></br>
-                        Can you hear my rasping voice,<br></br>
-                        Can you understand?<br></br>
-                        Please, come over once more,<br></br>
-                        Come, hold my hand?
-                        <br></br>
-                        <br></br>
-                        But don’t breathe in,<br></br>
-                        My love,<br></br>
-                        Don’t breathe out,<br></br>
-                        There is a virus about.
-                        <br></br>
-                        <br></br>
-                        Yes, my lungs are too weak now<br></br>
-                        To fill the flute I used to play<br></br>
-                        I’ve put it away,<br></br>
-                        I’m dreaming songs of yesterday.
-                        <br></br>
-                        <br></br>
-                        Are you listening<br></br>
-                        My dear,<br></br>
-                        Can you hear my breathless voice<br></br>
-                        Are you still here?
                         </p>
                     </div>
                 </div>
