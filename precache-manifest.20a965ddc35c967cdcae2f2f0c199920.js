@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "411dcba5175ec94eb8a4378a77c6490a",
+    "revision": "06094b87ef7ed0478d24d81a8fbd2819",
     "url": "/janny-website/index.html"
   },
   {
-    "revision": "7cf04cd23115c25c83b0",
-    "url": "/janny-website/static/css/main.9b086be1.chunk.css"
+    "revision": "7c27660cecbc22d30640",
+    "url": "/janny-website/static/css/main.a9b4ff49.chunk.css"
   },
   {
     "revision": "86983742f7c3f9aeb23b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/janny-website/static/js/2.215424d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7cf04cd23115c25c83b0",
-    "url": "/janny-website/static/js/main.82424d23.chunk.js"
+    "revision": "7c27660cecbc22d30640",
+    "url": "/janny-website/static/js/main.d70c7795.chunk.js"
   },
   {
     "revision": "2dded5bacac7c7ef86b8",
