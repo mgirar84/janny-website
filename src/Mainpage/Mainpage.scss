@@ -2,6 +2,7 @@
     width: 95%;
     max-width: 900px;
     margin: auto;
+    color: #344854;
     .aboutBanner {
         background-image: url(../Images/abbey.jpg);
         background-position: center;
@@ -38,5 +39,8 @@
         .mainPageText {
             padding: 0.2em;
         }
+    }
+    h4 {
+        margin-top: 3em;
     }
 }

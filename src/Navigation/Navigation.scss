@@ -3,6 +3,7 @@
     max-width: 1200px;
     margin: auto;
     font-family: 'Roboto', sans-serif;
+    color: #344854;
     .icon {
         display: none;
         padding: 16px;
@@ -18,7 +19,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         margin-bottom: 0.2em;
-        column-gap: 0.2em;
+        // column-gap: 0.2em;
         row-gap: 0.2em;
         @media screen and (max-width: 600px) {
             display: none;

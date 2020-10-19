@@ -23,11 +23,12 @@ class CitiesPlan extends React.Component {
                     well as the effects of a warming climate. This threatened
                     not merely the security of water supply, but also of food
                     and energy.
-                        <p className="figureText">Figure 1. In 2018, South Australia commissioned Tesla to install a 130 MV lithium battery system, then the world’s
-                        largest, to smooth out the renewable energy supply from its wind farms and solar roofs. (© Liam West/Lightly Salted)
-                        </p>
+                        
                     </p>
                 </div>
+                <p className="figureText">Figure 1. In 2018, South Australia commissioned Tesla to install a 130 MV lithium battery system, then the world’s
+                largest, to smooth out the renewable energy supply from its wind farms and solar roofs. (© Liam West/Lightly Salted)
+                </p>
                 <h4>Creating a new normal</h4>
                 <p>Simply trying to rebuild the region’s old economy was
                 manifestly not an option in the face of the sunsetting of

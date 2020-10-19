@@ -14,10 +14,10 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>Creating Regenerative <br></br>Cities</h4>
+                                    <p>Creating Regenerative <br></br>Cities</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><h4>| 2014</h4></div>
+                                <div className="block2"><p>2014</p></div>
                             </div>
                             <p>This book argues that whilst humanity is building an urban
                                 future, urbanisation in its current form is threatening the very future of humanity and the natural
@@ -33,10 +33,10 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>A Renewable World</h4>
+                                    <p>A Renewable World</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><h4>| 2009</h4></div>
+                                <div className="block2"><p>2009</p></div>
                             </div>
                             <p>This book was written for the Rio Earth Summit, 1992. It aims to give an overview of
                                 how we are affecting the biosphere and that there are ways out of the mess we have been making.
@@ -52,10 +52,10 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>Cities, People, Planet</h4>
+                                    <p>Cities, People, Planet</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><h4>| 2008</h4></div>
+                                <div className="block2"><p>2008</p></div>
                             </div>
                             <p>
                                 An urbanising humanity has come to dominate much of the surface of the earth.
@@ -73,10 +73,10 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>Surviving the Century</h4>
+                                    <p>Surviving the Century</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><h4>| 2007</h4></div>
+                                <div className="block2"><p>2007</p></div>
                             </div>
                             <p>I edited and co-authored this book for the WFC. It starts by pointing
                                 out that despite unprecedented knowledge, skills and resources we are on a collision course with
@@ -92,11 +92,11 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>Creating the World</h4>
-                                    <h4>Future Council</h4>
+                                    <p>Creating the World</p>
+                                    <p>Future Council</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><h4>| 2004</h4></div>
+                                <div className="block2"><p>2004</p></div>
                             </div>
                             <p>This short book, by Jakob von Uexkull and myself, was the
                                 document which launched a new international NGO in 2005 – the World Future Council (WFC). At
@@ -112,10 +112,10 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>The People’s Planet</h4>
+                                    <p>The People’s Planet</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><h4>| 2001</h4></div>
+                                <div className="block2"><p>2001</p></div>
                             </div>
                             <p>This book has only been published in Japanese. It is based on a six-part
                                 TV series produced by NHK, Tokyo, and CNN, for which I wrote the scripts and then worked as series
@@ -131,10 +131,10 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>Creating Sustainable Cities</h4>
+                                    <p>Creating Sustainable Cities</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><h4>| 1999</h4></div>
+                                <div className="block2"><p>1999</p></div>
                             </div>
                             <p>This is part of a series of short books called Schumacher Briefings
                                 edited by myself. This book draws a lot on the work I did in London, analysing its metabolism and
@@ -150,10 +150,10 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>Making Cities Work</h4>
+                                    <p>Making Cities Work</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><h4>| 1996</h4></div>
+                                <div className="block2"><p>1996</p></div>
                             </div>
                             <p>This book was commissioned by UN Habitat for the 1996 United Nations
                                 Cities Summit in Istanbul. It is a hands-on text concerned with the organisational challenges and
@@ -169,10 +169,10 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>The Gaia Atlas of Cities</h4>
+                                    <p>The Gaia Atlas of Cities</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><h4>| 1993</h4></div>
+                                <div className="block2"><p>1993</p></div>
                             </div>
                             <p>This is not primarily about urban planning but about how cities can
                                 thrive whilst curtailing their impacts on the living world beyond. Cities use vast amounts of resources
@@ -189,9 +189,9 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>Earthrise</h4>
+                                    <p>Earthrise</p>
                                 </div>
-                                <div className="block2"><h4>| 1992</h4></div>
+                                <div className="block2"><p>1992</p></div>
                             </div>
                             <p>This book was written for the Rio Earth Summit, 1992. It aims to give an overview of
                                 how we are affecting the biosphere and that there are ways out of the mess we have been making.
@@ -208,10 +208,10 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>Blueprint for a Green<br></br> Planet</h4>
+                                    <p>Blueprint for a GreenPlanet</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><h4>| 1987</h4></div>
+                                <div className="block2"><p>1987</p></div>
                             </div>
                             <p>This book follows on from Far from Paradise as a guide to
                                 practical action to fight pollution and to live sustainably, one of the first books on this topic. In the
@@ -227,10 +227,10 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <h4>Far from Paradise</h4>
+                                    <p>Far from Paradise</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
-                                <div className="block2"><h4>| 1986</h4></div>
+                                <div className="block2"><p>1986</p></div>
                             </div>
                             <p>This book was written to accompany a seven-part TV series produced by
                                 BBC Wales for BBC 2, and co-produced by German and Austrian broadcasters. As an exploration of
@@ -247,9 +247,9 @@ class Books extends React.Component {
                             <div className="blockContainer">
                                 <div className="block1">
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
-                                    <h4>Land for the People</h4>
+                                    <p>Land for the People</p>
                                 </div>
-                                <div className="block2"><h4>| 1976</h4></div>
+                                <div className="block2"><p>1976</p></div>
                             </div>
                             <p>This short, edited book, written by 12 co-authors, argues that the time
                                 had come for land in Britain to be made available for people who want to resettle the rural areas

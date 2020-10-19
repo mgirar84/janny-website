@@ -1,7 +1,8 @@
 .citiesPlan {
     width: 95%;
     margin: auto;
-    max-width: 1200px;
+    max-width: 900px;
+    color: #344854;
     .citiesPlanBanner {
         background-image: url(../../../../Images/citiesPlanCard.jpg);
         background-position: 40% 50%;
@@ -24,9 +25,6 @@
             grid-template-columns: none;
             grid-template-rows: auto auto;
         }
-        .figureText {
-            font-style: italic;
-        }
         h4 {
             margin-top: 0;
         }
@@ -42,6 +40,9 @@
             height: 20em;
         }
     }
+    .figureText {
+        font-style: italic;
+    }
     
     .image {
         background-repeat: no-repeat;
@@ -49,7 +50,7 @@
         margin: 1em 1em 1em 0em;
     }
     .greyBackground {
-        background-color: rgb(163, 163, 163);
+        background-color: white;
         padding: 0.2em 1em;
     }
 }

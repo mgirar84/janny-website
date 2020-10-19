@@ -13,72 +13,82 @@
         left: 0%;
         position: absolute;
     }
-    .greenPlanetBanner {
-        h3 {
-        }
+    h3 {
+        color: #344854;
     }
     .articlesContainer {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-        column-gap: 1em;
-        row-gap: 1em;
+        column-gap: 1.5em;
+        row-gap: 1.5em;
         justify-self: center;
         margin: 0.2em auto;
-        .articleCard {
-            justify-self: stretch;
-            padding-bottom: 0.5em;
-            background-color: rgb(189, 189, 189);
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            .articleCardText {
-                padding: 0.1em 1em;
-                .blockContainer {
-                    display: grid;
-                    grid-template-columns: auto 1fr;
-                    font-size: 1em;
-                    .block1 {
-                        a{
-                            color: black;
-                            text-decoration: none;
-                            &:hover {
-                                text-decoration: underline;
+        a {
+            color: #344854;
+            text-decoration: none;
+            .articleCard {
+                justify-self: stretch;
+                padding-bottom: 0.5em;
+                background-color: white;
+                box-shadow: 0 20px 20px rgba(0,0,0,.08);
+                @media only screen and (min-width: 700px){
+                    height: 30em;
+                }
+                &:hover {
+                    box-shadow: 0 40px 40px rgba(0,0,0,.16);
+                    transition: box-shadow 200ms cubic-bezier(.02, .01, .47, 1), transform 200ms cubic-bezier(.02, .01, .47, 1);
+                    transform: translate(0,-20px);
+                    transition-delay: 0s !important;
+                }
+                .articleCardText {
+                    padding: 0.1em 0.8em;
+                    .blockContainer {
+                        display: grid;
+                        grid-template-columns: auto auto;
+                        font-size: 1.2em;
+                        font-weight: 600;
+                        .block1 {
+                            p {
+                                margin-bottom: 0.5em;
+                            }
+                        }
+                        .block2 {
+                            p {
+                                float: right;
+                                margin-bottom: 0;
                             }
                         }
                     }
-                    .block2 {
-                        p {
-                            text-indent: 0.2em;
-                        }
+                    .cardDescription {
+                        font-size: 0.9em; 
                     }
                 }
-                .cardDescription {
-                    font-size: 0.8em; 
+                .articleImage {
+                    height: 16em;
+                    margin: auto;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
                 }
-            }
-            .articleImage {
-                height: 16em;
-                margin: auto;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-            }
-            .amazonPicture {
-                background-image: url(../../../Images/theViewFromTheAmazon.png);
-            }
-            .natureRevengePicture {
-                background-image: url(../../../Images/nature-taking-revenge.png);
-            }
-            .callToAction {
-                background-image: url(../../../Images/callToAction.jpg);
-            }
-            .theForest {
-                background-image: url(../../../Images/forestPortrait.jpg);
-            }
-            .landtoseaCard {
-                background-image: url(../../../Images/landtoseaCard.jpg);
-            }
-            .cultureAndEcologyCard {
-                background-image: url(../../../Images/cultureAndEcologyCard.jpg);
+                .amazonPicture {
+                    background-image: url(../../../Images/theViewFromTheAmazon.png);
+                }
+                .natureRevengePicture {
+                    background-image: url(../../../Images/nature-taking-revenge.png);
+                }
+                .callToAction {
+                    background-image: url(../../../Images/callToAction.jpg);
+                }
+                .theForest {
+                    background-image: url(../../../Images/forestPortrait.jpg);
+                }
+                .landtoseaCard {
+                    background-image: url(../../../Images/landtoseaCard.jpg);
+                }
+                .cultureAndEcologyCard {
+                    background-image: url(../../../Images/cultureAndEcologyCard.jpg);
+                }
             }
         }
     }

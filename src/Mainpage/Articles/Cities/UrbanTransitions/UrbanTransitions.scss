@@ -1,7 +1,8 @@
 .urbanTransitions {
     width: 95%;
     margin: auto;
-    max-width: 1200px;
+    max-width: 900px;
+    color: #344854;
     .urbanTransitionsBanner {
         background-image: url(../../../../Images/urbanTransitionsBanner.jpg);
         background-position: 20% 50%;
@@ -18,7 +19,7 @@
     }
     .mainText {
         display: grid;
-        grid-template-columns: 36em auto;
+        grid-template-columns: 34em auto;
         @media screen and (max-width: 1100px) {
             display: grid;
             grid-template-columns: none;

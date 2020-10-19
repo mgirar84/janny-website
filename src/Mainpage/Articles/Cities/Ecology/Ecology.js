@@ -17,18 +17,16 @@ class Ecology extends React.Component {
                         of an urban-industrial society. And we seem to find it hard to make up our minds whether we
                         regard ourselves as part of nature or as supra-natural beings, not really knowing where nature
                         ends and where culture starts.
-                        <br></br>
-                        <br></br>
-                        This situation is vividly illustrated when we look at the statistics of our energy consumption: It is
-                        reckoned that by the 1960s every European used at least 80 ‘energy slaves’, the energy
-                        equivalent to the muscle power of 80 strong men using hand tools. Of course, this energy is
-                        mostly supplied by fossil fuels. The rest of the world is aspiring to similar levels of per capita
-                        energy consumption. In developing countries, fossil fuels use is invariably increasing as part of
-                        economic and urban growth. The decolonialisation of Third World countries is speeding up
-                        industrialisation in the quest for greater affluence, and demands redistribution of the world's
-                        resources of which we consume such an unequal share.
                     </p>
                 </div>
+                <p>This situation is vividly illustrated when we look at the statistics of our energy consumption: It is
+                    reckoned that by the 1960s every European used at least 80 ‘energy slaves’, the energy
+                    equivalent to the muscle power of 80 strong men using hand tools. Of course, this energy is
+                    mostly supplied by fossil fuels. The rest of the world is aspiring to similar levels of per capita
+                    energy consumption. In developing countries, fossil fuels use is invariably increasing as part of
+                    economic and urban growth. The decolonialisation of Third World countries is speeding up
+                    industrialisation in the quest for greater affluence, and demands redistribution of the world's
+                    resources of which we consume such an unequal share.</p>
                 <p>
                 But what about our environmental impacts? If we consume 80 times as much energy as our
                 ‘natural' ancestors, each of us has as much environmental impact in one year as they had in 80

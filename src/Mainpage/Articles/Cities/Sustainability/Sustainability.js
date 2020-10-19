@@ -23,13 +23,11 @@ class Sustainability extends React.Component {
                     Effectively, it was a marriage of convenience to facilitate north-south collaboration on
                     enhancing human livelihoods while also halting humanity's deteriorating relationship with
                     its host planet.
-                    <br></br>
-                    <br></br>
-                    SD is a concept to which few people would object; most of us would agree that we should
-                    not live as if there were no tomorrow. But the term has become like a rubber band that can
-                    be stretched almost at will in many directions.
                     </p>
                 </div>
+                <p>SD is a concept to which few people would object; most of us would agree that we should
+                    not live as if there were no tomorrow. But the term has become like a rubber band that can
+                    be stretched almost at will in many directions.</p>
                 <p>In the past 25 years, only lip-service has been paid to SD, particularly around the use of fossil
                     fuels. During that time, all economic and urban development across the world has been
                     driven by the ever-greater use of coal, oil and gas. And yet, the very use of fossil fuels is

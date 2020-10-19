@@ -18,7 +18,6 @@ class Cities extends React.Component {
                                         <p>Sustainability is unhelpful</p>
                                     </div>
                                     <div className="block2"><p>2013</p></div>
-                                    <br></br>
                                 </div>
                                 <p className="cardDescription">This article was published by the Guardian on 10th June 2013. It advertised my Schumacher
                                 Lecture at City Hall, Bristol, as part of the annual Schumacher Lectures which I also hosted
@@ -36,7 +35,6 @@ class Cities extends React.Component {
                                         <p>Creating a Sustainable Adelaide</p>
                                     </div>
                                     <div className="block2"><p>2003</p></div>
-                                    <br></br>
                                 </div>
                                 <p className="cardDescription">This report is the product of two months work by a group of people under the umbrella of the Adelaide Green City Program.
                                     As ‘Thinker in residence’ I had been asked by South Australian Premier Mike Rann to explore policy options for making Adelaide a green, sustainable city.</p>

@@ -1,7 +1,8 @@
 .ecology {
     width: 95%;
     margin: auto;
-    max-width: 1200px;
+    max-width: 900px;
+    color: #344854;
     .ecologyBanner {
         background-image: url(../../../../Images/ecology2.jpg);
         background-position: 10% 55%;
@@ -18,7 +19,7 @@
     }
     .mainText {
         display: grid;
-        grid-template-columns: 34em auto;
+        grid-template-columns: 36em auto;
         @media screen and (max-width: 1100px) {
             display: grid;
             grid-template-columns: none;

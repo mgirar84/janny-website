@@ -1,7 +1,8 @@
 .regenerativeCities {
     width: 95%;
     margin: auto;
-    max-width: 1200px;
+    max-width: 900px;
+    color: #344854;
     .regenerativeBanner {
         background-image: url(../../../Images/cityCanal.jpg);
         background-position: 20% 50%;
@@ -18,11 +19,12 @@
         padding-bottom: 1em;
     }
     iframe {
-            margin-bottom: 1em;
-            @media screen and (max-width: 600px) {
-                width: 100%;
-            }
+        margin: auto;
+        margin-bottom: 1em;
+        @media screen and (max-width: 600px) {
+            width: 100%;
         }
+    }
     .regenerativeContent {
         justify-self: stretch;
         // padding: 0.1em 1em;

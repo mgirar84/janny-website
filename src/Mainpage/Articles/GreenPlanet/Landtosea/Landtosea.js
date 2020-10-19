@@ -18,16 +18,14 @@ class Landtosea extends React.Component {
                     system and to assure a healthy organism. Poor digestive function means poor assimilation,
                     chronically low energy levels, poor immune responses and an ever-diminishing level of
                     stamina and vitality.
-                    <br></br>
-                    <br></br>
-                    In the 21 st century humanity is eating more food from larger areas of farmland than ever
+                    </p>
+                    </div>
+                    <p>In the 21 st century humanity is eating more food from larger areas of farmland than ever
                     before in our history, and this is determined by both our numbers, our meat-centric diet and
                     our global food trading systems. Our collective food consumption patterns have become the
                     main interface between ourselves and the world’s soils. If food is badly assimilated by us the
                     impacts of a relentlessly urbanising humanity on our home planet are likely to become ever
-                    more severe.
-                    </p>
-                    </div>
+                    more severe.</p>
                     <p>
                     While we individually are affected by what we assimilate what we eat, the world’s soils and
                     ecosystems are, above all else, affected by what we eliminate from our bodies, our
