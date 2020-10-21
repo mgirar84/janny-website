@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06094b87ef7ed0478d24d81a8fbd2819",
+    "revision": "bb2bbee1e6a8ac371514c9e0326678bb",
     "url": "/janny-website/index.html"
   },
   {
-    "revision": "7c27660cecbc22d30640",
-    "url": "/janny-website/static/css/main.a9b4ff49.chunk.css"
+    "revision": "f50393b51c18b1162393",
+    "url": "/janny-website/static/css/main.18ccdc98.chunk.css"
   },
   {
     "revision": "86983742f7c3f9aeb23b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/janny-website/static/js/2.215424d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c27660cecbc22d30640",
-    "url": "/janny-website/static/js/main.d70c7795.chunk.js"
+    "revision": "f50393b51c18b1162393",
+    "url": "/janny-website/static/js/main.d83dba49.chunk.js"
   },
   {
     "revision": "2dded5bacac7c7ef86b8",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/janny-website/static/media/callToAction.b47ef0bc.jpg"
   },
   {
+    "revision": "5215a5942de00c8fb3d6fe3627b56cf2",
+    "url": "/janny-website/static/media/carbonFig.5215a594.png"
+  },
+  {
     "revision": "fecedfb3a5b398590375456b3b4010ab",
     "url": "/janny-website/static/media/cattle.fecedfb3.jpg"
   },
@@ -122,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "20edf7f743928bd896851ff56615009f",
     "url": "/janny-website/static/media/cultureAndEcologyImage.20edf7f7.jpg"
+  },
+  {
+    "revision": "c3b5edc2867e01574771c84afbf23f8f",
+    "url": "/janny-website/static/media/desertWind.c3b5edc2.jpg"
   },
   {
     "revision": "a5e3da2c1babbc0774bfdb613f268446",
