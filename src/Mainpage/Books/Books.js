@@ -49,6 +49,7 @@ class Books extends React.Component {
                             </p> 
                             <div className="linksContainer">
                                 <a href='https://www.amazon.co.uk/Renewable-World-Ecology-Equality-Council-ebook/dp/B00EGWJNTW/ref=sr_1_2?dchild=1&keywords=a+renewable+world&qid=1598015202&sr=8-2' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                                <Link to="/books/carbon">Read an abridged version of Chapter 2</Link>
                             </div>
                         </div>
                     </div>

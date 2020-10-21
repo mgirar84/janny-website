@@ -26,6 +26,7 @@ import ReframingEconomics from './Mainpage/Articles/Energy/ReframingEconomics/Re
 import Books from './Mainpage/Books/Books';
 import Gaia from './Mainpage/Books/Gaia/Gaia';
 import Earthrise from './Mainpage/Books/Earthrise/Eartrise';
+import Carbon from './Mainpage/Books/Carbon/Carbon';
 import Documentaries from './Mainpage/Documentaries/Documentaries';
 import JunglePharmacy from './Mainpage/Documentaries/JunglePharmacy/JunglePharmacy'
 import Lectures from './Mainpage/Lectures/Lectures';
@@ -80,6 +81,7 @@ class Routing extends React.Component {
             <Route exact path="/books" component={ Books } />
             <Route exact path="/books/earthrise" component={ Earthrise } />
             <Route exact path="/books/gaia" component={ Gaia } />
+            <Route exact path="/books/carbon" component={ Carbon } />
             <Route exact path="/documentaries" component={ Documentaries } />
             <Route exact path="/documentaries/jungle-pharmacy" component={ JunglePharmacy } />
             <Route path="/" component={ Landingpage } />
