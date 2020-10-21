@@ -14,18 +14,21 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <p>Creating Regenerative <br></br>Cities</p>
+                                    <p>Creating Regenerative Cities</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><p>2014</p></div>
                             </div>
                             <p>This book argues that whilst humanity is building an urban
                                 future, urbanisation in its current form is threatening the very future of humanity and the natural
-                                world. Its key premise is that sustainability is not enough. Cities, as the primary users of the world’s
+                                world. Its key premise is that s
+                                ustainability is not enough. Cities, as the primary users of the world’s
                                 resources, need to make an active contribution towards regenerating the ecosystems on whose
                                 health they depend. The book features 20 case studies where these ideas are being implemented.
                             </p>
-                            <a href='https://www.amazon.co.uk/Creating-Regenerative-Cities-Herbert-Girardet-ebook/dp/B00O1PQQX0/ref=sr_1_1?dchild=1&keywords=creating+regenerative+cities&qid=1598015030&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            <div className="linksContainer">
+                                <a href='https://www.amazon.co.uk/Creating-Regenerative-Cities-Herbert-Girardet-ebook/dp/B00O1PQQX0/ref=sr_1_1?dchild=1&keywords=creating+regenerative+cities&qid=1598015030&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </div>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -43,8 +46,10 @@ class Books extends React.Component {
                                 Much of the book is based on my experiences as a film maker, travelling to places that we usually
                                 don’t have access too. It introduces the concept of the ‘amplified man’: our powers have been
                                 greatly enhanced by technology. But can we tame ourselves for the benefit of future generations?
-                            </p>
-                            <a href='https://www.amazon.co.uk/Renewable-World-Ecology-Equality-Council-ebook/dp/B00EGWJNTW/ref=sr_1_2?dchild=1&keywords=a+renewable+world&qid=1598015202&sr=8-2' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </p> 
+                            <div className="linksContainer">
+                                <a href='https://www.amazon.co.uk/Renewable-World-Ecology-Equality-Council-ebook/dp/B00EGWJNTW/ref=sr_1_2?dchild=1&keywords=a+renewable+world&qid=1598015202&sr=8-2' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </div>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -64,8 +69,10 @@ class Books extends React.Component {
                                   the agenda. After a succinct overview of the environmental history of cities, the
                                    book presents a great variety of case studies from across the world of how cities
                                     could transform themselves into sustainable systems.
-                            </p>
-                            <a href='https://www.amazon.co.uk/Cities-People-Planet-Development-Climate/dp/0470772700/ref=sr_1_1?crid=7VWQRVIFXPI7&dchild=1&keywords=cities+people+planet&qid=1598606491&sprefix=people+cities+pla%2Caps%2C147&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </p> 
+                            <div className="linksContainer">
+                                <a href='https://www.amazon.co.uk/Cities-People-Planet-Development-Climate/dp/0470772700/ref=sr_1_1?crid=7VWQRVIFXPI7&dchild=1&keywords=cities+people+planet&qid=1598606491&sprefix=people+cities+pla%2Caps%2C147&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </div>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -83,8 +90,10 @@ class Books extends React.Component {
                                 our own future. It deals with climate change, renewable energy, food supply, rainforest destruction,
                                 urban futures, circular economy, and new visons for world trade and for democracy. Its 8 authors
                                 are mostly members of the WFC. The book was also published in a German language edition.
-                            </p>
-                            <a href='https://www.amazon.co.uk/Surviving-Century-Facing-Climate-Challenges-ebook/dp/B00872FPUI/ref=sr_1_1?dchild=1&keywords=Surviving+the+century&qid=1598015355&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </p> 
+                            <div className="linksContainer">
+                                <a href='https://www.amazon.co.uk/Surviving-Century-Facing-Climate-Challenges-ebook/dp/B00872FPUI/ref=sr_1_1?dchild=1&keywords=Surviving+the+century&qid=1598015355&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </div>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -92,8 +101,7 @@ class Books extends React.Component {
                         <div className="bookCardText">
                             <div className="blockContainer">
                                 <div className="block1">
-                                    <p>Creating the World</p>
-                                    <p>Future Council</p>
+                                    <p>Creating the World Future Council</p>
                                     {/* <Link to="/books/earthrise"><p>Chapter 4 - Amazonia Ablaze</p></Link> */}
                                 </div>
                                 <div className="block2"><p>2004</p></div>
@@ -103,8 +111,10 @@ class Books extends React.Component {
                                 the turn of the millennium it had become apparent that the lack of long-term perspectives in policy
                                 making by governments had to be addressed in new, creative ways. The WFC has since become an
                                 important, internationally recognised and increasingly effective ‘voice of future generations’.
-                            </p>
-                            <a href='https://www.amazon.co.uk/Shaping-Our-Future-Creating-Council/dp/1903998654/ref=sr_1_1?dchild=1&keywords=creating+the+world+future+council&qid=1598015401&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </p> 
+                            <div className="linksContainer">
+                                <a href='https://www.amazon.co.uk/Shaping-Our-Future-Creating-Council/dp/1903998654/ref=sr_1_1?dchild=1&keywords=creating+the+world+future+council&qid=1598015401&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </div>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -141,8 +151,10 @@ class Books extends React.Component {
                                 quantifying its use of resources and its ecological footprint. It describes cities as superorganisms that
                                 need to develop a better understanding of how to become truly sustainable – environmentally,
                                 economically and socially. The booklet has also been published in four foreign language editions.
-                            </p>
-                            <a href='https://www.amazon.co.uk/Creating-Sustainable-Cities-Schumacher-Briefings/dp/1870098773/ref=sr_1_1?dchild=1&keywords=creating+sustainable+cities&qid=1598015482&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </p> 
+                            <div className="linksContainer">
+                                <a href='https://www.amazon.co.uk/Creating-Sustainable-Cities-Schumacher-Briefings/dp/1870098773/ref=sr_1_1?dchild=1&keywords=creating+sustainable+cities&qid=1598015482&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </div>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -180,8 +192,10 @@ class Books extends React.Component {
                                 sustainable urban living, in both theory and in practice. It was adopted as a key text by the United
                                 Nations City Summit in Istanbul in 1996. Four foreign language editions were also published.
                             </p>
-                            <a href='https://www.amazon.co.uk/Gaia-Atlas-Cities-Directions-Sustainable/dp/0385419155/ref=sr_1_1?dchild=1&keywords=the+gaia+atlas+of+cities&qid=1598015593&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
-                            <Link to="/books/gaia"><p>Click here to read a summary</p></Link>
+                            <div className="linksContainer">
+                                <a href='https://www.amazon.co.uk/Gaia-Atlas-Cities-Directions-Sustainable/dp/0385419155/ref=sr_1_1?dchild=1&keywords=the+gaia+atlas+of+cities&qid=1598015593&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                                <Link to="/books/gaia">Read a summary</Link>
+                            </div>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -198,9 +212,11 @@ class Books extends React.Component {
                                 Much of the book is based on my experiences as a film maker, travelling to places that we usually
                                 don’t have access too. It introduces the concept of the ‘amplified man’: our powers have been
                                 greatly enhanced by technology. But can we tame ourselves for the benefit of future generations?
-                            </p>
-                            <a href='https://www.amazon.co.uk/Earthrise-Herbert-Girardet/dp/0586092528/ref=sr_1_1?dchild=1&keywords=earthrise+herbert&qid=1598015623&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
-                            <Link to="/books/earthrise"><p>Click here to read chapter 4 - Amazonia Ablaze</p></Link>
+                            </p> 
+                            <div className="linksContainer">
+                                <a href='https://www.amazon.co.uk/Earthrise-Herbert-Girardet/dp/0586092528/ref=sr_1_1?dchild=1&keywords=earthrise+herbert&qid=1598015623&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                                <Link to="/books/earthrise">Read chapter 4 - Amazonia Ablaze</Link>
+                            </div>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -218,8 +234,10 @@ class Books extends React.Component {
                                 late 1980s it was becoming apparent that the rise of consumerism was causing huge environmental
                                 damage, and that personal responsibility had to be taken in response. The highly illustrated book
                                 was published in the UK by Dorling Kindersley and also in 14 foreign language editions.
-                            </p>
-                            <a href='https://www.amazon.co.uk/Blueprint-Green-Planet-Practical-Environment/dp/0130796255/ref=sr_1_1?dchild=1&keywords=blueprint+for+a+green+planet&qid=1598015652&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </p> 
+                            <div className="linksContainer">
+                                <a href='https://www.amazon.co.uk/Blueprint-Green-Planet-Practical-Environment/dp/0130796255/ref=sr_1_1?dchild=1&keywords=blueprint+for+a+green+planet&qid=1598015652&sr=8-1' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </div>
                         </div>
                     </div>
                     <div className="bookCard">
@@ -237,8 +255,10 @@ class Books extends React.Component {
                                 the history of human impacts on the environment, it was filmed across Europe, the Middle East and
                                 the United States. John Seymour, as presenter, and myself, as researcher of the TV series alternate
                                 the 16 chapters of the book, published by BBC Publications, and also as a German language edition.
-                            </p>
-                            <a href='https://www.amazon.co.uk/Far-Paradise-Story-Impact-Environment/dp/0563203579/ref=sr_1_2?dchild=1&keywords=far+from+paradise+herbert&qid=1598015679&sr=8-2' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </p> 
+                            <div className="linksContainer">
+                                <a href='https://www.amazon.co.uk/Far-Paradise-Story-Impact-Environment/dp/0563203579/ref=sr_1_2?dchild=1&keywords=far+from+paradise+herbert&qid=1598015679&sr=8-2' target='_BLANK' rel="noopener noreferrer">Buy on Amazon</a>
+                            </div>
                         </div>
                     </div>
                     <div className="bookCard">

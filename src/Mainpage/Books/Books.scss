@@ -33,10 +33,11 @@
             padding-bottom: 0.5em;
             background-color: white;
             box-shadow: 0 20px 20px rgba(0,0,0,.08);
+            padding-bottom: 1em;
             .bookCardText {
                 padding: 0.1em 1em;
                 .blockContainer {
-                display: grid;
+                    display: grid;
                     grid-template-columns: auto auto;
                     font-size: 1.2em;
                     font-weight: 600;
@@ -52,40 +53,26 @@
                         }
                     }
                 }
-                div {
-                    .block1 {
-                        a{
-                            color: #344854;
+                .linksContainer {
+                    display: grid;
+                    grid-template-rows: auto auto;
+                    row-gap: 0.5em;
+                    a{
+                        color: #344854;
+                        text-decoration: none;
+                        border: 0.1em solid #344854;
+                        padding: 0.5em;
+                        font-weight: bold;
+                        &:hover {
+                            background-color:  #344854;
+                            color: white;
                         }
-                    }
-                    .block2 {
-                        p {
-                            text-indent: 0.2em;
-                        }
-                    }
-                }
-                p {
-                    font-size: 1em; 
-                }
-                a{
-                    color: #344854;
-                    text-decoration: none;
-                    &:hover {
-                        text-decoration: underline;
-                    }
-                }
-                a{
-                    color: #344854;
-                    text-decoration: none;
-                    &:hover {
-                        text-decoration: underline;
                     }
                 }
             }
             .bookImage {
                 height: 25em;
-                margin: 1em;
-                margin-bottom: 3em;
+                margin: 2em 1em;
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center;
