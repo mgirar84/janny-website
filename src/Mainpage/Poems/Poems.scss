@@ -1,27 +1,50 @@
 .poems {
     width: 95%;
     margin: auto;
-    h3 {
-        text-decoration: underline;
+    max-width: 900px;
+    color: #344854;
+    .poemsBanner {
+        background-image: url(../../Images/poems.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
     }
-    div { 
+    h3 {
+        padding-top: 4em;
+        padding-bottom: 1em;
+    }
+    .poemCard { 
+        justify-self: stretch;
+        // background-color: rgb(189, 189, 189);
+        // box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 0.2em;
+        margin: 0.5em;
+        font-size: 1.1em;
         .poemTitle {
-            width: 50%;
+            font-family: 'IM Fell DW Pica', serif;
+            font-size: 1em;
+            margin: 0.5em;
             &:hover {
-                text-decoration: underline;
                 cursor: pointer;
             }
             h4 {
-                margin: 0.5em
+                margin: 0.5em;
             }
         }
-        .poem1, .poem2, .poem3, .poem4, .poem5, .poem6, .poem7, .poem8, .poem9, .poem10, .poem11, .poem12 {
+        .poem1, .poem2, .poem3, .poem4, .poem5, .poem6, .poem7, .poem8, .poem9, .poem10, .poem11, .poem12, .poem13 {
             visibility: hidden;
             transition: opacity 0.5s ease-in-out;
             opacity: 0;
             height: 0;
             overflow: hidden;
             margin-left: 1em;
+            font-family: 'IM Fell DW Pica', serif;
+            font-size: 1em;
             &.show {
                 visibility: visible;
                 opacity: 100;

@@ -1,102 +1,102 @@
 .books {
     width: 95%;
     margin: auto;
+    max-width: 1200px;
+    color: #344854;
+    .booksBanner {
+        background-image: url(../../Images/books.jpg);
+        background-position: 20% 50%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
+    }
     .bookTitle {
-        text-decoration: underline;
+        padding-top: 4em;
+        padding-bottom: 1em;
+        color: #344854;
     }
     .booksContainer {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-        column-gap: 0.2em;
-        row-gap: 0.2em;
+        column-gap: 1.5em;
+        row-gap: 1.5em;
         justify-self: center;
         margin: 0.2em auto;
         .bookCard {
+            color: #344854;
             justify-self: stretch;
-            border: black solid 0.1em;
             padding-bottom: 0.5em;
+            background-color: white;
+            box-shadow: 0 20px 20px rgba(0,0,0,.08);
+            padding-bottom: 1em;
             .bookCardText {
-                padding: 0.1em 0.5em;
+                padding: 0.1em 1em;
                 .blockContainer {
                     display: grid;
-                    grid-template-columns: auto 1fr;  
+                    grid-template-columns: auto auto;
+                    font-size: 1.2em;
+                    font-weight: 600;
                     .block1 {
-                        h4{
-                            color: black;
-                            text-decoration: none;
-                            margin: 0em;
-                            font-size: 1.1em;
-                            // &:hover {
-                            //     text-decoration: underline;
-                            // }
-                        }
-                    }
-                    .block2 {
-                        h4 {
-                            text-indent: 0.2em;
-                            margin: 0em;
-                            font-size: 1.1em;
-                        }
-                    }
-                }
-                div {
-                    .block1 {
-                        a{
-                            color: black;
+                        p {
+                            margin-bottom: 0.5em;
                         }
                     }
                     .block2 {
                         p {
-                            text-indent: 0.2em;
+                            float: right;
+                            margin-bottom: 0;
                         }
                     }
                 }
-                p {
-                    font-size: 1em; 
-                }
-                a{
-                    color: black;
-                    text-decoration: none;
-                    &:hover {
-                        text-decoration: underline;
-                    }
-                }
-                a{
-                    color: black;
-                    text-decoration: none;
-                    &:hover {
-                        text-decoration: underline;
+                .linksContainer {
+                    display: grid;
+                    grid-template-rows: auto auto;
+                    row-gap: 0.5em;
+                    a{
+                        color: #344854;
+                        text-decoration: none;
+                        // border: 0.1em solid #344854;
+                        padding: 0.5em;
+                        font-weight: bold;
+                        &:hover {
+                            background-color:  #344854;
+                            color: white;
+                        }
                     }
                 }
             }
             .bookImage {
-                height: 20em;
-                margin: auto;
+                height: 25em;
+                margin: 2em 1em;
                 background-repeat: no-repeat;
-                background-size: 10em;
+                background-size: contain;
                 background-position: center;
             }
             .book1 {
-                 background-image: url(../../Images/creatingRegenerativeCities.JPG);
+                background-image: url(../../Images/creatingRegenerativeCities);
             }
             .book2 {
-                background-image: url(../../Images/aRenewableWorld.JPG);
+                background-image: url(../../Images/aRenewableWorld.jpg);
             }
             .book13 {
-                background-image: url(../../Images/citiesPeoplePlanet.JPG);
+                background-image: url(../../Images/citiesPeoplePlanet.jpg);
             }
             .book3 {
-                background-image: url(../../Images/surviningTheCentury.JPG);
+                background-image: url(../../Images/survivingTheCentury.jpg);
             }
             .book4 {
-                background-image: url(../../Images/creatingWorldFutureCouncil.JPG);
+                background-image: url(../../Images/creatingWorldFutureCouncil.jpg);
             }
             .book5 {
                 background-image: url(../../Images/nhk.JPG);
             }
             .book6 {
-                background-image: url(../../Images/creatingSustainableCities.JPG);
+                background-image: url(../../Images/creatingSustainableCities.jpg);
             }
             .book7 {
                 background-image: url(../../Images/makingCitiesWork.jpeg);
@@ -105,13 +105,13 @@
                 background-image: url(../../Images/gaiaAtlasOfCities.JPG);
             }
             .book9 {
-                background-image: url(../../Images/earthrise.JPG);
+                background-image: url(../../Images/earthrise.jpg);
             }
             .book10 {
                 background-image: url(../../Images/blueprintForAGreenPlanet.JPG);
             }
             .book11 {
-                background-image: url(../../Images/farFromParadise.JPG);
+                background-image: url(../../Images/farFromParadise.jpg);
             }
             .book12 {
                 background-image: url(../../Images/landForThePeople.JPG);

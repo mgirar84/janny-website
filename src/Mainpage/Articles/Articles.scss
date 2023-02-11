@@ -1,7 +1,10 @@
-div {
+.articlesBackgroundImage {
     .articlesDescription {
         width: 95%;
+        max-width: 900px;
         margin: auto;
-        padding-top: 1em;
+        padding-top: 5em;
+        padding-bottom: 2em;
+        color: #344854;
     }
 }

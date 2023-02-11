@@ -5,30 +5,28 @@ class Forest extends React.Component {
 	render() {
         return (
             <div className="forest">
+                <div className="forestBanner"></div>
                 <h3>A Forest Way of Life</h3>
-                <h4>This text was written for the Forest of Dean Resilience Anthology 2020:</h4>
-                <div className="blackLine"></div>
                 <div className="mainText">
                     <div className="image forest"></div>
                     <p>
+                    <h4>This text was written for the Forest of Dean Resilience Anthology 2020:</h4>
+                    <br></br>
                     For over 40 years I have lived surrounded by trees, on a few acres on the edge of Tintern
                     Forest. As I write this, at the end of July, I am looking out at hazel, willow, cherry, apple,
                     pear and plum trees, and further away, a huge oak and a row of Douglas firs. A light breeze
                     is blowing, and a myriad of leaves are oscillating in the wind, safely attached to twigs and
                     branches. I can hear blackbirds and robins calling, not so urgently now since their fledglings
                     have left their nests. A pigeon is cooing in the distance.
-                    <br></br>
-                    <br></br>
-                    This is a world of both change and constancy. Some of the trees in this landscape have been
+                    </p>
+                </div>
+                <p>This is a world of both change and constancy. Some of the trees in this landscape have been
                     planted by us humans and others by birds, in a patchwork of forest and pastureland. Some
                     people think of forests of foreboding places, or even as places of menace. Well, I have never
                     felt that way, ever since I roamed woodlands as a child, as birds flitted across the green air,
                     as deer slipped silently by in the distance, as hares nibbled clumps of grass in forest
                     clearings. I have sought the safety of a forest world since I was little, and even then the
-                    great, lacy canopy of trees conveyed a feeling of awe in me, as it still does today.
-                    </p>
-                </div>
-                <div className="blackLine"></div>
+                    great, lacy canopy of trees conveyed a feeling of awe in me, as it still does today.</p>
                 <h4>A World Changes</h4>
                 <p>
                 Those of us who live in and around the Forest of Dean and Tintern Forest don’t have to be
@@ -65,7 +63,6 @@ class Forest extends React.Component {
                 industrial activity in the area. The locals were increasingly left to their own devices once
                 more.
                 </p>
-                <div className="blackLine"></div>
                 <h4>The Locals</h4>
                 <p>
                 The people of the forest have always played their part in any new commercial activity. They
@@ -86,7 +83,6 @@ class Forest extends React.Component {
                 roaming the Forest of Dean again are a source of meat for some and a menace to other,
                 particularly when they invade household gardens.
                 </p>
-                <div className="blackLine"></div>
                 <h4>Beauty and Ecology</h4>
                 <p>
                 In the local forests we can experience a living multi-story green landscape reminiscent of
@@ -131,7 +127,6 @@ class Forest extends React.Component {
                 bigger trees. But maintaining the continuity of life in its interdependent totality is
                 increasingly seen as the key underlying principle of resilient ecological systems.
                 </p>
-                <div className="blackLine"></div>
                 <h4>Today and Tomorrow</h4>
                 <p>
                 Today, of course, the forest has become a favoured destination for visitors and holiday

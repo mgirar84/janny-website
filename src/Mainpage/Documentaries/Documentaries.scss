@@ -1,7 +1,50 @@
 .documentaries {
     width: 95%;
     margin: auto;
-    h2 {
-        text-decoration: underline;
+    max-width: 900px;
+    color: #344854;
+    .documentariesBanner {
+        background-image: url(../../Images/documentariesBanner.jpg);
+        background-position: 20% 50%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
+    }
+    h3 {
+        padding-top: 4em;
+        padding-bottom: 1em;
+    }
+    .mainText {
+        // .image {
+        //     background-repeat: no-repeat;
+        //     background-size: cover;
+        //     margin: auto;
+        //     width: 30%;
+        //     height: 30em;
+        //     @media screen and (max-width: 1100px) {
+        //         margin: 1em 0;
+        //     }
+        // }
+        // .documentariesImage {
+        //     background-image: url(../../Images/documentariesImage.bmp);
+        // }
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            p {
+                a {
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
     }
 }

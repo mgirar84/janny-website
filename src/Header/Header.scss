@@ -1,48 +1,28 @@
 .header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     position: relative;
     padding-top: 0.5em;
-    border-bottom: 0.1em solid black;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5em;
     width: 95%;
+    max-width: 1200px;
     margin: auto;
     a {
         text-decoration: none !important;
         .headerContainer {
-            text-shadow: none;
-            .headerImage {
-                background-image:  center cover no-repeat;
-                background-image: url('../Images/headingImage.jpg');
-                background-size: 100%;
-                width: 15em;
-                height: 9.9em;
-            }
-            .firstName {
-                width: 10em;
-                h1 {
-                    margin: 0;
+            h1 {
+                color: white;
+                text-align: center;
+                padding: 0.5em 0 1em 0;
+                text-shadow: 1px 1px black;
+                &:visited {
                     color: black;
-                    &:visited {
-                        color: black;
-                    }
-                }
-            }
-            .secondName {
-                width: 10em;
-                text-align: right;
-                h1 {
-                    margin: 0;
-                    color: black;
-                    &:visited {
-                        color: black;
-                    }
                 }
             }
         }
     }
     .socialMediaButtons {
         text-align: right;
+        margin-top: 1em;
         bottom:0;
         a {
             i {

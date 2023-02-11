@@ -1,7 +1,21 @@
 .earthRise {
     width: 95%;
     margin: auto;
+    max-width: 900px;
+    color: #344854;
+    .earthriseBanner {
+        background-image: url(../../../Images/earthrise2.jpg);
+        background-position: 10% 70%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
+    }
     h3 {
-        text-decoration: underline;
+        padding-top: 5em;
+        padding-bottom: 2em;
     }
 }

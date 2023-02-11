@@ -1,0 +1,40 @@
+.nightTrain {
+    width: 95%;
+    margin: auto;
+    max-width: 900px;
+    color: #344854;
+    .nightTrainBanner {
+        background-image: url(../../../../Images/nightTrainBanner.jpg);
+        background-position: 20% 50%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
+    }
+    h3 {
+
+    }
+    .mainText {
+        display: grid;
+        grid-template-columns: 28em auto;
+        @media screen and (max-width: 1100px) {
+            display: grid;
+            grid-template-columns: none;
+            grid-template-rows: auto auto;
+        }
+        .image {
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 1em 1em 1em 0em;
+            background-position-y: 25%;
+            background-position-x: 40%;
+        }
+        .nightTrainImage {
+            background-image: url(../../../../Images/nightTrainArticle.jpg);
+            height: 22em;
+        }
+    }
+}

@@ -5,8 +5,8 @@ class EarthEmergency extends React.Component {
 	render() {
         return (
             <div className="earthEmergency">
-                <h2>Earth Emergency</h2>
-                <div className="blackLine"></div>
+                <div className="earthEmergencyBanner"></div>
+                <h3>Earth Emergency</h3>
                 <div className="mainText">
                     <div className="image wakeUpImage"></div>
                     <p>An acute State of Emergency exists on Earth, imperilling its climate, its life support systems
@@ -21,16 +21,13 @@ class EarthEmergency extends React.Component {
                     human life. Collaborating through our global and local networks, we can accelerate
                     initiatives already under way, shifting the global balance of power in favour of restoring
                     biodiversity, sharing the Earth’s resources equitably, and assuring the sustainable wellbeing
-                    of present and future generations.
-                    <br></br>
-                    <br></br>
-                    To achieve these aims, we call for a new global alliance. The creativity of all of humanity is
-                    needed – using traditional and popular knowledge, art, design, engineering, modern science
-                    and business to help create a thriving and regenerative relationship between people and
-                    planet.</p>
-                    
+                    of present and future generations.</p>
                 </div>
-                <div className="blackLine"></div>
+                <p>
+                To achieve these aims, we call for a new global alliance. The creativity of all of humanity is
+                needed – using traditional and popular knowledge, art, design, engineering, modern science
+                and business to help create a thriving and regenerative relationship between people and
+                planet.</p>
                 <p>At this defining moment in history, we urge world leaders to acknowledge the Earth’s State
                 of Emergency, and give priority to major investments in environmental security, green
                 economies, and peace, not war. We call for the coming decade to be used to:</p>

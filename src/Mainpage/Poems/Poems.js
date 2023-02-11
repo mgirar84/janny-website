@@ -3,8 +3,6 @@ import './Poems.scss';
 
 class Poems extends React.Component {
 
-    
-
     togglePoem1() {
         var x = document.getElementsByClassName('poem1')[0]
         x.classList.toggle('show')
@@ -53,877 +51,860 @@ class Poems extends React.Component {
         var x = document.getElementsByClassName('poem12')[0]
         x.classList.toggle('show')
     }
+    togglePoem13() {
+        var x = document.getElementsByClassName('poem13')[0]
+        x.classList.toggle('show')
+    }
 
 	render() {
         return (
             <div className="poems">
+                <div className="poemsBanner"></div>
                 <h3>Poems</h3>
                 <div>
-                    <div>
-                        <a className="poemTitle" onClick={this.togglePoem1}><h4>To Viruses and Bacteria</h4></a>
+                <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem13}>I.C.U</h4>
+                        <p className="poem13">
+                        Don’t breathe in<br></br>
+                        My love,<br></br>
+                        Don’t breathe out,<br></br>
+                        There is a virus about.
+                        <br></br>
+                        <br></br>
+                        My lungs are too weak<br></br>
+                        To fill the flute I used to play,<br></br>
+                        I’ve put it away.<br></br>
+                        Remember our songs of yesterday.
+                        <br></br>
+                        <br></br>
+                        I make the radio play<br></br>
+                        The tunes that we used to sing,<br></br>
+                        Dancing the Samba with you,<br></br>
+                        Dancing the Swing.
+                        <br></br>
+                        <br></br>
+                        Hear what I whisper, my dear,<br></br>
+                        But you won’t like what you hear.<br></br>
+                        My mind marooned in my head,<br></br>
+                        Am I alive or am I dead?
+                        <br></br>
+                        <br></br>
+                        Please don’t breathe in,<br></br>
+                        My love,<br></br>
+                        Don’t breathe out,<br></br>
+                        There is a virus about.
+                        <br></br>
+                        <br></br>
+                        Can you hear my rasping voice,<br></br>
+                        Can you understand?<br></br>
+                        Please, come over once more,<br></br>
+                        Come, hold my hand?
+                        <br></br>
+                        <br></br>
+                        But don’t breathe in,<br></br>
+                        My love,<br></br>
+                        Don’t breathe out,<br></br>
+                        There is a virus about.
+                        <br></br>
+                        <br></br>
+                        Yes, my lungs are too weak now<br></br>
+                        To fill the flute I used to play<br></br>
+                        I’ve put it away,<br></br>
+                        I’m dreaming songs of yesterday.
+                        <br></br>
+                        <br></br>
+                        Are you listening<br></br>
+                        My dear,<br></br>
+                        Can you hear my breathless voice<br></br>
+                        Are you still here?
+                        </p>
+                    </div>
+                    <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem1}>To Viruses and Bacteria</h4>
                         <p className="poem1">
                             If you will live within me,
+                            <br></br>
                             Live in peace with me, not anger.
                             <br></br>
                             If you must, be part of me
+                            <br></br>
                             Like I reside within
+                            <br></br>
                             This throbbing world.
                             <br></br>
                             So, be a kind companion,
+                            <br></br>
                             Not a raging, angry conqueror
+                            <br></br>
                             In a defenceless valley,
+                            <br></br>
                             Where peace wants to reside
+                            <br></br>
                             Upon an endless day.
                             <br></br>
                             <br></br>
                             If you must live within me,
+                            <br></br>
                             Let us be friends, not
+                            <br></br>
                             Mortal enemies.
                             <br></br>
                             Let’s live in fond embrace,
+                            <br></br>
                             You, tiny unknown multitudes
+                            <br></br>
                             And me, my pulsing body.
                             <br></br>
                             Remember: suffocating me
+                            <br></br>
                             Will surely be your end as well.
                             <br></br>
+                            <br></br>
                             So, let us jointly
+                            <br></br>
                             Spend our lives in harmony
+                            <br></br>
                             Within an ocean of eternity.
                             <br></br>
                             <br></br>
                             Disease
                         </p>
                     </div>
-                    <div>
-                        <a className="poemTitle" onClick={this.togglePoem2}><h4>Winter Peace</h4></a>
+                    <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem2}>Winter Peace</h4>
                         <p className="poem2">
                             This afternoon the earth stands still
-                            the wind has settled in its secret nest
-                            no sign of restless stirring
-                            as silver mist embraces shadow trees
-                            no questions seeking answers now
-                            This afternoon I have embraced
-                            the present glory of this winter world
-                            no bird song and no barking dogs
-                            as deer rest silent in the forest field
-                            my heart a fluffy ball of cotton wool
-                            This afternoon the world is whole
-                            no hint of music in this house
-                            or careless thoughts arising in my head
-                            no whispering expectations
-                            not of death nor of eternity
-                            This afternoon the rude insistent clocks
-                            are hiding peacefully away
-                            no nagging radio news
-                            no future clamouring
-                            to start another irksome day
+                            <br></br>
+                            the wind has settled in its secret nest<br></br>
+                            no sign of restless stirring<br></br>
+                            as silver mist embraces shadow trees<br></br>
+                            no questions seeking answers now<br></br><br></br>
+                            This afternoon I have embraced<br></br>
+                            the present glory of this winter world<br></br>
+                            no bird song and no barking dogs<br></br>
+                            as deer rest silent in the forest field<br></br>
+                            my heart a fluffy ball of cotton wool<br></br><br></br>
+                            This afternoon the world is whole<br></br>
+                            no hint of music in this house<br></br>
+                            or careless thoughts arising in my head<br></br>
+                            no whispering expectations<br></br>
+                            not of death nor of eternity<br></br><br></br>
+                            This afternoon the rude insistent clocks<br></br>
+                            are hiding peacefully away<br></br>
+                            no nagging radio news<br></br>
+                            no future clamouring<br></br>
+                            to start another irksome day<br></br>
                         </p>
                     </div>
-                    <div>
-                        <a className="poemTitle" onClick={this.togglePoem3}><h4>War Child</h4></a>
+                    <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem3}>War Child</h4>
                         <p className="poem3">
-                        And then it was my turn
-                        to be born,
-                        a birth in a quiet house
-                        on a forest island,
-                        but right next to a growling volcano
-                        bursting with burning blood.
-                        I was cradled within sight
-                        but just out of reach of
+                        And then it was my turn<br></br>
+                        to be born,<br></br>
+                        a birth in a quiet house<br></br>
+                        on a forest island,<br></br>
+                        but right next to a growling volcano<br></br>
+                        bursting with burning blood.<br></br>
+                        I was cradled within sight<br></br>
+                        but just out of reach of<br></br>
                         a world at war,
                         <br></br>
                         <br></br>
-                        Where soldiers
-                        were told to kill or be killed.
-                        Where suffering
-                        and inflicting suffering
-                        was by order of daily command,
-                        where acquiring a savage mind
+                        Where soldiers<br></br>
+                        were told to kill or be killed.<br></br>
+                        Where suffering<br></br>
+                        and inflicting suffering<br></br>
+                        was by order of daily command,<br></br>
+                        where acquiring a savage mind<br></br>
                         was obligatory to all.
                         <br></br>
                         <br></br>
-                        Birth is departure as well as arrival,
-                        a welcoming like no other.
-                        There I am,
-                        I cry and they laugh with joy,
-                        ecstatic and full of expectant love
-                        and yet with anxious smiles,
-                        for who wants to bring a child into
+                        Birth is departure as well as arrival,<br></br>
+                        a welcoming like no other.<br></br>
+                        There I am,<br></br>
+                        I cry and they laugh with joy,<br></br>
+                        ecstatic and full of expectant love<br></br>
+                        and yet with anxious smiles,<br></br>
+                        for who wants to bring a child into<br></br>
                         a burning world.
                         <br></br>
                         <br></br>
-                        A killer‘s world
-                        just a short way away,
-                        within that grim horizon
-                        that I’m not yet aware of.
-                        For who can be born and know
-                        that there is more than sweet milk
+                        A killer‘s world<br></br>
+                        just a short way away,<br></br>
+                        within that grim horizon<br></br>
+                        that I’m not yet aware of.<br></br>
+                        For who can be born and know<br></br>
+                        that there is more than sweet milk<br></br>
                         and gentle, loving hugs.
                         <br></br>
                         <br></br>
-                        On this island morning
-                        the dawn chorus welcomes me,
-                        welcomes the budding trees,
-                        greets the vibrant worms
-                        in warming soil.
-                        Life always returning
+                        On this island morning<br></br>
+                        the dawn chorus welcomes me,<br></br>
+                        welcomes the budding trees,<br></br>
+                        greets the vibrant worms<br></br>
+                        in warming soil.<br></br>
+                        Life always returning<br></br>
                         To a rising summer sun.
                         <br></br>
                         <br></br>
-                        Wars are impossible to imagine
-                        except by a killer’s mind.
-                        But love is easy,
-                        or so it seems at first,
-                        when you are a baby in arms.
-                        I mean arms that embrace
+                        Wars are impossible to imagine<br></br>
+                        except by a killer’s mind.<br></br>
+                        But love is easy,<br></br>
+                        or so it seems at first,<br></br>
+                        when you are a baby in arms.<br></br>
+                        I mean arms that embrace<br></br>
                         not arms that destroy.
                         <br></br>
                         <br></br>
-                        Nobody wants to leave
-                        the island of love
-                        where life seems so easy,
-                        where cries are stilled
-                        by milk and cradled sleep,
-                        and gentleness reigns
+                        Nobody wants to leave<br></br>
+                        the island of love<br></br>
+                        where life seems so easy,<br></br>
+                        where cries are stilled<br></br>
+                        by milk and cradled sleep,<br></br>
+                        and gentleness reigns<br></br>
                         just for a little while.
                         </p>
                     </div>
-                    <div>
-                        <a className="poemTitle" onClick={this.togglePoem4}><h4>I have seen the land of Europe</h4></a>
-                        <p className="poem4">
-                        I have seen the land of Europe
-                        Bathed in golden sunlight
-                        Cloaked with crystal rainclouds
-                        Glistening snow on summer summits
-                        Streams cascading through mountain forests
-                        Rivers meandering down
-                        From high valleys to the plains
-                        From placid lakes to the expectant sea
-                        <br></br>
-                        <br></br>
-                        I have seen the land of Europe
-                        Orchards and vineyards laden with fruit
-                        Green meadows bearing sheep and cows
-                        Fields of wheat waving yellow in the breeze
-                        And ancient villages in patient landscapes
-                        Country lanes and hedgerows engraved
-                        On maps of parchment memory
-                        <br></br>
-                        <br></br>
-                        But I have also seen the land of Europe
-                        Being readied for a faster future
-                        A village world being wiped away
-                        By bulldozers gouging out copses
-                        Levelling secret hollows
-                        Tearing through the ancient soil
-                        And making landscapes ready for
-                        Supertractors and mega combines
-                        Driven by men wearing earphones
-                        Through fields where birdsong has gone
-                        <br></br>
-                        <br></br>
-                        I have seen cities spilling over to grey horizons
-                        Motorways thrashing through forests
-                        Connecting tower blocks and holiday resorts
-                        Coal mines and power stations
-                        Hungry factories and ports
-                        <br></br>
-                        <br></br>
-
-                        Crammed with tankers and freighters
-                        Laden with the spoils of oil wells
-                        Of copper mines and banana plantations
-                        On the other side of the world
-                        Container lorries carting the bounty of the earth
-                        To London, Paris, Brussels and Berlin
-                        On eight lane endless motorways
-                        <br></br>
-                        <br></br>
-                        I have seen the people of Europe
-                        Swarming from cottage farms
-                        To factories and offices in electric cities
-                        Drawn by the promise of easy futures
-                        Or the high priests of the disco
-                        Or the heroes of the football fields
-                        TV colour glossing over a concrete world
-                        Where robots have started their reign
-                        <br></br>
-                        <br></br>
-                        And high up in the mountains
-                        A wired sky
-                        And up by the ski lift stations
-                        Tourist cafes serve up Gluehwein
-                        And vinyl songs
-                        As fiddles, flutes and cow bells hang
-                        As silent dusty decorations
-                        <br></br>
-                        <br></br>
-                        I have seen the land of Europe
-                        Cars standing in motorway jams
-                        With engines running
-                        Children chasing their dogs
-                        On a littered motorway verge
-                        <br></br>
-                        <br></br>
-                        A land submerged under fumes now
-                        And up in the mountains
-                        Glaciers melting
-                        And trees going dry and bare
-                        <br></br>
-                        <br></br>
-                        And even down in the plains
-                        Leaves and needles going yellow
-                        And brown in a premature autumn
-                        <br></br>
-                        <br></br>
-                        And as we see the triumph
-                        Of the cold machine
-                        Shall we lose the life within
-                        Will it be a living earth we share
-                        Or the silence of a world gone bare
-                        </p>
-                    </div>
-                    <div>
-                        <a className="poemTitle" onClick={this.togglePoem5}><h4>Inferno</h4></a>
+                    <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem5}>Inferno</h4>
                         <p className="poem5">
-                        Borneo Baghdad Aleppo
-                        The fires of the anthropocene
-                        Searing our tired minds
+                        Borneo Baghdad Aleppo<br></br>
+                        The fires of the anthropocene<br></br>
+                        Searing our tired minds<br></br>
                         Acrid smoke all over anxious land
                         <br></br>
                         <br></br>
-                        Black smoke over Mosul again
-                        Painting jagged patterns in the sky
-                        Again the fires of Auschwitz
+                        Black smoke over Mosul again<br></br>
+                        Painting jagged patterns in the sky<br></br>
+                        Again the fires of Auschwitz<br></br>
                         Dresden Hiroshima
                         <br></br>
                         <br></br>
-                        And here quiet at home again
-                        But there the yellow smoke over the Amazon
-                        Trees as giant torches
+                        And here quiet at home again<br></br>
+                        But there the yellow smoke over the Amazon<br></br>
+                        Trees as giant torches<br></br>
                         Burning bright as parrots
                         <br></br>
                         <br></br>
-                        Sumatra Beirut
-                        The endless blanket of smoke
-                        From pole to equator
-                        Car exhausts and the
-                        Haze of electric appliances
-                        That brighten up the sitting room
+                        Sumatra Beirut<br></br>
+                        The endless blanket of smoke<br></br>
+                        From pole to equator<br></br>
+                        Car exhausts and the<br></br>
+                        Haze of electric appliances<br></br>
+                        That brighten up the sitting room<br></br>
                         Evening and night
                         <br></br>
                         <br></br>
-                        The TV has brought it home again
-                        Mosul Kirkuk
-                        Not enough water in the Euphrates
+                        The TV has brought it home again<br></br>
+                        Mosul Kirkuk<br></br>
+                        Not enough water in the Euphrates<br></br>
                         To put out a century of flames
                         <br></br>
                         <br></br>
-                        The radio proclaims the morning news
-                        And after kissing the daily goodbye
-                        The car engine revs up
+                        The radio proclaims the morning news<br></br>
+                        And after kissing the daily goodbye<br></br>
+                        The car engine revs up<br></br>
                         More smoke over London and Shanghai
                         <br></br>
                         <br></br>
-                        Remember the holocaust
-                        Now the earth has the face of a woman
-                        Who can no longer bury
-                        So much pain
+                        Remember the holocaust<br></br>
+                        Now the earth has the face of a woman<br></br>
+                        Who can no longer bury<br></br>
+                        So much pain<br></br>
                         In her wrinkled hands
                         <br></br>
                         <br></br>
-                        Only your embrace sometimes
-                        Brings peace again
-                        Sometimes smothers the flames
+                        Only your embrace sometimes<br></br>
+                        Brings peace again<br></br>
+                        Sometimes smothers the flames<br></br>
                         Of another infernal night
                         </p>
                     </div>
-                    <div>
-                        <a className="poemTitle" onClick={this.togglePoem6}><h4>New born</h4></a>
+                    <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem6}>New born</h4>
                         <p className="poem6">
-                        Hello hello here you are
-                        It is you, barely born
-                        And already eyes wide open
+                        Hello hello here you are<br></br>
+                        It is you, barely born<br></br>
+                        And already eyes wide open<br></br>
                         A world full of wonder around you
                         <br></br>
                         <br></br>
-                        From over here we see a precious child
-                        Held in your parent’s embrace
-                        So near yet half way across the world
+                        From over here we see a precious child<br></br>
+                        Held in your parent’s embrace<br></br>
+                        So near yet half way across the world<br></br>
                         A world full of wonder inside you
                         <br></br>
                         <br></br>
-                        And the throbbing pulse of love starts
-                        To beat in our hearts
-                        Love for you unstoppable, irrepressible
+                        And the throbbing pulse of love starts<br></br>
+                        To beat in our hearts<br></br>
+                        Love for you unstoppable, irrepressible<br></br>
                         A world full of wonder embracing us
                         <br></br>
                         <br></br>
-                        And every day you are growing
-                        Inside us as we see your face, hear your voice
-                        Echoing through space and time
+                        And every day you are growing<br></br>
+                        Inside us as we see your face, hear your voice<br></br>
+                        Echoing through space and time<br></br>
                         A world full of wonder within us
                         </p>
                     </div>
-                    <div>
-                        <a className="poemTitle" onClick={this.togglePoem7}><h4>Mr. President</h4></a>
+                    <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem7}>Mr. President</h4>
                         <p className="poem7">
-                        Mr. President, still eloquent
-                        on his familiar podium.
-                        But he looks tired
-                        as he speaks, one final time,
-                        about the quest for happiness,
-                        equality and liberty,
+                        Mr. President, still eloquent<br></br>
+                        on his familiar podium.<br></br>
+                        But he looks tired<br></br>
+                        as he speaks, one final time,<br></br>
+                        about the quest for happiness,<br></br>
+                        equality and liberty,<br></br>
                         but does anyone really want to know?
                         <br></br>
                         <br></br>
-                        Few people are still clapping
-                        when he ends,
-                        and most photographers don’t waste
-                        the flashes in their cameras.
-                        And only one or two reporters
+                        Few people are still clapping<br></br>
+                        when he ends,<br></br>
+                        and most photographers don’t waste<br></br>
+                        the flashes in their cameras.<br></br>
+                        And only one or two reporters<br></br>
                         utter final words of praise.
                         <br></br>
                         <br></br>
-                        Now is the hour to step down
-                        for Mr. President,
-                        down to where
-                        his few successes lie trampled
-                        into the dust of stark reality,
-                        among some long forgotten
+                        Now is the hour to step down<br></br>
+                        for Mr. President,<br></br>
+                        down to where<br></br>
+                        his few successes lie trampled<br></br>
+                        into the dust of stark reality,<br></br>
+                        among some long forgotten<br></br>
                         election promises.
                         <br></br>
                         <br></br>
-                        The newly grey-haired man
-                        steps off the stage,
-                        and walks away for ever.
-                        He looks haunted.
-                        He must be so exhausted,
-                        after all this time,
-                        he should lie on a sunny beach a while
+                        The newly grey-haired man<br></br>
+                        steps off the stage,<br></br>
+                        and walks away for ever.<br></br>
+                        He looks haunted.<br></br>
+                        He must be so exhausted,<br></br>
+                        after all this time,<br></br>
+                        he should lie on a sunny beach a while<br></br>
                         and get a tan, and get some rest.
                         <br></br>
                         <br></br>
 
-                        Then the new man steps into the hall.
-                        He smiles and waves theatrically,
-                        walks through the screaming crowd.
-                        He shakes some eager hands
+                        Then the new man steps into the hall.<br></br>
+                        He smiles and waves theatrically,<br></br>
+                        walks through the screaming crowd.<br></br>
+                        He shakes some eager hands<br></br>
                         and has some selfies taken, too.
                         <br></br>
                         <br></br>
-                        He climbs the pedestal
-                        and shows himself in classical demeanour.
-                        ‘Now I’m your man,
+                        He climbs the pedestal<br></br>
+                        and shows himself in classical demeanour.<br></br>
+                        ‘Now I’m your man,<br></br>
                         I am your power president’!
                         <br></br>
                         <br></br>
-                        And then the flashlights burst,
-                        reporters smell of sweat
-                        and scream into their microphones,
+                        And then the flashlights burst,<br></br>
+                        reporters smell of sweat<br></br>
+                        and scream into their microphones,<br></br>
                         their voices heard across the world.
                         <br></br>
                         <br></br>
-                        Yes, he looks presidential,
-                        with his read tie and smart blue suit,
-                        sun tanned and weatherproof,
+                        Yes, he looks presidential,<br></br>
+                        with his read tie and smart blue suit,<br></br>
+                        sun tanned and weatherproof,<br></br>
                         in front of all those fluttering flags.
                         <br></br>
                         <br></br>
-                        From up high he fixates the crowd.
-                        He only makes a short speech today:
-                        ‘I’ll do my best for you,
-                        it’s you the people who will rule
-                        to make our country great again.
+                        From up high he fixates the crowd.<br></br>
+                        He only makes a short speech today:<br></br>
+                        ‘I’ll do my best for you,<br></br>
+                        it’s you the people who will rule<br></br>
+                        to make our country great again.<br></br>
                         Or is it me who rules?’
                         <br></br>
                         <br></br>
-                        The cameras are purring,
-                        admirers standing tiptoe,
-                        waving placards:
-                        ‘You’re our leader now,
+                        The cameras are purring,<br></br>
+                        admirers standing tiptoe,<br></br>
+                        waving placards:<br></br>
+                        ‘You’re our leader now,<br></br>
                         let’s show the world!’
                         <br></br>
                         <br></br>
-                        Around him
-                        his lieutenants give commands
-                        to the armed police,
-                        and he tells the eager troops:
+                        Around him<br></br>
+                        his lieutenants give commands<br></br>
+                        to the armed police,<br></br>
+                        and he tells the eager troops:<br></br>
                         ‘Yes, sure, I’m your man!’
                         <br></br>
                         <br></br>
-                        Then someone shouts:
-                        ‘You are a lying monster,
-                        an egomaniac,
-                        a dangerous demagogue.’
-                        But he won’t be arrested yet.
-                        Not today, not yet.
+                        Then someone shouts:<br></br>
+                        ‘You are a lying monster,<br></br>
+                        an egomaniac,<br></br>
+                        a dangerous demagogue.’<br></br>
+                        But he won’t be arrested yet.<br></br>
+                        Not today, not yet.<br></br>
                         That can wait until tomorrow.
                         <br></br>
                         <br></br>
-                        He leaves the venue now.
-                        This evening Mr. President
-                        is celebrating in an intimate circle,
-                        of party friends and wealthy pals,
-                        with caviar and rare champagne.
-                        And who knows what else is served,
-                        and what is said,
+                        He leaves the venue now.<br></br>
+                        This evening Mr. President<br></br>
+                        is celebrating in an intimate circle,<br></br>
+                        of party friends and wealthy pals,<br></br>
+                        with caviar and rare champagne.<br></br>
+                        And who knows what else is served,<br></br>
+                        and what is said,<br></br>
                         behind those shuttered doors.
                         <br></br>
                         <br></br>
-                        Then, late at night, in his presidential suite
-                        he looks into his golden mirror,
-                        admiring what he sees,
-                        and practices how to speak in such a way,
-                        that he doesn’t sound like he’s regurgitating
-                        the favourite words of evil men.
+                        Then, late at night, in his presidential suite<br></br>
+                        he looks into his golden mirror,<br></br>
+                        admiring what he sees,<br></br>
+                        and practices how to speak in such a way,<br></br>
+                        that he doesn’t sound like he’s regurgitating<br></br>
+                        the favourite words of evil men.<br></br>
                         But, no, he’s not afraid of ghosts.
                         </p>
                     </div>
-                    <div>
-                        <a className="poemTitle" onClick={this.togglePoem8}><h4>Death in the family</h4></a>
+                    <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem8}>Death in the family</h4>
                         <p className="poem8">
-                        At noon today he fell,
-                        the bullet had ripped his lion’s heart.
-                        He stumbled into the thicket
-                        that had been his family home,
+                        At noon today he fell,<br></br>
+                        the bullet had ripped his lion’s heart.<br></br>
+                        He stumbled into the thicket<br></br>
+                        that had been his family home,<br></br>
                         and as he lay his soul flew away.
                         <br></br>
                         <br></br>
-                        He was my brother and yet
-                        I’d never met him,
-                        had only seen glimpses of him once
+                        He was my brother and yet<br></br>
+                        I’d never met him,<br></br>
+                        had only seen glimpses of him once<br></br>
                         On my new living room TV.
                         <br></br>
                         <br></br>
-                        Or was it his brother I had seen,
-                        now also turned into a signature trophy,
-                        mane-shrouded skull staring up
+                        Or was it his brother I had seen,<br></br>
+                        now also turned into a signature trophy,<br></br>
+                        mane-shrouded skull staring up<br></br>
                         from a lion-sized fireside rug.
                         <br></br>
                         <br></br>
-                        In a billionaire’s palace,
-                        next to exquisite ivory carvings,
-                        and the head of a grizzly bear.
-                        And glass jars full of monkey brains
-                        behind closed iroko doors and
+                        In a billionaire’s palace,<br></br>
+                        next to exquisite ivory carvings,<br></br>
+                        and the head of a grizzly bear.<br></br>
+                        And glass jars full of monkey brains<br></br>
+                        behind closed iroko doors and<br></br>
                         amaranth window frames.
                         <br></br>
                         <br></br>
-                        There are now many deaths in my family,
-                        thousands every second
-                        in rainforests and deserts
-                        and in the oceans.
-                        But so far away from
+                        There are now many deaths in my family,<br></br>
+                        thousands every second<br></br>
+                        in rainforests and deserts<br></br>
+                        and in the oceans.<br></br>
+                        But so far away from<br></br>
                         this here home of mine.
                         <br></br>
                         <br></br>
-                        But who keeps telling me
-                        that we aren’t one family.
-                        Now we are learning the language
-                        of dolphins and whales talking to their young,
-                        of the humming life in the soil,
+                        But who keeps telling me<br></br>
+                        that we aren’t one family.<br></br>
+                        Now we are learning the language<br></br>
+                        of dolphins and whales talking to their young,<br></br>
+                        of the humming life in the soil,<br></br>
                         of birdsong filling the air with exuberance.
                         <br></br>
                         <br></br>
-                        Oh no we aren’t here alone,
-                        and yet we will be alone
-                        as we fatally rampage through life’s world.
+                        Oh no we aren’t here alone,<br></br>
+                        and yet we will be alone<br></br>
+                        as we fatally rampage through life’s world.<br></br>
                         And we will win this war as we die.
                         </p>
                     </div>
-                    <div>
-                        <a className="poemTitle" onClick={this.togglePoem9}><h4>Love miles</h4></a>
+                    <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem9}>Love miles</h4>
                         <p className="poem9">
-                        My kids were born in Kensington,
-                        their cousins in Berlin.
-                        One auntie lives in Adelaide,
+                        My kids were born in Kensington,<br></br>
+                        their cousins in Berlin.<br></br>
+                        One auntie lives in Adelaide,<br></br>
                         another in Turin.
                         <br></br>
                         <br></br>
-                        One friend comes from Jerusalem,
-                        another from New York.
-                        Their wedding was in Amsterdam,
+                        One friend comes from Jerusalem,<br></br>
+                        another from New York.<br></br>
+                        Their wedding was in Amsterdam,<br></br>
                         for that is where they work.
                         <br></br>
                         <br></br>
-                        My best friend comes from Liverpool,
-                        his wife from Agadir.
-                        Her mother lives in Delhi now,
+                        My best friend comes from Liverpool,<br></br>
+                        his wife from Agadir.<br></br>
+                        Her mother lives in Delhi now,<br></br>
                         they see her twice a year.
                         <br></br>
                         <br></br>
-                        We are a global family,
-                        with homes in every land.
-                        We speak by Skype and mobile phone,
+                        We are a global family,<br></br>
+                        with homes in every land.<br></br>
+                        We speak by Skype and mobile phone,<br></br>
                         are good at making friends.
                         <br></br>
                         <br></br>
-                        We’ve learnt to tell each other’s jokes,
-                        share food we all prepare.
-                        We celebrate the joys of life,
+                        We’ve learnt to tell each other’s jokes,<br></br>
+                        share food we all prepare.<br></br>
+                        We celebrate the joys of life,<br></br>
                         with people everywhere.
                         <br></br>
                         <br></br>
-                        We’re learning to make love, not war,
-                        try to forget the past.
-                        But as we worship sun and sand,
+                        We’re learning to make love, not war,<br></br>
+                        try to forget the past.<br></br>
+                        But as we worship sun and sand,<br></br>
                         let’s ask: can all this last?
                         <br></br>
                         <br></br>
-                        We always sit in aeroplanes,
-                        we visit everyone.
-                        But are we making climate change,
+                        We always sit in aeroplanes,<br></br>
+                        we visit everyone.<br></br>
+                        But are we making climate change,<br></br>
                         with all our global fun?
                         <br></br>
                         <br></br>
 
-                        What will we say when seas submerge
-                        the houses where we stay?
-                        Will we still travel everywhere
+                        What will we say when seas submerge<br></br>
+                        the houses where we stay?<br></br>
+                        Will we still travel everywhere<br></br>
                         when life has washed away?
                         <br></br>
                         <br></br>
-                        Yes, let’s be friends with everyone,
-                        but keep the earth in mind.
-                        For, folks, that is what we owe to them,
+                        Yes, let’s be friends with everyone,<br></br>
+                        but keep the earth in mind.<br></br>
+                        For, folks, that is what we owe to them,<br></br>
                         to those we leave behind.
                         </p>
                     </div>
-                    <div>
-                        <a className="poemTitle" onClick={this.togglePoem10}><h4>April dawn</h4></a>
+                    <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem10}>April dawn</h4>
                         <p className="poem10">
-                        As night lets go its dreamy grip
-                        The morning birds are calling
-                        Waking me
-                        Exuberantly
-                        They’re celebrating dawn
-                        Invisible in trees and bushes
-                        Voicing their abundant songs
-                        That they have known forever
-                        But that are new again today
-                        The many languages of joy
-                        Merged into one
+                        As night lets go its dreamy grip<br></br>
+                        The morning birds are calling<br></br>
+                        Waking me<br></br>
+                        Exuberantly<br></br>
+                        They’re celebrating dawn<br></br>
+                        Invisible in trees and bushes<br></br>
+                        Voicing their abundant songs<br></br>
+                        That they have known forever<br></br>
+                        But that are new again today<br></br>
+                        The many languages of joy<br></br>
+                        Merged into one<br></br>
                         Ecstatic harmony
                         <br></br>
                         <br></br>
-                        And I can only stand
-                        In awe
-                        Immersed within
-                        This wonderworld
-                        That’s theirs and only theirs
-                        A silent visitor who’s
-                        Being told that spring
-                        Is home once more
-                        That sun is offering warmth again
-                        A scene of tender blossoms
+                        And I can only stand<br></br>
+                        In awe<br></br>
+                        Immersed within<br></br>
+                        This wonderworld<br></br>
+                        That’s theirs and only theirs<br></br>
+                        A silent visitor who’s<br></br>
+                        Being told that spring<br></br>
+                        Is home once more<br></br>
+                        That sun is offering warmth again<br></br>
+                        A scene of tender blossoms<br></br>
                         And of glorious melodies
                         <br></br>
                         <br></br>
-                        And bursting forth
-                        From winter wood
-                        A world of sprouting leaves
-                        In which I am just
-                        This silent visitor
-                        In awe
-                        Of sacred fleeting beauty
-                        Beyond imagining
-                        Tunes intertwined
-                        A union of expectancy
-                        And no conductor
+                        And bursting forth<br></br>
+                        From winter wood<br></br>
+                        A world of sprouting leaves<br></br>
+                        In which I am just<br></br>
+                        This silent visitor<br></br>
+                        In awe<br></br>
+                        Of sacred fleeting beauty<br></br>
+                        Beyond imagining<br></br>
+                        Tunes intertwined<br></br>
+                        A union of expectancy<br></br>
+                        And no conductor<br></br>
                         Needed in this concert hall today
                         <br></br>
                         <br></br>
-                        And then the sun arises
-                        From the mist of our forest vale
-                        Displays its
-                        Gleaming face once more
-                        A flaming torch of life
+                        And then the sun arises<br></br>
+                        From the mist of our forest vale<br></br>
+                        Displays its<br></br>
+                        Gleaming face once more<br></br>
+                        A flaming torch of life<br></br>
                         That banishes the failing night
                         <br></br>
                         <br></br>
-                        And then in our morning garden
-                        The birds are busy flitting to and from
-                        With wings too fast to see
-                        And visit secret nests
-                        In trees and shrubs
-                        Delivering bugs and worms
-                        In their now silent beaks
-                        Not busy now with songs
-                        But feeding
+                        And then in our morning garden<br></br>
+                        The birds are busy flitting to and from<br></br>
+                        With wings too fast to see<br></br>
+                        And visit secret nests<br></br>
+                        In trees and shrubs<br></br>
+                        Delivering bugs and worms<br></br>
+                        In their now silent beaks<br></br>
+                        Not busy now with songs<br></br>
+                        But feeding<br></br>
                         Their impatient hungry young
                         <br></br>
                         <br></br>
-                        And I vacate this wonderworld
-                        Unlatch the cottage door
-                        And go inside
-                        To have my breakfast too
-                        An egg or maybe two
-                        And then I go upstairs and hide
-                        Behind the plastic screen
-                        Of this my clever
+                        And I vacate this wonderworld<br></br>
+                        Unlatch the cottage door<br></br>
+                        And go inside<br></br>
+                        To have my breakfast too<br></br>
+                        An egg or maybe two<br></br>
+                        And then I go upstairs and hide<br></br>
+                        Behind the plastic screen<br></br>
+                        Of this my clever<br></br>
                         Silent word machine
                         </p>
                     </div>
-                    <div>
-                        <a className="poemTitle" onClick={this.togglePoem11}><h4>On Ladbroke Grove again</h4></a>
+                    <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem11}>On Ladbroke Grove again</h4>
                         <p className="poem11">
-                        Hallo here I am
-                        on Ladbroke Grove again,
-                        this old familiar place,
-                        my stomping ground
+                        Hallo here I am<br></br>
+                        on Ladbroke Grove again,<br></br>
+                        this old familiar place,<br></br>
+                        my stomping ground<br></br>
                         where I was young and foolish.
                         <br></br>
                         <br></br>
-                        Where we once imagined
-                        in our fragile minds
-                        a world of peace and love,
+                        Where we once imagined<br></br>
+                        in our fragile minds<br></br>
+                        a world of peace and love,<br></br>
                         a world that could be born anew.
                         <br></br>
                         <br></br>
-                        Walking streets of long ago,
-                        where calypso music
-                        used to fill expectant ears,
-                        where we were dancing in the street
+                        Walking streets of long ago,<br></br>
+                        where calypso music<br></br>
+                        used to fill expectant ears,<br></br>
+                        where we were dancing in the street<br></br>
                         to the bell-like steel drum beat.
                         <br></br>
                         <br></br>
-                        And where we made
-                        policemen laugh sometimes,
-                        despite their fearsome truncheons
+                        And where we made<br></br>
+                        policemen laugh sometimes,<br></br>
+                        despite their fearsome truncheons<br></br>
                         clasped in hardened hands.
                         <br></br>
                         <br></br>
-                        Where scruffy bedsits used to house
-                        the likes of you and me,
-                        new, shiny SUVs
-                        are parked these days,
-                        outside refurbished mansions.
-                        And graffiti memories
-                        have now succumbed to
-                        advertising boards and
+                        Where scruffy bedsits used to house<br></br>
+                        the likes of you and me,<br></br>
+                        new, shiny SUVs<br></br>
+                        are parked these days,<br></br>
+                        outside refurbished mansions.<br></br>
+                        And graffiti memories<br></br>
+                        have now succumbed to<br></br>
+                        advertising boards and<br></br>
                         non-stick marble paint.
                         <br></br>
                         <br></br>
-                        But on these well-worn streets
-                        youthful desires are still rising up
-                        like fragrant rainbow flowers,
-                        stirred by my grazing glances
-                        at these smiling girls
-                        in the shortest miniskirts,
+                        But on these well-worn streets<br></br>
+                        youthful desires are still rising up<br></br>
+                        like fragrant rainbow flowers,<br></br>
+                        stirred by my grazing glances<br></br>
+                        at these smiling girls<br></br>
+                        in the shortest miniskirts,<br></br>
                         or with the longest afro curls.
                         <br></br>
                         <br></br>
-                        ‘Hello lovely lady
-                        do you remember me?
-                        Or did I kiss your mother
+                        ‘Hello lovely lady<br></br>
+                        do you remember me?<br></br>
+                        Or did I kiss your mother<br></br>
                         all those years ago?’
                         <br></br>
                         <br></br>
-                        Rock bands still practising
-                        elusive fame in cellar rooms
-                        with drum machines and
-                        super amplified guitars,
-                        recording songs of unrequited love or
-                        anger at an inattentive world
+                        Rock bands still practising<br></br>
+                        elusive fame in cellar rooms<br></br>
+                        with drum machines and<br></br>
+                        super amplified guitars,<br></br>
+                        recording songs of unrequited love or<br></br>
+                        anger at an inattentive world<br></br>
                         through ever hollow microphones.
                         <br></br>
                         <br></br>
-                        Outside the old familiar pub
-                        I linger pint in hand
+                        Outside the old familiar pub<br></br>
+                        I linger pint in hand<br></br>
                         and stare at people walking by.
                         <br></br>
                         <br></br>
-                        And then this dude comes up to me
-                        with dangling arms
-                        and says: ‘Hey man,
-                        you haven’t seen black cats like me before?
-                        you have?
+                        And then this dude comes up to me<br></br>
+                        with dangling arms<br></br>
+                        and says: ‘Hey man,<br></br>
+                        you haven’t seen black cats like me before?<br></br>
+                        you have?<br></br>
                         Then stare at someone else, OK?’
                         <br></br>
                         <br></br>
-                        ‘Right on, man. But I reckon
-                        that I used to know you
+                        ‘Right on, man. But I reckon<br></br>
+                        that I used to know you<br></br>
                         when you were a little boy.
                         <br></br>
                         <br></br>
-                        I used to visit and score grass
-                        off your old man once in a while.
+                        I used to visit and score grass<br></br>
+                        off your old man once in a while.<br></br>
                         He always sold the coolest smoke.’
                         <br></br>
                         <br></br>
-                        ‘O yeah, I’ve heard that one before.’
-                        And he puts on his designer shades and
+                        ‘O yeah, I’ve heard that one before.’<br></br>
+                        And he puts on his designer shades and<br></br>
                         and wanders off into the crowd.
                         <br></br>
                         <br></br>
-                        This is the place
-                        where I was young and foolish,
-                        where I used to know the names
-                        of all the local streets,
+                        This is the place<br></br>
+                        where I was young and foolish,<br></br>
+                        where I used to know the names<br></br>
+                        of all the local streets,<br></br>
                         but most are not familiar now.
                         <br></br>
                         <br></br>
-                        They’ve been converted
-                        into multicoloured maps
-                        on someone’s mobile phone
-                        where electric currents flow
+                        They’ve been converted<br></br>
+                        into multicoloured maps<br></br>
+                        on someone’s mobile phone<br></br>
+                        where electric currents flow<br></br>
                         on tiny circuit boards.
                         <br></br>
                         <br></br>
-                        But still, as always taxis, and red buses
-                        huddling at the traffic lights
+                        But still, as always taxis, and red buses<br></br>
+                        huddling at the traffic lights<br></br>
                         on good old Ladbroke Grove.
                         <br></br>
                         <br></br>
-                        And all these cars and scooters,
-                        and sweaty cyclists delivering pizzas,
-                        struggling through
+                        And all these cars and scooters,<br></br>
+                        and sweaty cyclists delivering pizzas,<br></br>
+                        struggling through<br></br>
                         the Portobello tourist crowds.
                         <br></br>
                         <br></br>
-                        But down the road,
-                        outside these mansion houses,
-                        immaculate lawns sport garish roses now
+                        But down the road,<br></br>
+                        outside these mansion houses,<br></br>
+                        immaculate lawns sport garish roses now<br></br>
                         in the fuming summer air.
                         <br></br>
                         <br></br>
-                        And there on Westbourne Grove
-                        the junkshops have been turned
-                        into exclusive fashion shops,
-                        where make-up faces stand and stare
-                        at super fabulous displays,
-                        spending money they don’t have
+                        And there on Westbourne Grove<br></br>
+                        the junkshops have been turned<br></br>
+                        into exclusive fashion shops,<br></br>
+                        where make-up faces stand and stare<br></br>
+                        at super fabulous displays,<br></br>
+                        spending money they don’t have<br></br>
                         out of their overdrawn accounts:
                         <br></br>
                         <br></br>
-                        Hoping to look rich and be famous
-                        like the famous,
-                        to become an A-list movie star,
-                        and maybe own a mansion house,
-                        and even have some love and happiness.
+                        Hoping to look rich and be famous<br></br>
+                        like the famous,<br></br>
+                        to become an A-list movie star,<br></br>
+                        and maybe own a mansion house,<br></br>
+                        and even have some love and happiness.<br></br>
                         But there you go.
                         <br></br>
                         <br></br>
-                        Come back with me to Ladbroke Grove,
-                        and teach these streets
-                        to dream again,
-                        and dance and laugh once more,
-                        not only once a year
+                        Come back with me to Ladbroke Grove,<br></br>
+                        and teach these streets<br></br>
+                        to dream again,<br></br>
+                        and dance and laugh once more,<br></br>
+                        not only once a year<br></br>
                         in London’s summer carnival.
                         <br></br>
                         <br></br>
-                        But there I go
-                        below an electric, psychedelic sky.
-                        Good day to you, good bye,
+                        But there I go<br></br>
+                        below an electric, psychedelic sky.<br></br>
+                        Good day to you, good bye,<br></br>
                         good night, hello.
                         </p>
                     </div>
-                    <div>
-                        <a className="poemTitle" onClick={this.togglePoem12}><h4>The face of Europe</h4></a>
+                    <div className="poemCard">
+                        <h4 className="poemTitle" onClick={this.togglePoem12}>The face of Europe</h4>
                         <p className="poem12">
-                        I have seen the face of Europe,
-                        smiling with summer delight,
-                        flower meadows bearing cows and sheep
-                        and orchards and vineyards laden with fruit.
-                        Wheat fields waving yellow in the breeze,
-                        and ancient villages resting in patient landscapes,
-                        hedgerows and country lanes engraved
+                        I have seen the face of Europe,<br></br>
+                        smiling with summer delight,<br></br>
+                        flower meadows bearing cows and sheep<br></br>
+                        and orchards and vineyards laden with fruit.<br></br>
+                        Wheat fields waving yellow in the breeze,<br></br>
+                        and ancient villages resting in patient landscapes,<br></br>
+                        hedgerows and country lanes engraved<br></br>
                         on maps of parchment memory.
                         <br></br>
                         <br></br>
-                        I have seen the face of Europe,
-                        caressed by golden sunshine,
-                        glittering snow on rocky summits,
-                        rainstorms emptying heavy crystal clouds,
-                        and streams cascading through mountain forests,
-                        with rivers meandering down
-                        from high valleys to the plains,
+                        I have seen the face of Europe,<br></br>
+                        caressed by golden sunshine,<br></br>
+                        glittering snow on rocky summits,<br></br>
+                        rainstorms emptying heavy crystal clouds,<br></br>
+                        and streams cascading through mountain forests,<br></br>
+                        with rivers meandering down<br></br>
+                        from high valleys to the plains,<br></br>
                         from placid lakes to the expectant sea.
                         <br></br>
                         <br></br>
-                        But I have also seen the land of Europe
-                        covered in darker clouds,
-                        ruled by a fierce new regime
-                        and being readied for a faster future.
-                        Restless rivers caged by concrete banks,
-                        a village world that’s being swiped away
-                        by bulldozers gouging out copses,
-                        levelling secret hollows,
-                        ripping through forgotten garden soil,
-                        ancient landscapes levelled ready for
-                        super tractors and their spray booms,
-                        and brightly painted harvesting machines
-                        driven by men wearing earphones,
+                        But I have also seen the land of Europe<br></br>
+                        covered in darker clouds,<br></br>
+                        ruled by a fierce new regime<br></br>
+                        and being readied for a faster future.<br></br>
+                        Restless rivers caged by concrete banks,<br></br>
+                        a village world that’s being swiped away<br></br>
+                        by bulldozers gouging out copses,<br></br>
+                        levelling secret hollows,<br></br>
+                        ripping through forgotten garden soil,<br></br>
+                        ancient landscapes levelled ready for<br></br>
+                        super tractors and their spray booms,<br></br>
+                        and brightly painted harvesting machines<br></br>
+                        driven by men wearing earphones,<br></br>
                         thrashing cornfields where birdsong has gone.
                         <br></br>
                         <br></br>
-                        I have seen cities spilling over to grey horizons,
-                        motorways tearing through forests,
-                        bridges stalking leftover secret valleys,
-                        connecting tower blocks and holiday resorts,
-                        lignite mines and power station turbines,
-                        hungry factories and burgeoning ports,
-                        crammed with tankers and freighters,
-                        laden with the spoils of oil wells,
-                        of copper mines and banana plantations
-                        on the other side of the world,
-                        container lorries on eight-lane motorways,
-                        carting the bounty of the earth
+                        I have seen cities spilling over to grey horizons,<br></br>
+                        motorways tearing through forests,<br></br>
+                        bridges stalking leftover secret valleys,<br></br>
+                        connecting tower blocks and holiday resorts,<br></br>
+                        lignite mines and power station turbines,<br></br>
+                        hungry factories and burgeoning ports,<br></br>
+                        crammed with tankers and freighters,<br></br>
+                        laden with the spoils of oil wells,<br></br>
+                        of copper mines and banana plantations<br></br>
+                        on the other side of the world,<br></br>
+                        container lorries on eight-lane motorways,<br></br>
+                        carting the bounty of the earth<br></br>
                         to London, Paris, Brussels and Berlin.
                         <br></br>
                         <br></br>
-                        I have seen the people of Europe
-                        swarming from cottage farms
-                        to office towers in electric cities,
-                        drawn by the promise of easy futures,
-                        by ever ascending colour charts
-                        on cinema sized computer screens.
-                        Or by the high priests of downtown discos
-                        or the quickfire gods of football fields,
-                        or the promise of easy-going robots
+                        I have seen the people of Europe<br></br>
+                        swarming from cottage farms<br></br>
+                        to office towers in electric cities,<br></br>
+                        drawn by the promise of easy futures,<br></br>
+                        by ever ascending colour charts<br></br>
+                        on cinema sized computer screens.<br></br>
+                        Or by the high priests of downtown discos<br></br>
+                        or the quickfire gods of football fields,<br></br>
+                        or the promise of easy-going robots<br></br>
                         made ready to start a relentless reign.
                         <br></br>
                         <br></br>
-                        And up there high in the mountains,
-                        as cables dissect the ever-warming air
-                        glaciers are set for further retreat,
-                        cannons, not clouds, making the snow now
-                        ready for city people in vinyl suits.
-                        And up at the ski lift cafe
-                        soothing Gluehwein is served
-                        in rooms pumped full of selfie songs,
-                        as fiddles, flutes and cowbells hang
+                        And up there high in the mountains,<br></br>
+                        as cables dissect the ever-warming air<br></br>
+                        glaciers are set for further retreat,<br></br>
+                        cannons, not clouds, making the snow now<br></br>
+                        ready for city people in vinyl suits.<br></br>
+                        And up at the ski lift cafe<br></br>
+                        soothing Gluehwein is served<br></br>
+                        in rooms pumped full of selfie songs,<br></br>
+                        as fiddles, flutes and cowbells hang<br></br>
                         on dusty walls as silent decoration.
                         <br></br>
                         <br></br>
-                        I have seen the frowning face of Europe,
-                        an anger slowly boiling up
-                        cars standing marooned in traffic jams,
-                        with engines humming monotonous melodies.
-                        Children chasing breathless dogs
-                        on littered motorway verges,
-                        a land submerged under fumes now
-                        as jet planes stand on runways waiting to
-                        whisk us off to hasty holidays
+                        I have seen the frowning face of Europe,<br></br>
+                        an anger slowly boiling up<br></br>
+                        cars standing marooned in traffic jams,<br></br>
+                        with engines humming monotonous melodies.<br></br>
+                        Children chasing breathless dogs<br></br>
+                        on littered motorway verges,<br></br>
+                        a land submerged under fumes now<br></br>
+                        as jet planes stand on runways waiting to<br></br>
+                        whisk us off to hasty holidays<br></br>
                         on happier islands far away.
                         <br></br>
                         <br></br>
-                        But I have also seen the faces of young people,
-                        full of hopeful, restless anger,
-                        filling city streets with placard protests,
-                        flocking to the gates of parliaments
-                        with painted tattoos shouting
-                        “No more of this,
-                        let there be future,
-                        let there be life again,
-                        a land where breathing is easy,
-                        Where lungs can fill with real air.
-                        Where water tastes fresh like childhood laughter.
-                        Yes let joy and love prevail,
-                        come with us to make a world
-                        where life has come back to life
+                        But I have also seen the faces of young people,<br></br>
+                        full of hopeful, restless anger,<br></br>
+                        filling city streets with placard protests,<br></br>
+                        flocking to the gates of parliaments<br></br>
+                        with painted tattoos shouting<br></br>
+                        “No more of this,<br></br>
+                        let there be future,<br></br>
+                        let there be life again,<br></br>
+                        a land where breathing is easy,<br></br>
+                        Where lungs can fill with real air.<br></br>
+                        Where water tastes fresh like childhood laughter.<br></br>
+                        Yes let joy and love prevail,<br></br>
+                        come with us to make a world<br></br>
+                        where life has come back to life<br></br>
                         Again.”
                         </p>
                     </div>

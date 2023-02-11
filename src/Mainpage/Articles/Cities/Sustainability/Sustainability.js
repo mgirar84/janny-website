@@ -5,8 +5,8 @@ class Sustainability extends React.Component {
 	render() {
         return (
             <div className="sustainability">
-                <h2>Sustainability is unhelpful: we need to think about regeneration</h2>
-                <div className="blackLine"></div>
+                <div className="sustainabilityBanner"></div>
+                <h3>Sustainability is unhelpful: we need to think about regeneration</h3>
                 <div className="mainText">
                     <div className="image sustainabilityImage"></div>
                     <p>For 25 years, sustainable development has been held up as the solution to the world's
@@ -23,14 +23,11 @@ class Sustainability extends React.Component {
                     Effectively, it was a marriage of convenience to facilitate north-south collaboration on
                     enhancing human livelihoods while also halting humanity's deteriorating relationship with
                     its host planet.
-                    <br></br>
-                    <br></br>
-                    SD is a concept to which few people would object; most of us would agree that we should
-                    not live as if there were no tomorrow. But the term has become like a rubber band that can
-                    be stretched almost at will in many directions.
                     </p>
                 </div>
-                <div className="blackLine"></div>
+                <p>SD is a concept to which few people would object; most of us would agree that we should
+                    not live as if there were no tomorrow. But the term has become like a rubber band that can
+                    be stretched almost at will in many directions.</p>
                 <p>In the past 25 years, only lip-service has been paid to SD, particularly around the use of fossil
                     fuels. During that time, all economic and urban development across the world has been
                     driven by the ever-greater use of coal, oil and gas. And yet, the very use of fossil fuels is

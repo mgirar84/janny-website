@@ -1,15 +1,24 @@
 .earthEmergency {
     width: 95%;
     margin: auto;
-    h2 {
-        text-decoration: underline;
+    max-width: 900px;
+    color: #344854;
+    .earthEmergencyBanner {
+        background-image: url(../../../../Images/earthEmergencyBanner.jpg);
+        background-position: 20% 50%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
     }
-    .blackLine {
-        border-top: solid black 0.1em;
+    h3 {
     }
     .mainText {
         display: grid;
-        grid-template-columns: 34em auto;
+        grid-template-columns: 30em auto;
         @media screen and (max-width: 1100px) {
             display: grid;
             grid-template-columns: none;
@@ -27,12 +36,7 @@
         }
         .wakeUpImage {
             background-image: url(../../../../Images/protest.jpg);
-            height: 28.2em;
+            height: 21.2em;
         }
     }
-    .blackLine {
-        border-top: solid black 0.1em;
-    }
-    
-    
 }

@@ -5,6 +5,7 @@ class Earthrise extends React.Component {
 	render() {
         return (
             <div className="earthRise">
+                <div className="earthriseBanner"></div>
                 <h3>Earthrise</h3>
                 <h4>From the 4 th chapter of my book ‘Earthrise’, Paladin, 1992</h4>
                 <p>It was 7 September 1988. Brasilia was celebrating Independence Day. Hundreds of

@@ -4,7 +4,7 @@ import './Articles.scss';
 class Articles extends React.Component {
 	render() {
         return (
-            <div>
+            <div className="articlesBackgroundImage">
                 <p className="articlesDescription">
                     Over the last forty-five years I have written many 
                     articles on aspects of sustainable (or

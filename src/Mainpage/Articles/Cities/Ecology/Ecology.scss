@@ -1,15 +1,25 @@
 .ecology {
     width: 95%;
     margin: auto;
-    h3 {
-        text-decoration: underline;
+    max-width: 900px;
+    color: #344854;
+    .ecologyBanner {
+        background-image: url(../../../../Images/ecology2.jpg);
+        background-position: 10% 55%;
+        background-size: cover;
+        height: 19.5em;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 0%;
+        position: absolute;
     }
-    .blackLine {
-        border-top: solid black 0.1em;
+    h3 {
+        
     }
     .mainText {
         display: grid;
-        grid-template-columns: 34em auto;
+        grid-template-columns: 36em auto;
         @media screen and (max-width: 1100px) {
             display: grid;
             grid-template-columns: none;
@@ -24,10 +34,7 @@
         }
         .ecologyImage {
             background-image: url(../../../../Images/birdsEyePark.jpg);
-            height: 19.2em;
+            height: 22.2em;
         }
-    }
-    .blackLine {
-        border-top: solid black 0.1em;
     }
 }
