@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Route, BrowserRouter as Router,Switch} from 'react-router-dom';
+import {Route,Switch, HashRouter } from 'react-router-dom';
 import './index.scss';
-import App from './App';
-import Footer from './Footer/Footer'
+// import App from './App';
+// import Footer from './Footer/Footer'
 import * as serviceWorker from './serviceWorker';
 import Articles from './Mainpage/Articles/Articles';
 import GreenPlanet from './Mainpage/Articles/GreenPlanet/GreenPlanet';
@@ -41,7 +41,7 @@ import Navigation from './Navigation/Navigation'
 class Routing extends React.Component {
   render() {
     return (
-      <Router>
+      <HashRouter>
         <div>
           <Route exact path="/about" component={ Header } />
           <Route exact path="/about" component={ Navigation } />
@@ -88,7 +88,7 @@ class Routing extends React.Component {
           </Switch>
           {/* <Route path="/" component={ Footer } /> */}
         </div>
-      </Router>
+      </HashRouter>
     )
   }
 }
