@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e26cb0c6.css",
-    "main.js": "/static/js/main.05e54fc8.js",
+    "main.css": "/static/css/main.ce306073.css",
+    "main.js": "/static/js/main.32c5267c.js",
     "static/media/urbanAgricultureCardImage.bmp": "/static/media/urbanAgricultureCardImage.dd2c612baaad3f910498.bmp",
     "static/media/cultureAndEcologyImage.jpg": "/static/media/cultureAndEcologyImage.151b2305213f4fcdb12b.jpg",
     "static/media/greenPlanet.jpg": "/static/media/greenPlanet.61d0621c873134288e6b.jpg",
@@ -88,11 +88,11 @@
     "static/media/creatingWorldFutureCouncil.jpg": "/static/media/creatingWorldFutureCouncil.53ce57c1a96da81b42a7.jpg",
     "static/media/farFromParadise.jpg": "/static/media/farFromParadise.54b9dccb0649508368d6.jpg",
     "index.html": "/index.html",
-    "main.e26cb0c6.css.map": "/static/css/main.e26cb0c6.css.map",
-    "main.05e54fc8.js.map": "/static/js/main.05e54fc8.js.map"
+    "main.ce306073.css.map": "/static/css/main.ce306073.css.map",
+    "main.32c5267c.js.map": "/static/js/main.32c5267c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e26cb0c6.css",
-    "static/js/main.05e54fc8.js"
+    "static/css/main.ce306073.css",
+    "static/js/main.32c5267c.js"
   ]
 }
